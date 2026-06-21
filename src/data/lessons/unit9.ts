@@ -2,1078 +2,1836 @@ import type { Lesson } from "../../types";
 
 export const unit9: Lesson[] = [
   {
-    id: "u9l1",
-    unit: 9,
-    level: 1,
-    title_gujarati: "નવા મિત્રો બનાવવા (Making New Friends)",
-    intro_gujarati: "અજાણ્યા લોકો સાથે કેવી રીતે વાત શરૂ કરવી.",
-    topics_covered: ["introductions", "friends", "hobbies"],
-    questions: [
-      {
-        id: "u9l1q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Introduction", gujarati: "પરિચય" },
-          { english: "Name", gujarati: "નામ" },
-          { english: "Meet", gujarati: "મળવું" },
-          { english: "Live", gujarati: "રહેવું" },
-        ],
-      },
-      {
-        id: "u9l1q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Introduction",
-        options: ["નામ", "કામ", "પરિચય", "મળવું"],
-        correct_index: 2,
-      },
-      {
-        id: "u9l1q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Name",
-        options: ["પરિચય", "નામ", "જગ્યા", "કામ"],
-        correct_index: 1,
-      },
-      {
-        id: "u9l1q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Meet",
-        options: ["મળવું", "જોવું", "રહેવું", "જવું"],
-        correct_index: 0,
-      },
-      {
-        id: "u9l1q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Live",
-        options: ["કામ", "રહેવું", "જવું", "મળવું"],
-        correct_index: 1,
-      },
-      {
-        id: "u9l1q6",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મને નથી લાગતું કે આપણે મળ્યા છીએ.",
-        correct_sentence: "I don't think we have met",
-        shuffled_words: ["I", "don't", "think", "we", "have", "met"],
-      },
-      {
-        id: "u9l1q7",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મને નથી લાગતું કે આપણે મળ્યા છીએ.",
-        correct_answer: "I don't think we have met.",
-        acceptable_answers: ["I don't think we have met", "I do not think we have met"],
-      },
-      {
-        id: "u9l1q8",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "I don't think we have met.",
-        correct_answer: "I don't think we have met.",
-        acceptable_answers: ["I don't think we have met", "I do not think we have met"],
-        phonetic_gujarati: "આઈ ડોન્ટ થિંક વી હૅવ મેટ.",
-      },
-      {
-        id: "u9l1q9",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I don't think we have met.",
-        phonetic_gujarati: "આઈ ડોન્ટ થિંક વી હૅવ મેટ.",
-      },
-      {
-        id: "u9l1q10",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "તમને મળીને આનંદ થયો.",
-        correct_sentence: "Nice to meet you",
-        shuffled_words: ["Nice", "to", "meet", "you"],
-      },
-      {
-        id: "u9l1q11",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "તમને મળીને આનંદ થયો.",
-        correct_answer: "Nice to meet you.",
-        acceptable_answers: ["Nice to meet you", "Glad to meet you"],
-      },
-      {
-        id: "u9l1q12",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "Nice to meet you.",
-        phonetic_gujarati: "નાઈસ ટુ મીટ યુ.",
-      },
-      {
-        id: "u9l1q13",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "શું તમે અહીં આસપાસ રહો છો?",
-        correct_sentence: "Do you live around here",
-        shuffled_words: ["Do", "you", "live", "around", "here"],
-      },
-      {
-        id: "u9l1q14",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "શું તમે અહીં આસપાસ રહો છો?",
-        correct_answer: "Do you live around here?",
-        acceptable_answers: ["Do you live around here", "Do you live nearby"],
-      },
-      {
-        id: "u9l1q15",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "Do you live around here?",
-        correct_answer: "Do you live around here?",
-        acceptable_answers: ["Do you live around here"],
-        phonetic_gujarati: "ડુ યુ લિવ અરાઉન્ડ હિયર?",
-      },
-      {
-        id: "u9l1q16",
-        type: "MULTI_TURN_CONVERSATION",
-        instruction_gujarati: "વાતચીત પૂરી કરો:",
-        explanation_gujarati: "નવી વ્યક્તિને મળવું.",
-        difficulty: 5,
-        scenario_gujarati: "તમે એક નવી વ્યક્તિને મળો છો.",
-        ai_role: "Stranger",
-        user_role: "You",
-        required_turns: 4,
-        turns: [
-          { speaker: "ai", line: "Hi, I don't think we have met. I am Rahul." },
-          {
-            speaker: "user",
-            line: "Nice to meet you, Rahul. I am Ravi.",
-            acceptable_keywords: ["nice", "meet", "I", "am", "hello", "hi"],
-            acceptable_responses: ["Nice to meet you, I am Ravi.", "Hello Rahul, I am Ravi."],
-            phonetic_gujarati: "નાઈસ ટુ મીટ યુ રાહુલ. આઈ ઍમ રવિ.",
-          },
-          { speaker: "ai", line: "Nice to meet you too. Do you live around here?" },
-          {
-            speaker: "user",
-            line: "Yes, I live in this city.",
-            acceptable_keywords: ["yes", "live", "here", "city", "close"],
-            acceptable_responses: ["Yes, I live in this city.", "Yes I live here.", "Yes."],
-            phonetic_gujarati: "યસ, આઈ લિવ હિયર.",
-          },
-          { speaker: "ai", line: "That's great. What do you do for work?" },
-          {
-            speaker: "user",
-            line: "I am a teacher.",
-            acceptable_keywords: ["teacher", "student", "doctor", "work", "am", "I"],
-            acceptable_responses: ["I am a teacher.", "I work in a bank.", "I am a student."],
-            phonetic_gujarati: "આઈ ઍમ અ ટીચર.",
-          },
-          { speaker: "ai", line: "Wow, that is interesting!" },
-          {
-            speaker: "user",
-            line: "Thank you. What about you?",
-            acceptable_keywords: ["what", "about", "you", "thanks"],
-            acceptable_responses: ["Thank you. What about you?", "And you?", "What do you do?"],
-            phonetic_gujarati: "થેન્ક યુ. વૉટ અબાઉટ યુ?",
-          },
-        ],
-      },
-      {
-        id: "u9l1q17",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "તમે શું કામ કરો છો?",
-        correct_answer: "What do you do for work?",
-        acceptable_answers: ["What do you do for work", "What do you do"],
-      },
-      {
-        id: "u9l1q18",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I am a teacher.",
-        phonetic_gujarati: "આઈ ઍમ અ ટીચર.",
-      },
-      {
-        id: "u9l1q19",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "That is interesting.",
-        correct_answer: "That is interesting.",
-        acceptable_answers: ["That is interesting"],
-        phonetic_gujarati: "ધૅટ ઇઝ ઇન્ટરેસ્ટિંગ.",
-      },
-      {
-        id: "u9l1q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "કોઈ પોતાનો પરિચય આપે છે.",
-        ai_role: "Stranger",
-        user_role: "You",
-        ai_says: "Hi, my name is Amit.",
-        expected_hint_gujarati: "નમસ્તે, તમને મળીને આનંદ થયો (Hello, nice to meet you).",
-        acceptable_responses: ["Hello, nice to meet you.", "Hi Amit, nice to meet you.", "Nice to meet you."],
-        keywords: ["hello", "hi", "nice", "meet"],
-        difficulty: 3,
-      },
+    "id": "u9l1",
+    "unit": 9,
+    "level": 1,
+    "title_gujarati": "નવા મિત્રો બનાવવા (Making New Friends)",
+    "intro_gujarati": "અજાણ્યા લોકો સાથે કેવી રીતે વાત શરૂ કરવી.",
+    "topics_covered": [
+      "introductions",
+      "friends",
+      "hobbies"
     ],
+    "questions": [
+      {
+        "id": "u9l1q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Introduction",
+            "gujarati": "પરિચય"
+          },
+          {
+            "english": "Name",
+            "gujarati": "નામ"
+          },
+          {
+            "english": "Meet",
+            "gujarati": "મળવું"
+          },
+          {
+            "english": "Live",
+            "gujarati": "રહેવું"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Introduction' એટલે 'પરિચય', 'Name' એટલે 'નામ', 'Meet' એટલે 'મળવું', 'Live' એટલે 'રહેવું'."
+      },
+      {
+        "id": "u9l1q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Introduction",
+        "options": [
+          "નામ",
+          "કામ",
+          "પરિચય",
+          "મળવું"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Introduction' નો સાચો ગુજરાતી અર્થ 'પરિચય' થાય છે."
+      },
+      {
+        "id": "u9l1q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Name",
+        "options": [
+          "પરિચય",
+          "નામ",
+          "જગ્યા",
+          "કામ"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Name' નો સાચો ગુજરાતી અર્થ 'નામ' થાય છે."
+      },
+      {
+        "id": "u9l1q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Meet",
+        "options": [
+          "મળવું",
+          "જોવું",
+          "રહેવું",
+          "જવું"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Meet' નો સાચો ગુજરાતી અર્થ 'મળવું' થાય છે."
+      },
+      {
+        "id": "u9l1q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Live",
+        "options": [
+          "કામ",
+          "રહેવું",
+          "જવું",
+          "મળવું"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Live' નો સાચો ગુજરાતી અર્થ 'રહેવું' થાય છે."
+      },
+      {
+        "id": "u9l1q6",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મને નથી લાગતું કે આપણે મળ્યા છીએ.",
+        "correct_sentence": "I don't think we have met",
+        "shuffled_words": [
+          "I",
+          "don't",
+          "think",
+          "we",
+          "have",
+          "met"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'I don't think we have met' બનશે, જેનો અર્થ 'મને નથી લાગતું કે આપણે મળ્યા છીએ.' થાય છે."
+      },
+      {
+        "id": "u9l1q7",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મને નથી લાગતું કે આપણે મળ્યા છીએ.",
+        "correct_answer": "I don't think we have met.",
+        "acceptable_answers": [
+          "I don't think we have met",
+          "I do not think we have met"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મને નથી લાગતું કે આપણે મળ્યા છીએ.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'I don't think we have met.' થાય છે."
+      },
+      {
+        "id": "u9l1q8",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "I don't think we have met.",
+        "correct_answer": "I don't think we have met.",
+        "acceptable_answers": [
+          "I don't think we have met",
+          "I do not think we have met"
+        ],
+        "phonetic_gujarati": "આઈ ડોન્ટ થિંક વી હૅવ મેટ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'I don't think we have met.'."
+      },
+      {
+        "id": "u9l1q9",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I don't think we have met.",
+        "phonetic_gujarati": "આઈ ડોન્ટ થિંક વી હૅવ મેટ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'I don't think we have met.' છે અને તેનો ઉચ્ચાર 'આઈ ડોન્ટ થિંક વી હૅવ મેટ.' થાય છે."
+      },
+      {
+        "id": "u9l1q10",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "તમને મળીને આનંદ થયો.",
+        "correct_sentence": "Nice to meet you",
+        "shuffled_words": [
+          "Nice",
+          "to",
+          "meet",
+          "you"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'Nice to meet you' બનશે, જેનો અર્થ 'તમને મળીને આનંદ થયો.' થાય છે."
+      },
+      {
+        "id": "u9l1q11",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "તમને મળીને આનંદ થયો.",
+        "correct_answer": "Nice to meet you.",
+        "acceptable_answers": [
+          "Nice to meet you",
+          "Glad to meet you"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'તમને મળીને આનંદ થયો.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Nice to meet you.' થાય છે."
+      },
+      {
+        "id": "u9l1q12",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "Nice to meet you.",
+        "phonetic_gujarati": "નાઈસ ટુ મીટ યુ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'Nice to meet you.' છે અને તેનો ઉચ્ચાર 'નાઈસ ટુ મીટ યુ.' થાય છે."
+      },
+      {
+        "id": "u9l1q13",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "શું તમે અહીં આસપાસ રહો છો?",
+        "correct_sentence": "Do you live around here",
+        "shuffled_words": [
+          "Do",
+          "you",
+          "live",
+          "around",
+          "here"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'Do you live around here' બનશે, જેનો અર્થ 'શું તમે અહીં આસપાસ રહો છો?' થાય છે."
+      },
+      {
+        "id": "u9l1q14",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "શું તમે અહીં આસપાસ રહો છો?",
+        "correct_answer": "Do you live around here?",
+        "acceptable_answers": [
+          "Do you live around here",
+          "Do you live nearby"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'શું તમે અહીં આસપાસ રહો છો?' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Do you live around here?' થાય છે."
+      },
+      {
+        "id": "u9l1q15",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "Do you live around here?",
+        "correct_answer": "Do you live around here?",
+        "acceptable_answers": [
+          "Do you live around here"
+        ],
+        "phonetic_gujarati": "ડુ યુ લિવ અરાઉન્ડ હિયર?",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'Do you live around here?'."
+      },
+      {
+        "id": "u9l1q16",
+        "type": "MULTI_TURN_CONVERSATION",
+        "instruction_gujarati": "વાતચીત પૂરી કરો:",
+        "explanation_gujarati": "નવી વ્યક્તિને મળવું.",
+        "difficulty": 5,
+        "scenario_gujarati": "તમે એક નવી વ્યક્તિને મળો છો.",
+        "ai_role": "Stranger",
+        "user_role": "You",
+        "required_turns": 4,
+        "turns": [
+          {
+            "speaker": "ai",
+            "line": "Hi, I don't think we have met. I am Rahul."
+          },
+          {
+            "speaker": "user",
+            "line": "Nice to meet you, Rahul. I am Ravi.",
+            "acceptable_keywords": [
+              "nice",
+              "meet",
+              "I",
+              "am",
+              "hello",
+              "hi"
+            ],
+            "acceptable_responses": [
+              "Nice to meet you, I am Ravi.",
+              "Hello Rahul, I am Ravi."
+            ],
+            "phonetic_gujarati": "નાઈસ ટુ મીટ યુ રાહુલ. આઈ ઍમ રવિ."
+          },
+          {
+            "speaker": "ai",
+            "line": "Nice to meet you too. Do you live around here?"
+          },
+          {
+            "speaker": "user",
+            "line": "Yes, I live in this city.",
+            "acceptable_keywords": [
+              "yes",
+              "live",
+              "here",
+              "city",
+              "close"
+            ],
+            "acceptable_responses": [
+              "Yes, I live in this city.",
+              "Yes I live here.",
+              "Yes."
+            ],
+            "phonetic_gujarati": "યસ, આઈ લિવ હિયર."
+          },
+          {
+            "speaker": "ai",
+            "line": "That's great. What do you do for work?"
+          },
+          {
+            "speaker": "user",
+            "line": "I am a teacher.",
+            "acceptable_keywords": [
+              "teacher",
+              "student",
+              "doctor",
+              "work",
+              "am",
+              "I"
+            ],
+            "acceptable_responses": [
+              "I am a teacher.",
+              "I work in a bank.",
+              "I am a student."
+            ],
+            "phonetic_gujarati": "આઈ ઍમ અ ટીચર."
+          },
+          {
+            "speaker": "ai",
+            "line": "Wow, that is interesting!"
+          },
+          {
+            "speaker": "user",
+            "line": "Thank you. What about you?",
+            "acceptable_keywords": [
+              "what",
+              "about",
+              "you",
+              "thanks"
+            ],
+            "acceptable_responses": [
+              "Thank you. What about you?",
+              "And you?",
+              "What do you do?"
+            ],
+            "phonetic_gujarati": "થેન્ક યુ. વૉટ અબાઉટ યુ?"
+          }
+        ]
+      },
+      {
+        "id": "u9l1q17",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "તમે શું કામ કરો છો?",
+        "correct_answer": "What do you do for work?",
+        "acceptable_answers": [
+          "What do you do for work",
+          "What do you do"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'તમે શું કામ કરો છો?' નું અંગ્રેજીમાં સાચું ભાષાંતર 'What do you do for work?' થાય છે."
+      },
+      {
+        "id": "u9l1q18",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I am a teacher.",
+        "phonetic_gujarati": "આઈ ઍમ અ ટીચર.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'I am a teacher.' છે અને તેનો ઉચ્ચાર 'આઈ ઍમ અ ટીચર.' થાય છે."
+      },
+      {
+        "id": "u9l1q19",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "That is interesting.",
+        "correct_answer": "That is interesting.",
+        "acceptable_answers": [
+          "That is interesting"
+        ],
+        "phonetic_gujarati": "ધૅટ ઇઝ ઇન્ટરેસ્ટિંગ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'That is interesting.'."
+      },
+      {
+        "id": "u9l1q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "કોઈ પોતાનો પરિચય આપે છે.",
+        "ai_role": "Stranger",
+        "user_role": "You",
+        "ai_says": "Hi, my name is Amit.",
+        "expected_hint_gujarati": "નમસ્તે, તમને મળીને આનંદ થયો (Hello, nice to meet you).",
+        "acceptable_responses": [
+          "Hello, nice to meet you.",
+          "Hi Amit, nice to meet you.",
+          "Nice to meet you."
+        ],
+        "keywords": [
+          "hello",
+          "hi",
+          "nice",
+          "meet"
+        ],
+        "difficulty": 3,
+        "explanation_gujarati": "AI શું કહે છે: 'Hi, my name is Amit.'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'નમસ્તે, તમને મળીને આનંદ થયો (Hello, nice to meet you).' હોઈ શકે છે."
+      }
+    ]
   },
   {
-    id: "u9l2",
-    unit: 9,
-    level: 2,
-    title_gujarati: "ઇન્ટરવ્યુ (Job Interview)",
-    intro_gujarati: "નોકરીના ઇન્ટરવ્યુમાં કેવી રીતે જવાબ આપવા.",
-    topics_covered: ["interview", "job", "experience", "strength"],
-    questions: [
-      {
-        id: "u9l2q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Interview", gujarati: "ઇન્ટરવ્યુ" },
-          { english: "Job", gujarati: "નોકરી" },
-          { english: "Experience", gujarati: "અનુભવ" },
-          { english: "Strength", gujarati: "તાકાત" },
-        ],
-      },
-      {
-        id: "u9l2q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Interview",
-        options: ["પરીક્ષા", "નોકરી", "ઇન્ટરવ્યુ", "અનુભવ"],
-        correct_index: 2,
-      },
-      {
-        id: "u9l2q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Job",
-        options: ["કામ", "નોકરી", "માલિક", "પગાર"],
-        correct_index: 1,
-      },
-      {
-        id: "u9l2q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Experience",
-        options: ["નોકરી", "અનુભવ", "તાકાત", "જ્ઞાન"],
-        correct_index: 1,
-      },
-      {
-        id: "u9l2q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Strength",
-        options: ["તાકાત", "નબળાઈ", "કામ", "અનુભવ"],
-        correct_index: 0,
-      },
-      {
-        id: "u9l2q6",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "તમારા વિશે મને કહો.",
-        correct_sentence: "Tell me about yourself",
-        shuffled_words: ["Tell", "me", "about", "yourself"],
-      },
-      {
-        id: "u9l2q7",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "કૃપા કરીને તમારા વિશે મને કહો.",
-        correct_answer: "Please tell me about yourself.",
-        acceptable_answers: ["Please tell me about yourself", "Tell me about yourself please"],
-      },
-      {
-        id: "u9l2q8",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "Please tell me about yourself.",
-        correct_answer: "Please tell me about yourself.",
-        acceptable_answers: ["Please tell me about yourself"],
-        phonetic_gujarati: "પ્લીઝ ટેલ મી અબાઉટ યોરસેલ્ફ.",
-      },
-      {
-        id: "u9l2q9",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "Please tell me about yourself.",
-        phonetic_gujarati: "પ્લીઝ ટેલ મી અબાઉટ યોરસેલ્ફ.",
-      },
-      {
-        id: "u9l2q10",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મને પાંચ વર્ષનો અનુભવ છે.",
-        correct_sentence: "I have five years of experience",
-        shuffled_words: ["I", "have", "five", "years", "of", "experience"],
-      },
-      {
-        id: "u9l2q11",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મને પાંચ વર્ષનો અનુભવ છે.",
-        correct_answer: "I have five years of experience.",
-        acceptable_answers: ["I have five years of experience", "I have 5 years of experience"],
-      },
-      {
-        id: "u9l2q12",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I have five years of experience.",
-        phonetic_gujarati: "આઈ હૅવ ફાઈવ યર્સ ઑફ એક્સપિરિયન્સ.",
-      },
-      {
-        id: "u9l2q13",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "તમે અહીં શા માટે કામ કરવા માંગો છો?",
-        correct_sentence: "Why do you want to work here",
-        shuffled_words: ["Why", "do", "you", "want", "to", "work", "here"],
-      },
-      {
-        id: "u9l2q14",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "તમે અહીં શા માટે કામ કરવા માંગો છો?",
-        correct_answer: "Why do you want to work here?",
-        acceptable_answers: ["Why do you want to work here"],
-      },
-      {
-        id: "u9l2q15",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "Why do you want to work here?",
-        correct_answer: "Why do you want to work here?",
-        acceptable_answers: ["Why do you want to work here"],
-        phonetic_gujarati: "વાય ડુ યુ વૉન્ટ ટુ વર્ક હિયર?",
-      },
-      {
-        id: "u9l2q16",
-        type: "MULTI_TURN_CONVERSATION",
-        instruction_gujarati: "વાતચીત પૂરી કરો:",
-        explanation_gujarati: "ઇન્ટરવ્યુઅરના પ્રશ્નોના જવાબ આપો.",
-        difficulty: 5,
-        scenario_gujarati: "તમારો નોકરી માટે ઇન્ટરવ્યુ છે.",
-        ai_role: "Manager",
-        user_role: "Candidate",
-        required_turns: 4,
-        turns: [
-          { speaker: "ai", line: "Please have a seat. Tell me about yourself." },
-          {
-            speaker: "user",
-            line: "My name is Amit. I have experience.",
-            acceptable_keywords: ["name", "Amit", "experience", "am"],
-            acceptable_responses: ["I am Amit and I have experience.", "My name is Amit.", "I have experience."],
-            phonetic_gujarati: "માઈ નેમ ઇઝ અમિત. આઈ હૅવ એક્સપિરિયન્સ.",
-          },
-          { speaker: "ai", line: "Why do you want to work here?" },
-          {
-            speaker: "user",
-            line: "Because this is a good company.",
-            acceptable_keywords: ["because", "good", "company", "great"],
-            acceptable_responses: ["Because it is a good company.", "I want to learn here.", "This is a great place."],
-            phonetic_gujarati: "બિકોઝ ધિસ ઇઝ અ ગુડ કંપની.",
-          },
-          { speaker: "ai", line: "What are your strengths?" },
-          {
-            speaker: "user",
-            line: "I am a hard worker.",
-            acceptable_keywords: ["hard", "worker", "fast", "learner"],
-            acceptable_responses: ["I am a hard worker.", "I learn fast.", "I am punctual."],
-            phonetic_gujarati: "આઈ ઍમ અ હાર્ડ વર્કર.",
-          },
-          { speaker: "ai", line: "Thank you. We will call you soon." },
-          {
-            speaker: "user",
-            line: "Thank you very much.",
-            acceptable_keywords: ["thank", "you", "thanks", "much"],
-            acceptable_responses: ["Thank you very much.", "Thanks.", "Have a good day."],
-            phonetic_gujarati: "થેન્ક યુ વેરી મચ.",
-          },
-        ],
-      },
-      {
-        id: "u9l2q17",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "કારણ કે આ એક સારી કંપની છે.",
-        correct_answer: "Because this is a good company.",
-        acceptable_answers: ["Because this is a good company", "Because it is a good company"],
-      },
-      {
-        id: "u9l2q18",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I am a hard worker.",
-        phonetic_gujarati: "આઈ ઍમ અ હાર્ડ વર્કર.",
-      },
-      {
-        id: "u9l2q19",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "We will call you soon.",
-        correct_answer: "We will call you soon.",
-        acceptable_answers: ["We will call you soon"],
-        phonetic_gujarati: "વી વિલ કૉલ યુ સૂન.",
-      },
-      {
-        id: "u9l2q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "ઇન્ટરવ્યુ પૂરો થાય છે.",
-        ai_role: "Interviewer",
-        user_role: "You",
-        ai_says: "Do you have any questions?",
-        expected_hint_gujarati: "હા, કામના કલાકો શું છે? (Yes, what are the working hours?)",
-        acceptable_responses: ["Yes, what are the working hours?", "What are the timings?", "No questions, thank you."],
-        keywords: ["yes", "working", "hours", "timings", "no", "thank"],
-        difficulty: 4,
-      },
+    "id": "u9l2",
+    "unit": 9,
+    "level": 2,
+    "title_gujarati": "ઇન્ટરવ્યુ (Job Interview)",
+    "intro_gujarati": "નોકરીના ઇન્ટરવ્યુમાં કેવી રીતે જવાબ આપવા.",
+    "topics_covered": [
+      "interview",
+      "job",
+      "experience",
+      "strength"
     ],
+    "questions": [
+      {
+        "id": "u9l2q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Interview",
+            "gujarati": "ઇન્ટરવ્યુ"
+          },
+          {
+            "english": "Job",
+            "gujarati": "નોકરી"
+          },
+          {
+            "english": "Experience",
+            "gujarati": "અનુભવ"
+          },
+          {
+            "english": "Strength",
+            "gujarati": "તાકાત"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Interview' એટલે 'ઇન્ટરવ્યુ', 'Job' એટલે 'નોકરી', 'Experience' એટલે 'અનુભવ', 'Strength' એટલે 'તાકાત'."
+      },
+      {
+        "id": "u9l2q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Interview",
+        "options": [
+          "પરીક્ષા",
+          "નોકરી",
+          "ઇન્ટરવ્યુ",
+          "અનુભવ"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Interview' નો સાચો ગુજરાતી અર્થ 'ઇન્ટરવ્યુ' થાય છે."
+      },
+      {
+        "id": "u9l2q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Job",
+        "options": [
+          "કામ",
+          "નોકરી",
+          "માલિક",
+          "પગાર"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Job' નો સાચો ગુજરાતી અર્થ 'નોકરી' થાય છે."
+      },
+      {
+        "id": "u9l2q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Experience",
+        "options": [
+          "નોકરી",
+          "અનુભવ",
+          "તાકાત",
+          "જ્ઞાન"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Experience' નો સાચો ગુજરાતી અર્થ 'અનુભવ' થાય છે."
+      },
+      {
+        "id": "u9l2q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Strength",
+        "options": [
+          "તાકાત",
+          "નબળાઈ",
+          "કામ",
+          "અનુભવ"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Strength' નો સાચો ગુજરાતી અર્થ 'તાકાત' થાય છે."
+      },
+      {
+        "id": "u9l2q6",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "તમારા વિશે મને કહો.",
+        "correct_sentence": "Tell me about yourself",
+        "shuffled_words": [
+          "Tell",
+          "me",
+          "about",
+          "yourself"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'Tell me about yourself' બનશે, જેનો અર્થ 'તમારા વિશે મને કહો.' થાય છે."
+      },
+      {
+        "id": "u9l2q7",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "કૃપા કરીને તમારા વિશે મને કહો.",
+        "correct_answer": "Please tell me about yourself.",
+        "acceptable_answers": [
+          "Please tell me about yourself",
+          "Tell me about yourself please"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'કૃપા કરીને તમારા વિશે મને કહો.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Please tell me about yourself.' થાય છે."
+      },
+      {
+        "id": "u9l2q8",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "Please tell me about yourself.",
+        "correct_answer": "Please tell me about yourself.",
+        "acceptable_answers": [
+          "Please tell me about yourself"
+        ],
+        "phonetic_gujarati": "પ્લીઝ ટેલ મી અબાઉટ યોરસેલ્ફ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'Please tell me about yourself.'."
+      },
+      {
+        "id": "u9l2q9",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "Please tell me about yourself.",
+        "phonetic_gujarati": "પ્લીઝ ટેલ મી અબાઉટ યોરસેલ્ફ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'Please tell me about yourself.' છે અને તેનો ઉચ્ચાર 'પ્લીઝ ટેલ મી અબાઉટ યોરસેલ્ફ.' થાય છે."
+      },
+      {
+        "id": "u9l2q10",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મને પાંચ વર્ષનો અનુભવ છે.",
+        "correct_sentence": "I have five years of experience",
+        "shuffled_words": [
+          "I",
+          "have",
+          "five",
+          "years",
+          "of",
+          "experience"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'I have five years of experience' બનશે, જેનો અર્થ 'મને પાંચ વર્ષનો અનુભવ છે.' થાય છે."
+      },
+      {
+        "id": "u9l2q11",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મને પાંચ વર્ષનો અનુભવ છે.",
+        "correct_answer": "I have five years of experience.",
+        "acceptable_answers": [
+          "I have five years of experience",
+          "I have 5 years of experience"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મને પાંચ વર્ષનો અનુભવ છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'I have five years of experience.' થાય છે."
+      },
+      {
+        "id": "u9l2q12",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I have five years of experience.",
+        "phonetic_gujarati": "આઈ હૅવ ફાઈવ યર્સ ઑફ એક્સપિરિયન્સ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'I have five years of experience.' છે અને તેનો ઉચ્ચાર 'આઈ હૅવ ફાઈવ યર્સ ઑફ એક્સપિરિયન્સ.' થાય છે."
+      },
+      {
+        "id": "u9l2q13",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "તમે અહીં શા માટે કામ કરવા માંગો છો?",
+        "correct_sentence": "Why do you want to work here",
+        "shuffled_words": [
+          "Why",
+          "do",
+          "you",
+          "want",
+          "to",
+          "work",
+          "here"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'Why do you want to work here' બનશે, જેનો અર્થ 'તમે અહીં શા માટે કામ કરવા માંગો છો?' થાય છે."
+      },
+      {
+        "id": "u9l2q14",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "તમે અહીં શા માટે કામ કરવા માંગો છો?",
+        "correct_answer": "Why do you want to work here?",
+        "acceptable_answers": [
+          "Why do you want to work here"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'તમે અહીં શા માટે કામ કરવા માંગો છો?' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Why do you want to work here?' થાય છે."
+      },
+      {
+        "id": "u9l2q15",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "Why do you want to work here?",
+        "correct_answer": "Why do you want to work here?",
+        "acceptable_answers": [
+          "Why do you want to work here"
+        ],
+        "phonetic_gujarati": "વાય ડુ યુ વૉન્ટ ટુ વર્ક હિયર?",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'Why do you want to work here?'."
+      },
+      {
+        "id": "u9l2q16",
+        "type": "MULTI_TURN_CONVERSATION",
+        "instruction_gujarati": "વાતચીત પૂરી કરો:",
+        "explanation_gujarati": "ઇન્ટરવ્યુઅરના પ્રશ્નોના જવાબ આપો.",
+        "difficulty": 5,
+        "scenario_gujarati": "તમારો નોકરી માટે ઇન્ટરવ્યુ છે.",
+        "ai_role": "Manager",
+        "user_role": "Candidate",
+        "required_turns": 4,
+        "turns": [
+          {
+            "speaker": "ai",
+            "line": "Please have a seat. Tell me about yourself."
+          },
+          {
+            "speaker": "user",
+            "line": "My name is Amit. I have experience.",
+            "acceptable_keywords": [
+              "name",
+              "Amit",
+              "experience",
+              "am"
+            ],
+            "acceptable_responses": [
+              "I am Amit and I have experience.",
+              "My name is Amit.",
+              "I have experience."
+            ],
+            "phonetic_gujarati": "માઈ નેમ ઇઝ અમિત. આઈ હૅવ એક્સપિરિયન્સ."
+          },
+          {
+            "speaker": "ai",
+            "line": "Why do you want to work here?"
+          },
+          {
+            "speaker": "user",
+            "line": "Because this is a good company.",
+            "acceptable_keywords": [
+              "because",
+              "good",
+              "company",
+              "great"
+            ],
+            "acceptable_responses": [
+              "Because it is a good company.",
+              "I want to learn here.",
+              "This is a great place."
+            ],
+            "phonetic_gujarati": "બિકોઝ ધિસ ઇઝ અ ગુડ કંપની."
+          },
+          {
+            "speaker": "ai",
+            "line": "What are your strengths?"
+          },
+          {
+            "speaker": "user",
+            "line": "I am a hard worker.",
+            "acceptable_keywords": [
+              "hard",
+              "worker",
+              "fast",
+              "learner"
+            ],
+            "acceptable_responses": [
+              "I am a hard worker.",
+              "I learn fast.",
+              "I am punctual."
+            ],
+            "phonetic_gujarati": "આઈ ઍમ અ હાર્ડ વર્કર."
+          },
+          {
+            "speaker": "ai",
+            "line": "Thank you. We will call you soon."
+          },
+          {
+            "speaker": "user",
+            "line": "Thank you very much.",
+            "acceptable_keywords": [
+              "thank",
+              "you",
+              "thanks",
+              "much"
+            ],
+            "acceptable_responses": [
+              "Thank you very much.",
+              "Thanks.",
+              "Have a good day."
+            ],
+            "phonetic_gujarati": "થેન્ક યુ વેરી મચ."
+          }
+        ]
+      },
+      {
+        "id": "u9l2q17",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "કારણ કે આ એક સારી કંપની છે.",
+        "correct_answer": "Because this is a good company.",
+        "acceptable_answers": [
+          "Because this is a good company",
+          "Because it is a good company"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'કારણ કે આ એક સારી કંપની છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Because this is a good company.' થાય છે."
+      },
+      {
+        "id": "u9l2q18",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I am a hard worker.",
+        "phonetic_gujarati": "આઈ ઍમ અ હાર્ડ વર્કર.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'I am a hard worker.' છે અને તેનો ઉચ્ચાર 'આઈ ઍમ અ હાર્ડ વર્કર.' થાય છે."
+      },
+      {
+        "id": "u9l2q19",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "We will call you soon.",
+        "correct_answer": "We will call you soon.",
+        "acceptable_answers": [
+          "We will call you soon"
+        ],
+        "phonetic_gujarati": "વી વિલ કૉલ યુ સૂન.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'We will call you soon.'."
+      },
+      {
+        "id": "u9l2q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "ઇન્ટરવ્યુ પૂરો થાય છે.",
+        "ai_role": "Interviewer",
+        "user_role": "You",
+        "ai_says": "Do you have any questions?",
+        "expected_hint_gujarati": "હા, કામના કલાકો શું છે? (Yes, what are the working hours?)",
+        "acceptable_responses": [
+          "Yes, what are the working hours?",
+          "What are the timings?",
+          "No questions, thank you."
+        ],
+        "keywords": [
+          "yes",
+          "working",
+          "hours",
+          "timings",
+          "no",
+          "thank"
+        ],
+        "difficulty": 4,
+        "explanation_gujarati": "AI શું કહે છે: 'Do you have any questions?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'હા, કામના કલાકો શું છે? (Yes, what are the working hours?)' હોઈ શકે છે."
+      }
+    ]
   },
   {
-    id: "u9l3",
-    unit: 9,
-    level: 3,
-    title_gujarati: "બેંકમાં (At the Bank)",
-    intro_gujarati: "બેંકમાં ખાતું ખોલવા કે પૈસા જમા કરાવવા.",
-    topics_covered: ["bank", "money", "account", "deposit"],
-    questions: [
-      {
-        id: "u9l3q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Bank", gujarati: "બેંક" },
-          { english: "Account", gujarati: "ખાતું" },
-          { english: "Deposit", gujarati: "જમા કરવું" },
-          { english: "Withdraw", gujarati: "ઉપાડવું" },
-        ],
-      },
-      {
-        id: "u9l3q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Account",
-        options: ["બેંક", "ખાતું", "પૈસા", "રસીદ"],
-        correct_index: 1,
-      },
-      {
-        id: "u9l3q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Deposit",
-        options: ["ખાતું", "ઉપાડવું", "જમા કરવું", "કાઢવું"],
-        correct_index: 2,
-      },
-      {
-        id: "u9l3q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Withdraw",
-        options: ["ઉપાડવું", "જમા કરવું", "બેંક", "પૈસા"],
-        correct_index: 0,
-      },
-      {
-        id: "u9l3q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Bank",
-        options: ["દુકાન", "શાળા", "બેંક", "પોલીસ"],
-        correct_index: 2,
-      },
-      {
-        id: "u9l3q6",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મારે નવું ખાતું ખોલવું છે.",
-        correct_sentence: "I want to open a new account",
-        shuffled_words: ["I", "want", "to", "open", "a", "new", "account"],
-      },
-      {
-        id: "u9l3q7",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારે નવું બેંક ખાતું ખોલવું છે.",
-        correct_answer: "I want to open a new bank account.",
-        acceptable_answers: ["I want to open a new bank account"],
-      },
-      {
-        id: "u9l3q8",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "I want to open a new account.",
-        correct_answer: "I want to open a new account.",
-        acceptable_answers: ["I want to open a new account"],
-        phonetic_gujarati: "આઈ વૉન્ટ ટુ ઓપન અ ન્યુ અકાઉન્ટ.",
-      },
-      {
-        id: "u9l3q9",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I want to open a new account.",
-        phonetic_gujarati: "આઈ વૉન્ટ ટુ ઓપન અ ન્યુ અકાઉન્ટ.",
-      },
-      {
-        id: "u9l3q10",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "શું તમારી પાસે તમારો ઓળખપત્ર છે?",
-        correct_sentence: "Do you have your ID proof",
-        shuffled_words: ["Do", "you", "have", "your", "ID", "proof"],
-      },
-      {
-        id: "u9l3q11",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "શું તમારી પાસે તમારો ઓળખપત્ર છે?",
-        correct_answer: "Do you have your ID proof?",
-        acceptable_answers: ["Do you have your ID proof"],
-      },
-      {
-        id: "u9l3q12",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "Do you have your ID proof?",
-        phonetic_gujarati: "ડુ યુ હૅવ યોર આઈડી પ્રૂફ?",
-      },
-      {
-        id: "u9l3q13",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "કૃપા કરીને આ ફોર્મ ભરો.",
-        correct_sentence: "Please fill out this form",
-        shuffled_words: ["Please", "fill", "out", "this", "form"],
-      },
-      {
-        id: "u9l3q14",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "કૃપા કરીને આ ફોર્મ ભરો.",
-        correct_answer: "Please fill out this form.",
-        acceptable_answers: ["Please fill out this form", "Fill out this form please"],
-      },
-      {
-        id: "u9l3q15",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "Please fill out this form.",
-        correct_answer: "Please fill out this form.",
-        acceptable_answers: ["Please fill out this form"],
-        phonetic_gujarati: "પ્લીઝ ફિલ આઉટ ધિસ ફોર્મ.",
-      },
-      {
-        id: "u9l3q16",
-        type: "MULTI_TURN_CONVERSATION",
-        instruction_gujarati: "વાતચીત પૂરી કરો:",
-        explanation_gujarati: "બેંક ખાતું ખોલવાની પ્રક્રિયા.",
-        difficulty: 5,
-        scenario_gujarati: "તમે નવું ખાતું ખોલવા બેંકમાં છો.",
-        ai_role: "Clerk",
-        user_role: "Customer",
-        required_turns: 4,
-        turns: [
-          { speaker: "ai", line: "How can I help you?" },
-          {
-            speaker: "user",
-            line: "I want to open a new account.",
-            acceptable_keywords: ["open", "new", "account", "want"],
-            acceptable_responses: ["I want to open a new account.", "Open a bank account please.", "I need a new account."],
-            phonetic_gujarati: "આઈ વૉન્ટ ટુ ઓપન અ ન્યુ અકાઉન્ટ.",
-          },
-          { speaker: "ai", line: "Do you have your ID proof?" },
-          {
-            speaker: "user",
-            line: "Yes, here is my Aadhar card.",
-            acceptable_keywords: ["yes", "here", "ID", "card", "Aadhar"],
-            acceptable_responses: ["Yes, here is my ID card.", "Yes, here it is.", "I have my Aadhar card."],
-            phonetic_gujarati: "યસ, હિયર ઇઝ માઈ આધાર કાર્ડ.",
-          },
-          { speaker: "ai", line: "Please fill out this form." },
-          {
-            speaker: "user",
-            line: "Okay, I will fill it now.",
-            acceptable_keywords: ["okay", "ok", "fill", "will", "now", "sure"],
-            acceptable_responses: ["Okay, I will fill it.", "Sure.", "Give me a pen."],
-            phonetic_gujarati: "ઓકે, આઈ વિલ ફિલ ઇટ નાઉ.",
-          },
-          { speaker: "ai", line: "It will take ten minutes." },
-          {
-            speaker: "user",
-            line: "No problem. I will wait.",
-            acceptable_keywords: ["no", "problem", "wait", "ok", "okay"],
-            acceptable_responses: ["No problem, I will wait.", "Okay.", "Sure I can wait."],
-            phonetic_gujarati: "નો પ્રોબ્લેમ. આઈ વિલ વેઈટ.",
-          },
-        ],
-      },
-      {
-        id: "u9l3q17",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હા, આ મારું આધાર કાર્ડ છે.",
-        correct_answer: "Yes, here is my Aadhar card.",
-        acceptable_answers: ["Yes, here is my Aadhar card", "Yes here is my Aadhar card"],
-      },
-      {
-        id: "u9l3q18",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I will wait.",
-        phonetic_gujarati: "આઈ વિલ વેઈટ.",
-      },
-      {
-        id: "u9l3q19",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "It will take ten minutes.",
-        correct_answer: "It will take ten minutes.",
-        acceptable_answers: ["It will take ten minutes", "It will take 10 minutes"],
-        phonetic_gujarati: "ઇટ વિલ ટેક ટેન મિનિટ્સ.",
-      },
-      {
-        id: "u9l3q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "બેંકમાં સહી કરવી.",
-        ai_role: "Clerk",
-        user_role: "You",
-        ai_says: "Sign here please.",
-        expected_hint_gujarati: "સારું, હું સહી કરીશ (Okay, I will sign it).",
-        acceptable_responses: ["Okay, I will sign it.", "Sure.", "Where should I sign?"],
-        keywords: ["okay", "sure", "sign"],
-        difficulty: 3,
-      },
+    "id": "u9l3",
+    "unit": 9,
+    "level": 3,
+    "title_gujarati": "બેંકમાં (At the Bank)",
+    "intro_gujarati": "બેંકમાં ખાતું ખોલવા કે પૈસા જમા કરાવવા.",
+    "topics_covered": [
+      "bank",
+      "money",
+      "account",
+      "deposit"
     ],
+    "questions": [
+      {
+        "id": "u9l3q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Bank",
+            "gujarati": "બેંક"
+          },
+          {
+            "english": "Account",
+            "gujarati": "ખાતું"
+          },
+          {
+            "english": "Deposit",
+            "gujarati": "જમા કરવું"
+          },
+          {
+            "english": "Withdraw",
+            "gujarati": "ઉપાડવું"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Bank' એટલે 'બેંક', 'Account' એટલે 'ખાતું', 'Deposit' એટલે 'જમા કરવું', 'Withdraw' એટલે 'ઉપાડવું'."
+      },
+      {
+        "id": "u9l3q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Account",
+        "options": [
+          "બેંક",
+          "ખાતું",
+          "પૈસા",
+          "રસીદ"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Account' નો સાચો ગુજરાતી અર્થ 'ખાતું' થાય છે."
+      },
+      {
+        "id": "u9l3q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Deposit",
+        "options": [
+          "ખાતું",
+          "ઉપાડવું",
+          "જમા કરવું",
+          "કાઢવું"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Deposit' નો સાચો ગુજરાતી અર્થ 'જમા કરવું' થાય છે."
+      },
+      {
+        "id": "u9l3q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Withdraw",
+        "options": [
+          "ઉપાડવું",
+          "જમા કરવું",
+          "બેંક",
+          "પૈસા"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Withdraw' નો સાચો ગુજરાતી અર્થ 'ઉપાડવું' થાય છે."
+      },
+      {
+        "id": "u9l3q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Bank",
+        "options": [
+          "દુકાન",
+          "શાળા",
+          "બેંક",
+          "પોલીસ"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Bank' નો સાચો ગુજરાતી અર્થ 'બેંક' થાય છે."
+      },
+      {
+        "id": "u9l3q6",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મારે નવું ખાતું ખોલવું છે.",
+        "correct_sentence": "I want to open a new account",
+        "shuffled_words": [
+          "I",
+          "want",
+          "to",
+          "open",
+          "a",
+          "new",
+          "account"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'I want to open a new account' બનશે, જેનો અર્થ 'મારે નવું ખાતું ખોલવું છે.' થાય છે."
+      },
+      {
+        "id": "u9l3q7",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારે નવું બેંક ખાતું ખોલવું છે.",
+        "correct_answer": "I want to open a new bank account.",
+        "acceptable_answers": [
+          "I want to open a new bank account"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મારે નવું બેંક ખાતું ખોલવું છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'I want to open a new bank account.' થાય છે."
+      },
+      {
+        "id": "u9l3q8",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "I want to open a new account.",
+        "correct_answer": "I want to open a new account.",
+        "acceptable_answers": [
+          "I want to open a new account"
+        ],
+        "phonetic_gujarati": "આઈ વૉન્ટ ટુ ઓપન અ ન્યુ અકાઉન્ટ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'I want to open a new account.'."
+      },
+      {
+        "id": "u9l3q9",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I want to open a new account.",
+        "phonetic_gujarati": "આઈ વૉન્ટ ટુ ઓપન અ ન્યુ અકાઉન્ટ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'I want to open a new account.' છે અને તેનો ઉચ્ચાર 'આઈ વૉન્ટ ટુ ઓપન અ ન્યુ અકાઉન્ટ.' થાય છે."
+      },
+      {
+        "id": "u9l3q10",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "શું તમારી પાસે તમારો ઓળખપત્ર છે?",
+        "correct_sentence": "Do you have your ID proof",
+        "shuffled_words": [
+          "Do",
+          "you",
+          "have",
+          "your",
+          "ID",
+          "proof"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'Do you have your ID proof' બનશે, જેનો અર્થ 'શું તમારી પાસે તમારો ઓળખપત્ર છે?' થાય છે."
+      },
+      {
+        "id": "u9l3q11",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "શું તમારી પાસે તમારો ઓળખપત્ર છે?",
+        "correct_answer": "Do you have your ID proof?",
+        "acceptable_answers": [
+          "Do you have your ID proof"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'શું તમારી પાસે તમારો ઓળખપત્ર છે?' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Do you have your ID proof?' થાય છે."
+      },
+      {
+        "id": "u9l3q12",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "Do you have your ID proof?",
+        "phonetic_gujarati": "ડુ યુ હૅવ યોર આઈડી પ્રૂફ?",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'Do you have your ID proof?' છે અને તેનો ઉચ્ચાર 'ડુ યુ હૅવ યોર આઈડી પ્રૂફ?' થાય છે."
+      },
+      {
+        "id": "u9l3q13",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "કૃપા કરીને આ ફોર્મ ભરો.",
+        "correct_sentence": "Please fill out this form",
+        "shuffled_words": [
+          "Please",
+          "fill",
+          "out",
+          "this",
+          "form"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'Please fill out this form' બનશે, જેનો અર્થ 'કૃપા કરીને આ ફોર્મ ભરો.' થાય છે."
+      },
+      {
+        "id": "u9l3q14",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "કૃપા કરીને આ ફોર્મ ભરો.",
+        "correct_answer": "Please fill out this form.",
+        "acceptable_answers": [
+          "Please fill out this form",
+          "Fill out this form please"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'કૃપા કરીને આ ફોર્મ ભરો.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Please fill out this form.' થાય છે."
+      },
+      {
+        "id": "u9l3q15",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "Please fill out this form.",
+        "correct_answer": "Please fill out this form.",
+        "acceptable_answers": [
+          "Please fill out this form"
+        ],
+        "phonetic_gujarati": "પ્લીઝ ફિલ આઉટ ધિસ ફોર્મ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'Please fill out this form.'."
+      },
+      {
+        "id": "u9l3q16",
+        "type": "MULTI_TURN_CONVERSATION",
+        "instruction_gujarati": "વાતચીત પૂરી કરો:",
+        "explanation_gujarati": "બેંક ખાતું ખોલવાની પ્રક્રિયા.",
+        "difficulty": 5,
+        "scenario_gujarati": "તમે નવું ખાતું ખોલવા બેંકમાં છો.",
+        "ai_role": "Clerk",
+        "user_role": "Customer",
+        "required_turns": 4,
+        "turns": [
+          {
+            "speaker": "ai",
+            "line": "How can I help you?"
+          },
+          {
+            "speaker": "user",
+            "line": "I want to open a new account.",
+            "acceptable_keywords": [
+              "open",
+              "new",
+              "account",
+              "want"
+            ],
+            "acceptable_responses": [
+              "I want to open a new account.",
+              "Open a bank account please.",
+              "I need a new account."
+            ],
+            "phonetic_gujarati": "આઈ વૉન્ટ ટુ ઓપન અ ન્યુ અકાઉન્ટ."
+          },
+          {
+            "speaker": "ai",
+            "line": "Do you have your ID proof?"
+          },
+          {
+            "speaker": "user",
+            "line": "Yes, here is my Aadhar card.",
+            "acceptable_keywords": [
+              "yes",
+              "here",
+              "ID",
+              "card",
+              "Aadhar"
+            ],
+            "acceptable_responses": [
+              "Yes, here is my ID card.",
+              "Yes, here it is.",
+              "I have my Aadhar card."
+            ],
+            "phonetic_gujarati": "યસ, હિયર ઇઝ માઈ આધાર કાર્ડ."
+          },
+          {
+            "speaker": "ai",
+            "line": "Please fill out this form."
+          },
+          {
+            "speaker": "user",
+            "line": "Okay, I will fill it now.",
+            "acceptable_keywords": [
+              "okay",
+              "ok",
+              "fill",
+              "will",
+              "now",
+              "sure"
+            ],
+            "acceptable_responses": [
+              "Okay, I will fill it.",
+              "Sure.",
+              "Give me a pen."
+            ],
+            "phonetic_gujarati": "ઓકે, આઈ વિલ ફિલ ઇટ નાઉ."
+          },
+          {
+            "speaker": "ai",
+            "line": "It will take ten minutes."
+          },
+          {
+            "speaker": "user",
+            "line": "No problem. I will wait.",
+            "acceptable_keywords": [
+              "no",
+              "problem",
+              "wait",
+              "ok",
+              "okay"
+            ],
+            "acceptable_responses": [
+              "No problem, I will wait.",
+              "Okay.",
+              "Sure I can wait."
+            ],
+            "phonetic_gujarati": "નો પ્રોબ્લેમ. આઈ વિલ વેઈટ."
+          }
+        ]
+      },
+      {
+        "id": "u9l3q17",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હા, આ મારું આધાર કાર્ડ છે.",
+        "correct_answer": "Yes, here is my Aadhar card.",
+        "acceptable_answers": [
+          "Yes, here is my Aadhar card",
+          "Yes here is my Aadhar card"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'હા, આ મારું આધાર કાર્ડ છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Yes, here is my Aadhar card.' થાય છે."
+      },
+      {
+        "id": "u9l3q18",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I will wait.",
+        "phonetic_gujarati": "આઈ વિલ વેઈટ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'I will wait.' છે અને તેનો ઉચ્ચાર 'આઈ વિલ વેઈટ.' થાય છે."
+      },
+      {
+        "id": "u9l3q19",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "It will take ten minutes.",
+        "correct_answer": "It will take ten minutes.",
+        "acceptable_answers": [
+          "It will take ten minutes",
+          "It will take 10 minutes"
+        ],
+        "phonetic_gujarati": "ઇટ વિલ ટેક ટેન મિનિટ્સ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'It will take ten minutes.'."
+      },
+      {
+        "id": "u9l3q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "બેંકમાં સહી કરવી.",
+        "ai_role": "Clerk",
+        "user_role": "You",
+        "ai_says": "Sign here please.",
+        "expected_hint_gujarati": "સારું, હું સહી કરીશ (Okay, I will sign it).",
+        "acceptable_responses": [
+          "Okay, I will sign it.",
+          "Sure.",
+          "Where should I sign?"
+        ],
+        "keywords": [
+          "okay",
+          "sure",
+          "sign"
+        ],
+        "difficulty": 3,
+        "explanation_gujarati": "AI શું કહે છે: 'Sign here please.'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'સારું, હું સહી કરીશ (Okay, I will sign it).' હોઈ શકે છે."
+      }
+    ]
   },
   {
-    id: "u9l4",
-    unit: 9,
-    level: 4,
-    title_gujarati: "પ્રવાસનો અનુભવ (Travel Experience)",
-    intro_gujarati: "તમે ક્યાં ફરવા ગયા હતા તે વિશે વાત કરો.",
-    topics_covered: ["travel", "vacation", "past_tense", "beach"],
-    questions: [
-      {
-        id: "u9l4q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Travel", gujarati: "મુસાફરી" },
-          { english: "Trip", gujarati: "પ્રવાસ" },
-          { english: "Beach", gujarati: "દરિયાકિનારો" },
-          { english: "Delicious", gujarati: "સ્વાદિષ્ટ" },
-        ],
-      },
-      {
-        id: "u9l4q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Trip",
-        options: ["રમત", "પ્રવાસ", "શાળા", "કામ"],
-        correct_index: 1,
-      },
-      {
-        id: "u9l4q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Beach",
-        options: ["પહાડ", "જંગલ", "દરિયાકિનારો", "શહેર"],
-        correct_index: 2,
-      },
-      {
-        id: "u9l4q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Delicious",
-        options: ["સ્વાદિષ્ટ", "ખરાબ", "તીખું", "મીઠું"],
-        correct_index: 0,
-      },
-      {
-        id: "u9l4q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Travel",
-        options: ["રમવું", "મુસાફરી", "ઊંઘવું", "ખાવું"],
-        correct_index: 1,
-      },
-      {
-        id: "u9l4q6",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "તમારો પ્રવાસ કેવો રહ્યો?",
-        correct_sentence: "How was your trip",
-        shuffled_words: ["How", "was", "your", "trip"],
-      },
-      {
-        id: "u9l4q7",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "તમારો ગોવાનો પ્રવાસ કેવો રહ્યો?",
-        correct_answer: "How was your trip to Goa?",
-        acceptable_answers: ["How was your trip to Goa"],
-      },
-      {
-        id: "u9l4q8",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "How was your trip to Goa?",
-        correct_answer: "How was your trip to Goa?",
-        acceptable_answers: ["How was your trip to Goa"],
-        phonetic_gujarati: "હાઉ વૉઝ યોર ટ્રિપ ટુ ગોઆ?",
-      },
-      {
-        id: "u9l4q9",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "How was your trip to Goa?",
-        phonetic_gujarati: "હાઉ વૉઝ યોર ટ્રિપ ટુ ગોઆ?",
-      },
-      {
-        id: "u9l4q10",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "તે અદ્ભુત હતું.",
-        correct_sentence: "It was wonderful",
-        shuffled_words: ["It", "was", "wonderful"],
-      },
-      {
-        id: "u9l4q11",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "તે અદ્ભુત હતું. મેં ખૂબ મજા કરી.",
-        correct_answer: "It was wonderful. I had a lot of fun.",
-        acceptable_answers: ["It was wonderful. I had a lot of fun", "It was wonderful I had a lot of fun"],
-      },
-      {
-        id: "u9l4q12",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "It was wonderful. I had a lot of fun.",
-        phonetic_gujarati: "ઇટ વૉઝ વન્ડરફુલ. આઈ હૅડ અ લૉટ ઑફ ફન.",
-      },
-      {
-        id: "u9l4q13",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "હું ઘણા દરિયાકિનારે ગયો.",
-        correct_sentence: "I went to many beaches",
-        shuffled_words: ["I", "went", "to", "many", "beaches"],
-      },
-      {
-        id: "u9l4q14",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હા, હું ઘણા દરિયાકિનારે ગયો.",
-        correct_answer: "Yes, I went to many beaches.",
-        acceptable_answers: ["Yes, I went to many beaches", "Yes I went to many beaches"],
-      },
-      {
-        id: "u9l4q15",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "Yes, I went to many beaches.",
-        correct_answer: "Yes, I went to many beaches.",
-        acceptable_answers: ["Yes, I went to many beaches", "Yes I went to many beaches"],
-        phonetic_gujarati: "યસ, આઈ વેન્ટ ટુ મેની બીચિઝ.",
-      },
-      {
-        id: "u9l4q16",
-        type: "MULTI_TURN_CONVERSATION",
-        instruction_gujarati: "વાતચીત પૂરી કરો:",
-        explanation_gujarati: "રજાઓ વિશે મિત્ર સાથે વાતચીત.",
-        difficulty: 5,
-        scenario_gujarati: "તમે હમણાં જ રજાઓ માણીને આવ્યા છો.",
-        ai_role: "Friend",
-        user_role: "You",
-        required_turns: 4,
-        turns: [
-          { speaker: "ai", line: "How was your trip?" },
-          {
-            speaker: "user",
-            line: "It was wonderful.",
-            acceptable_keywords: ["wonderful", "great", "fun", "good", "nice"],
-            acceptable_responses: ["It was wonderful.", "It was very good.", "I had fun."],
-            phonetic_gujarati: "ઇટ વૉઝ વન્ડરફુલ.",
-          },
-          { speaker: "ai", line: "Did you go to the beach?" },
-          {
-            speaker: "user",
-            line: "Yes, I went to many beaches.",
-            acceptable_keywords: ["yes", "went", "beach", "beaches", "many"],
-            acceptable_responses: ["Yes, I went to the beach.", "Yes, every day.", "Of course."],
-            phonetic_gujarati: "યસ, આઈ વેન્ટ ટુ મેની બીચિઝ.",
-          },
-          { speaker: "ai", line: "How was the food?" },
-          {
-            speaker: "user",
-            line: "The food was delicious.",
-            acceptable_keywords: ["food", "delicious", "tasty", "good", "spicy"],
-            acceptable_responses: ["The food was delicious.", "It was very tasty.", "I loved the seafood."],
-            phonetic_gujarati: "ધ ફૂડ વૉઝ ડિલિશિયસ.",
-          },
-          { speaker: "ai", line: "I want to go there." },
-          {
-            speaker: "user",
-            line: "You should definitely go.",
-            acceptable_keywords: ["should", "go", "yes", "definitely", "must"],
-            acceptable_responses: ["You should definitely go.", "Yes, it is a great place.", "You will love it."],
-            phonetic_gujarati: "યુ શુડ ડેફિનેટલી ગો.",
-          },
-        ],
-      },
-      {
-        id: "u9l4q17",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "ત્યાંનું જમવાનું કેવું હતું?",
-        correct_answer: "How was the food there?",
-        acceptable_answers: ["How was the food there", "How was the food"],
-      },
-      {
-        id: "u9l4q18",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "The food was delicious.",
-        phonetic_gujarati: "ધ ફૂડ વૉઝ ડિલિશિયસ.",
-      },
-      {
-        id: "u9l4q19",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "You should definitely go.",
-        correct_answer: "You should definitely go.",
-        acceptable_answers: ["You should definitely go"],
-        phonetic_gujarati: "યુ શુડ ડેફિનેટલી ગો.",
-      },
-      {
-        id: "u9l4q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "મિત્ર પૂછે છે.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "Where did you stay?",
-        expected_hint_gujarati: "હું દરિયાકિનારા પાસે એક હોટેલમાં રહ્યો હતો (I stayed in a hotel near the beach).",
-        acceptable_responses: ["I stayed in a hotel near the beach.", "In a hotel.", "Near the beach."],
-        keywords: ["stayed", "hotel", "near", "beach"],
-        difficulty: 4,
-      },
+    "id": "u9l4",
+    "unit": 9,
+    "level": 4,
+    "title_gujarati": "પ્રવાસનો અનુભવ (Travel Experience)",
+    "intro_gujarati": "તમે ક્યાં ફરવા ગયા હતા તે વિશે વાત કરો.",
+    "topics_covered": [
+      "travel",
+      "vacation",
+      "past_tense",
+      "beach"
     ],
+    "questions": [
+      {
+        "id": "u9l4q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Travel",
+            "gujarati": "મુસાફરી"
+          },
+          {
+            "english": "Trip",
+            "gujarati": "પ્રવાસ"
+          },
+          {
+            "english": "Beach",
+            "gujarati": "દરિયાકિનારો"
+          },
+          {
+            "english": "Delicious",
+            "gujarati": "સ્વાદિષ્ટ"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Travel' એટલે 'મુસાફરી', 'Trip' એટલે 'પ્રવાસ', 'Beach' એટલે 'દરિયાકિનારો', 'Delicious' એટલે 'સ્વાદિષ્ટ'."
+      },
+      {
+        "id": "u9l4q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Trip",
+        "options": [
+          "રમત",
+          "પ્રવાસ",
+          "શાળા",
+          "કામ"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Trip' નો સાચો ગુજરાતી અર્થ 'પ્રવાસ' થાય છે."
+      },
+      {
+        "id": "u9l4q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Beach",
+        "options": [
+          "પહાડ",
+          "જંગલ",
+          "દરિયાકિનારો",
+          "શહેર"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Beach' નો સાચો ગુજરાતી અર્થ 'દરિયાકિનારો' થાય છે."
+      },
+      {
+        "id": "u9l4q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Delicious",
+        "options": [
+          "સ્વાદિષ્ટ",
+          "ખરાબ",
+          "તીખું",
+          "મીઠું"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Delicious' નો સાચો ગુજરાતી અર્થ 'સ્વાદિષ્ટ' થાય છે."
+      },
+      {
+        "id": "u9l4q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Travel",
+        "options": [
+          "રમવું",
+          "મુસાફરી",
+          "ઊંઘવું",
+          "ખાવું"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Travel' નો સાચો ગુજરાતી અર્થ 'મુસાફરી' થાય છે."
+      },
+      {
+        "id": "u9l4q6",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "તમારો પ્રવાસ કેવો રહ્યો?",
+        "correct_sentence": "How was your trip",
+        "shuffled_words": [
+          "How",
+          "was",
+          "your",
+          "trip"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'How was your trip' બનશે, જેનો અર્થ 'તમારો પ્રવાસ કેવો રહ્યો?' થાય છે."
+      },
+      {
+        "id": "u9l4q7",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "તમારો ગોવાનો પ્રવાસ કેવો રહ્યો?",
+        "correct_answer": "How was your trip to Goa?",
+        "acceptable_answers": [
+          "How was your trip to Goa"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'તમારો ગોવાનો પ્રવાસ કેવો રહ્યો?' નું અંગ્રેજીમાં સાચું ભાષાંતર 'How was your trip to Goa?' થાય છે."
+      },
+      {
+        "id": "u9l4q8",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "How was your trip to Goa?",
+        "correct_answer": "How was your trip to Goa?",
+        "acceptable_answers": [
+          "How was your trip to Goa"
+        ],
+        "phonetic_gujarati": "હાઉ વૉઝ યોર ટ્રિપ ટુ ગોઆ?",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'How was your trip to Goa?'."
+      },
+      {
+        "id": "u9l4q9",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "How was your trip to Goa?",
+        "phonetic_gujarati": "હાઉ વૉઝ યોર ટ્રિપ ટુ ગોઆ?",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'How was your trip to Goa?' છે અને તેનો ઉચ્ચાર 'હાઉ વૉઝ યોર ટ્રિપ ટુ ગોઆ?' થાય છે."
+      },
+      {
+        "id": "u9l4q10",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "તે અદ્ભુત હતું.",
+        "correct_sentence": "It was wonderful",
+        "shuffled_words": [
+          "It",
+          "was",
+          "wonderful"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'It was wonderful' બનશે, જેનો અર્થ 'તે અદ્ભુત હતું.' થાય છે."
+      },
+      {
+        "id": "u9l4q11",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "તે અદ્ભુત હતું. મેં ખૂબ મજા કરી.",
+        "correct_answer": "It was wonderful. I had a lot of fun.",
+        "acceptable_answers": [
+          "It was wonderful. I had a lot of fun",
+          "It was wonderful I had a lot of fun"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'તે અદ્ભુત હતું. મેં ખૂબ મજા કરી.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'It was wonderful. I had a lot of fun.' થાય છે."
+      },
+      {
+        "id": "u9l4q12",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "It was wonderful. I had a lot of fun.",
+        "phonetic_gujarati": "ઇટ વૉઝ વન્ડરફુલ. આઈ હૅડ અ લૉટ ઑફ ફન.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'It was wonderful. I had a lot of fun.' છે અને તેનો ઉચ્ચાર 'ઇટ વૉઝ વન્ડરફુલ. આઈ હૅડ અ લૉટ ઑફ ફન.' થાય છે."
+      },
+      {
+        "id": "u9l4q13",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "હું ઘણા દરિયાકિનારે ગયો.",
+        "correct_sentence": "I went to many beaches",
+        "shuffled_words": [
+          "I",
+          "went",
+          "to",
+          "many",
+          "beaches"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'I went to many beaches' બનશે, જેનો અર્થ 'હું ઘણા દરિયાકિનારે ગયો.' થાય છે."
+      },
+      {
+        "id": "u9l4q14",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હા, હું ઘણા દરિયાકિનારે ગયો.",
+        "correct_answer": "Yes, I went to many beaches.",
+        "acceptable_answers": [
+          "Yes, I went to many beaches",
+          "Yes I went to many beaches"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'હા, હું ઘણા દરિયાકિનારે ગયો.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Yes, I went to many beaches.' થાય છે."
+      },
+      {
+        "id": "u9l4q15",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "Yes, I went to many beaches.",
+        "correct_answer": "Yes, I went to many beaches.",
+        "acceptable_answers": [
+          "Yes, I went to many beaches",
+          "Yes I went to many beaches"
+        ],
+        "phonetic_gujarati": "યસ, આઈ વેન્ટ ટુ મેની બીચિઝ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'Yes, I went to many beaches.'."
+      },
+      {
+        "id": "u9l4q16",
+        "type": "MULTI_TURN_CONVERSATION",
+        "instruction_gujarati": "વાતચીત પૂરી કરો:",
+        "explanation_gujarati": "રજાઓ વિશે મિત્ર સાથે વાતચીત.",
+        "difficulty": 5,
+        "scenario_gujarati": "તમે હમણાં જ રજાઓ માણીને આવ્યા છો.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "required_turns": 4,
+        "turns": [
+          {
+            "speaker": "ai",
+            "line": "How was your trip?"
+          },
+          {
+            "speaker": "user",
+            "line": "It was wonderful.",
+            "acceptable_keywords": [
+              "wonderful",
+              "great",
+              "fun",
+              "good",
+              "nice"
+            ],
+            "acceptable_responses": [
+              "It was wonderful.",
+              "It was very good.",
+              "I had fun."
+            ],
+            "phonetic_gujarati": "ઇટ વૉઝ વન્ડરફુલ."
+          },
+          {
+            "speaker": "ai",
+            "line": "Did you go to the beach?"
+          },
+          {
+            "speaker": "user",
+            "line": "Yes, I went to many beaches.",
+            "acceptable_keywords": [
+              "yes",
+              "went",
+              "beach",
+              "beaches",
+              "many"
+            ],
+            "acceptable_responses": [
+              "Yes, I went to the beach.",
+              "Yes, every day.",
+              "Of course."
+            ],
+            "phonetic_gujarati": "યસ, આઈ વેન્ટ ટુ મેની બીચિઝ."
+          },
+          {
+            "speaker": "ai",
+            "line": "How was the food?"
+          },
+          {
+            "speaker": "user",
+            "line": "The food was delicious.",
+            "acceptable_keywords": [
+              "food",
+              "delicious",
+              "tasty",
+              "good",
+              "spicy"
+            ],
+            "acceptable_responses": [
+              "The food was delicious.",
+              "It was very tasty.",
+              "I loved the seafood."
+            ],
+            "phonetic_gujarati": "ધ ફૂડ વૉઝ ડિલિશિયસ."
+          },
+          {
+            "speaker": "ai",
+            "line": "I want to go there."
+          },
+          {
+            "speaker": "user",
+            "line": "You should definitely go.",
+            "acceptable_keywords": [
+              "should",
+              "go",
+              "yes",
+              "definitely",
+              "must"
+            ],
+            "acceptable_responses": [
+              "You should definitely go.",
+              "Yes, it is a great place.",
+              "You will love it."
+            ],
+            "phonetic_gujarati": "યુ શુડ ડેફિનેટલી ગો."
+          }
+        ]
+      },
+      {
+        "id": "u9l4q17",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "ત્યાંનું જમવાનું કેવું હતું?",
+        "correct_answer": "How was the food there?",
+        "acceptable_answers": [
+          "How was the food there",
+          "How was the food"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'ત્યાંનું જમવાનું કેવું હતું?' નું અંગ્રેજીમાં સાચું ભાષાંતર 'How was the food there?' થાય છે."
+      },
+      {
+        "id": "u9l4q18",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "The food was delicious.",
+        "phonetic_gujarati": "ધ ફૂડ વૉઝ ડિલિશિયસ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'The food was delicious.' છે અને તેનો ઉચ્ચાર 'ધ ફૂડ વૉઝ ડિલિશિયસ.' થાય છે."
+      },
+      {
+        "id": "u9l4q19",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "You should definitely go.",
+        "correct_answer": "You should definitely go.",
+        "acceptable_answers": [
+          "You should definitely go"
+        ],
+        "phonetic_gujarati": "યુ શુડ ડેફિનેટલી ગો.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'You should definitely go.'."
+      },
+      {
+        "id": "u9l4q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "મિત્ર પૂછે છે.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "Where did you stay?",
+        "expected_hint_gujarati": "હું દરિયાકિનારા પાસે એક હોટેલમાં રહ્યો હતો (I stayed in a hotel near the beach).",
+        "acceptable_responses": [
+          "I stayed in a hotel near the beach.",
+          "In a hotel.",
+          "Near the beach."
+        ],
+        "keywords": [
+          "stayed",
+          "hotel",
+          "near",
+          "beach"
+        ],
+        "difficulty": 4,
+        "explanation_gujarati": "AI શું કહે છે: 'Where did you stay?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'હું દરિયાકિનારા પાસે એક હોટેલમાં રહ્યો હતો (I stayed in a hotel near the beach).' હોઈ શકે છે."
+      }
+    ]
   },
   {
-    id: "u9l5",
-    unit: 9,
-    level: 5,
-    title_gujarati: "સમસ્યાનો ઉકેલ (Solving a Problem)",
-    intro_gujarati: "જ્યારે કંઈક ખોટું થાય ત્યારે કેવી રીતે વાત કરવી.",
-    topics_covered: ["problem", "complaint", "solution", "receipt"],
-    questions: [
-      {
-        id: "u9l5q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Problem", gujarati: "સમસ્યા" },
-          { english: "Receipt", gujarati: "રસીદ" },
-          { english: "Broken", gujarati: "તૂટેલું" },
-          { english: "Replace", gujarati: "બદલવું" },
-        ],
-      },
-      {
-        id: "u9l5q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Problem",
-        options: ["ઉકેલ", "સમસ્યા", "જવાબ", "પ્રશ્ન"],
-        correct_index: 1,
-      },
-      {
-        id: "u9l5q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Receipt",
-        options: ["કાગળ", "પૈસા", "રસીદ", "બિલ"],
-        correct_index: 2,
-      },
-      {
-        id: "u9l5q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Broken",
-        options: ["તૂટેલું", "સાજું", "નવું", "જૂનું"],
-        correct_index: 0,
-      },
-      {
-        id: "u9l5q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Replace",
-        options: ["ફેંકવું", "રાખવું", "બદલવું", "લેવું"],
-        correct_index: 2,
-      },
-      {
-        id: "u9l5q6",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મેં ગઈકાલે આ ફોન ખરીદ્યો હતો.",
-        correct_sentence: "I bought this phone yesterday",
-        shuffled_words: ["I", "bought", "this", "phone", "yesterday"],
-      },
-      {
-        id: "u9l5q7",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મેં ગઈકાલે આ ફોન ખરીદ્યો હતો પણ તે કામ નથી કરતો.",
-        correct_answer: "I bought this phone yesterday, but it is not working.",
-        acceptable_answers: ["I bought this phone yesterday but it is not working", "I bought this phone yesterday and it is not working"],
-      },
-      {
-        id: "u9l5q8",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "I bought this phone yesterday, but it is not working.",
-        correct_answer: "I bought this phone yesterday, but it is not working.",
-        acceptable_answers: ["I bought this phone yesterday but it is not working"],
-        phonetic_gujarati: "આઈ બોટ ધિસ ફોન યસ્ટરડે બટ ઇટ ઇઝ નૉટ વર્કિંગ.",
-      },
-      {
-        id: "u9l5q9",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I bought this phone yesterday, but it is not working.",
-        phonetic_gujarati: "આઈ બોટ ધિસ ફોન યસ્ટરડે બટ ઇટ ઇઝ નૉટ વર્કિંગ.",
-      },
-      {
-        id: "u9l5q10",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "તેમાં શું ખામી છે?",
-        correct_sentence: "What is wrong with it",
-        shuffled_words: ["What", "is", "wrong", "with", "it"],
-      },
-      {
-        id: "u9l5q11",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "તેમાં શું ખામી છે?",
-        correct_answer: "What is wrong with it?",
-        acceptable_answers: ["What is wrong with it", "What is the problem"],
-      },
-      {
-        id: "u9l5q12",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "What is wrong with it?",
-        phonetic_gujarati: "વૉટ ઇઝ રોંગ વિથ ઇટ?",
-      },
-      {
-        id: "u9l5q13",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "સ્ક્રીન સંપૂર્ણપણે કાળી છે.",
-        correct_sentence: "The screen is totally black",
-        shuffled_words: ["The", "screen", "is", "totally", "black"],
-      },
-      {
-        id: "u9l5q14",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "સ્ક્રીન સંપૂર્ણપણે કાળી છે.",
-        correct_answer: "The screen is totally black.",
-        acceptable_answers: ["The screen is totally black", "The screen is black"],
-      },
-      {
-        id: "u9l5q15",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "The screen is totally black.",
-        correct_answer: "The screen is totally black.",
-        acceptable_answers: ["The screen is totally black"],
-        phonetic_gujarati: "ધ સ્ક્રીન ઇઝ ટોટલી બ્લૅક.",
-      },
-      {
-        id: "u9l5q16",
-        type: "MULTI_TURN_CONVERSATION",
-        instruction_gujarati: "વાતચીત પૂરી કરો:",
-        explanation_gujarati: "ખરાબ વસ્તુ અંગે ફરિયાદ કરવી.",
-        difficulty: 5,
-        scenario_gujarati: "તમે ખરીદેલો ફોન બગડેલો છે.",
-        ai_role: "Shopkeeper",
-        user_role: "You",
-        required_turns: 4,
-        turns: [
-          { speaker: "ai", line: "How can I help you?" },
-          {
-            speaker: "user",
-            line: "This phone is not working.",
-            acceptable_keywords: ["phone", "not", "working", "problem"],
-            acceptable_responses: ["This phone is not working.", "I have a problem with this phone."],
-            phonetic_gujarati: "ધિસ ફોન ઇઝ નૉટ વર્કિંગ.",
-          },
-          { speaker: "ai", line: "What is wrong with it?" },
-          {
-            speaker: "user",
-            line: "The screen is black.",
-            acceptable_keywords: ["screen", "black", "turn", "on", "broken"],
-            acceptable_responses: ["The screen is black.", "It does not turn on."],
-            phonetic_gujarati: "ધ સ્ક્રીન ઇઝ બ્લૅક.",
-          },
-          { speaker: "ai", line: "Do you have the receipt?" },
-          {
-            speaker: "user",
-            line: "Yes, here is the bill.",
-            acceptable_keywords: ["yes", "here", "bill", "receipt"],
-            acceptable_responses: ["Yes, here is the bill.", "Yes I have it.", "Here is the receipt."],
-            phonetic_gujarati: "યસ, હિયર ઇઝ ધ બિલ.",
-          },
-          { speaker: "ai", line: "We will replace it." },
-          {
-            speaker: "user",
-            line: "Thank you so much.",
-            acceptable_keywords: ["thank", "you", "thanks", "good"],
-            acceptable_responses: ["Thank you so much.", "That is good.", "Thanks."],
-            phonetic_gujarati: "થેન્ક યુ સો મચ.",
-          },
-        ],
-      },
-      {
-        id: "u9l5q17",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "શું તમારી પાસે રસીદ છે?",
-        correct_answer: "Do you have the receipt?",
-        acceptable_answers: ["Do you have the receipt", "Do you have the bill"],
-      },
-      {
-        id: "u9l5q18",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "We will replace it.",
-        phonetic_gujarati: "વી વિલ રિપ્લેસ ઇટ.",
-      },
-      {
-        id: "u9l5q19",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "Yes, here is the bill.",
-        correct_answer: "Yes, here is the bill.",
-        acceptable_answers: ["Yes, here is the bill", "Yes here is the bill"],
-        phonetic_gujarati: "યસ, હિયર ઇઝ ધ બિલ.",
-      },
-      {
-        id: "u9l5q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "તમે મીટિંગમાં રિપોર્ટ લાવવાનું ભૂલી ગયા છો.",
-        ai_role: "Manager",
-        user_role: "You",
-        ai_says: "Where is the report?",
-        expected_hint_gujarati: "મને માફ કરજો, હું તેને મારા ડેસ્ક પર ભૂલી ગયો છું (I am sorry, I forgot it on my desk).",
-        acceptable_responses: ["I am sorry, I forgot it on my desk.", "Sorry, I left it at my desk.", "I forgot it."],
-        keywords: ["sorry", "forgot", "left", "desk"],
-        difficulty: 5,
-      },
+    "id": "u9l5",
+    "unit": 9,
+    "level": 5,
+    "title_gujarati": "સમસ્યાનો ઉકેલ (Solving a Problem)",
+    "intro_gujarati": "જ્યારે કંઈક ખોટું થાય ત્યારે કેવી રીતે વાત કરવી.",
+    "topics_covered": [
+      "problem",
+      "complaint",
+      "solution",
+      "receipt"
     ],
-  },
+    "questions": [
+      {
+        "id": "u9l5q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Problem",
+            "gujarati": "સમસ્યા"
+          },
+          {
+            "english": "Receipt",
+            "gujarati": "રસીદ"
+          },
+          {
+            "english": "Broken",
+            "gujarati": "તૂટેલું"
+          },
+          {
+            "english": "Replace",
+            "gujarati": "બદલવું"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Problem' એટલે 'સમસ્યા', 'Receipt' એટલે 'રસીદ', 'Broken' એટલે 'તૂટેલું', 'Replace' એટલે 'બદલવું'."
+      },
+      {
+        "id": "u9l5q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Problem",
+        "options": [
+          "ઉકેલ",
+          "સમસ્યા",
+          "જવાબ",
+          "પ્રશ્ન"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Problem' નો સાચો ગુજરાતી અર્થ 'સમસ્યા' થાય છે."
+      },
+      {
+        "id": "u9l5q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Receipt",
+        "options": [
+          "કાગળ",
+          "પૈસા",
+          "રસીદ",
+          "બિલ"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Receipt' નો સાચો ગુજરાતી અર્થ 'રસીદ' થાય છે."
+      },
+      {
+        "id": "u9l5q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Broken",
+        "options": [
+          "તૂટેલું",
+          "સાજું",
+          "નવું",
+          "જૂનું"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Broken' નો સાચો ગુજરાતી અર્થ 'તૂટેલું' થાય છે."
+      },
+      {
+        "id": "u9l5q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Replace",
+        "options": [
+          "ફેંકવું",
+          "રાખવું",
+          "બદલવું",
+          "લેવું"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Replace' નો સાચો ગુજરાતી અર્થ 'બદલવું' થાય છે."
+      },
+      {
+        "id": "u9l5q6",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મેં ગઈકાલે આ ફોન ખરીદ્યો હતો.",
+        "correct_sentence": "I bought this phone yesterday",
+        "shuffled_words": [
+          "I",
+          "bought",
+          "this",
+          "phone",
+          "yesterday"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'I bought this phone yesterday' બનશે, જેનો અર્થ 'મેં ગઈકાલે આ ફોન ખરીદ્યો હતો.' થાય છે."
+      },
+      {
+        "id": "u9l5q7",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મેં ગઈકાલે આ ફોન ખરીદ્યો હતો પણ તે કામ નથી કરતો.",
+        "correct_answer": "I bought this phone yesterday, but it is not working.",
+        "acceptable_answers": [
+          "I bought this phone yesterday but it is not working",
+          "I bought this phone yesterday and it is not working"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મેં ગઈકાલે આ ફોન ખરીદ્યો હતો પણ તે કામ નથી કરતો.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'I bought this phone yesterday, but it is not working.' થાય છે."
+      },
+      {
+        "id": "u9l5q8",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "I bought this phone yesterday, but it is not working.",
+        "correct_answer": "I bought this phone yesterday, but it is not working.",
+        "acceptable_answers": [
+          "I bought this phone yesterday but it is not working"
+        ],
+        "phonetic_gujarati": "આઈ બોટ ધિસ ફોન યસ્ટરડે બટ ઇટ ઇઝ નૉટ વર્કિંગ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'I bought this phone yesterday, but it is not working.'."
+      },
+      {
+        "id": "u9l5q9",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I bought this phone yesterday, but it is not working.",
+        "phonetic_gujarati": "આઈ બોટ ધિસ ફોન યસ્ટરડે બટ ઇટ ઇઝ નૉટ વર્કિંગ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'I bought this phone yesterday, but it is not working.' છે અને તેનો ઉચ્ચાર 'આઈ બોટ ધિસ ફોન યસ્ટરડે બટ ઇટ ઇઝ નૉટ વર્કિંગ.' થાય છે."
+      },
+      {
+        "id": "u9l5q10",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "તેમાં શું ખામી છે?",
+        "correct_sentence": "What is wrong with it",
+        "shuffled_words": [
+          "What",
+          "is",
+          "wrong",
+          "with",
+          "it"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'What is wrong with it' બનશે, જેનો અર્થ 'તેમાં શું ખામી છે?' થાય છે."
+      },
+      {
+        "id": "u9l5q11",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "તેમાં શું ખામી છે?",
+        "correct_answer": "What is wrong with it?",
+        "acceptable_answers": [
+          "What is wrong with it",
+          "What is the problem"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'તેમાં શું ખામી છે?' નું અંગ્રેજીમાં સાચું ભાષાંતર 'What is wrong with it?' થાય છે."
+      },
+      {
+        "id": "u9l5q12",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "What is wrong with it?",
+        "phonetic_gujarati": "વૉટ ઇઝ રોંગ વિથ ઇટ?",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'What is wrong with it?' છે અને તેનો ઉચ્ચાર 'વૉટ ઇઝ રોંગ વિથ ઇટ?' થાય છે."
+      },
+      {
+        "id": "u9l5q13",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "સ્ક્રીન સંપૂર્ણપણે કાળી છે.",
+        "correct_sentence": "The screen is totally black",
+        "shuffled_words": [
+          "The",
+          "screen",
+          "is",
+          "totally",
+          "black"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'The screen is totally black' બનશે, જેનો અર્થ 'સ્ક્રીન સંપૂર્ણપણે કાળી છે.' થાય છે."
+      },
+      {
+        "id": "u9l5q14",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "સ્ક્રીન સંપૂર્ણપણે કાળી છે.",
+        "correct_answer": "The screen is totally black.",
+        "acceptable_answers": [
+          "The screen is totally black",
+          "The screen is black"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'સ્ક્રીન સંપૂર્ણપણે કાળી છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'The screen is totally black.' થાય છે."
+      },
+      {
+        "id": "u9l5q15",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "The screen is totally black.",
+        "correct_answer": "The screen is totally black.",
+        "acceptable_answers": [
+          "The screen is totally black"
+        ],
+        "phonetic_gujarati": "ધ સ્ક્રીન ઇઝ ટોટલી બ્લૅક.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'The screen is totally black.'."
+      },
+      {
+        "id": "u9l5q16",
+        "type": "MULTI_TURN_CONVERSATION",
+        "instruction_gujarati": "વાતચીત પૂરી કરો:",
+        "explanation_gujarati": "ખરાબ વસ્તુ અંગે ફરિયાદ કરવી.",
+        "difficulty": 5,
+        "scenario_gujarati": "તમે ખરીદેલો ફોન બગડેલો છે.",
+        "ai_role": "Shopkeeper",
+        "user_role": "You",
+        "required_turns": 4,
+        "turns": [
+          {
+            "speaker": "ai",
+            "line": "How can I help you?"
+          },
+          {
+            "speaker": "user",
+            "line": "This phone is not working.",
+            "acceptable_keywords": [
+              "phone",
+              "not",
+              "working",
+              "problem"
+            ],
+            "acceptable_responses": [
+              "This phone is not working.",
+              "I have a problem with this phone."
+            ],
+            "phonetic_gujarati": "ધિસ ફોન ઇઝ નૉટ વર્કિંગ."
+          },
+          {
+            "speaker": "ai",
+            "line": "What is wrong with it?"
+          },
+          {
+            "speaker": "user",
+            "line": "The screen is black.",
+            "acceptable_keywords": [
+              "screen",
+              "black",
+              "turn",
+              "on",
+              "broken"
+            ],
+            "acceptable_responses": [
+              "The screen is black.",
+              "It does not turn on."
+            ],
+            "phonetic_gujarati": "ધ સ્ક્રીન ઇઝ બ્લૅક."
+          },
+          {
+            "speaker": "ai",
+            "line": "Do you have the receipt?"
+          },
+          {
+            "speaker": "user",
+            "line": "Yes, here is the bill.",
+            "acceptable_keywords": [
+              "yes",
+              "here",
+              "bill",
+              "receipt"
+            ],
+            "acceptable_responses": [
+              "Yes, here is the bill.",
+              "Yes I have it.",
+              "Here is the receipt."
+            ],
+            "phonetic_gujarati": "યસ, હિયર ઇઝ ધ બિલ."
+          },
+          {
+            "speaker": "ai",
+            "line": "We will replace it."
+          },
+          {
+            "speaker": "user",
+            "line": "Thank you so much.",
+            "acceptable_keywords": [
+              "thank",
+              "you",
+              "thanks",
+              "good"
+            ],
+            "acceptable_responses": [
+              "Thank you so much.",
+              "That is good.",
+              "Thanks."
+            ],
+            "phonetic_gujarati": "થેન્ક યુ સો મચ."
+          }
+        ]
+      },
+      {
+        "id": "u9l5q17",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "શું તમારી પાસે રસીદ છે?",
+        "correct_answer": "Do you have the receipt?",
+        "acceptable_answers": [
+          "Do you have the receipt",
+          "Do you have the bill"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'શું તમારી પાસે રસીદ છે?' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Do you have the receipt?' થાય છે."
+      },
+      {
+        "id": "u9l5q18",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "We will replace it.",
+        "phonetic_gujarati": "વી વિલ રિપ્લેસ ઇટ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'We will replace it.' છે અને તેનો ઉચ્ચાર 'વી વિલ રિપ્લેસ ઇટ.' થાય છે."
+      },
+      {
+        "id": "u9l5q19",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "Yes, here is the bill.",
+        "correct_answer": "Yes, here is the bill.",
+        "acceptable_answers": [
+          "Yes, here is the bill",
+          "Yes here is the bill"
+        ],
+        "phonetic_gujarati": "યસ, હિયર ઇઝ ધ બિલ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'Yes, here is the bill.'."
+      },
+      {
+        "id": "u9l5q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "તમે મીટિંગમાં રિપોર્ટ લાવવાનું ભૂલી ગયા છો.",
+        "ai_role": "Manager",
+        "user_role": "You",
+        "ai_says": "Where is the report?",
+        "expected_hint_gujarati": "મને માફ કરજો, હું તેને મારા ડેસ્ક પર ભૂલી ગયો છું (I am sorry, I forgot it on my desk).",
+        "acceptable_responses": [
+          "I am sorry, I forgot it on my desk.",
+          "Sorry, I left it at my desk.",
+          "I forgot it."
+        ],
+        "keywords": [
+          "sorry",
+          "forgot",
+          "left",
+          "desk"
+        ],
+        "difficulty": 5,
+        "explanation_gujarati": "AI શું કહે છે: 'Where is the report?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'મને માફ કરજો, હું તેને મારા ડેસ્ક પર ભૂલી ગયો છું (I am sorry, I forgot it on my desk).' હોઈ શકે છે."
+      }
+    ]
+  }
 ];

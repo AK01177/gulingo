@@ -2,944 +2,1539 @@ import type { Lesson } from "../../types";
 
 export const unit3: Lesson[] = [
   {
-    id: "u3l1",
-    unit: 3,
-    level: 1,
-    title_gujarati: "મારો પરિવાર (My Family)",
-    intro_gujarati: "પરિવારના સભ્યોના નામ અંગ્રેજીમાં.",
-    topics_covered: ["family", "mother", "father", "brother", "sister"],
-    questions: [
-      {
-        id: "u3l1q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Mother", gujarati: "માતા" },
-          { english: "Father", gujarati: "પિતા" },
-          { english: "Brother", gujarati: "ભાઈ" },
-          { english: "Sister", gujarati: "બહેન" },
-        ],
-      },
-      {
-        id: "u3l1q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Mother",
-        options: ["માતા", "પિતા", "ભાઈ", "બહેન"],
-        correct_index: 0,
-      },
-      {
-        id: "u3l1q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Father",
-        options: ["માતા", "ભાઈ", "પિતા", "કાકા"],
-        correct_index: 2,
-      },
-      {
-        id: "u3l1q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Brother",
-        options: ["માતા", "પિતા", "બહેન", "ભાઈ"],
-        correct_index: 3,
-      },
-      {
-        id: "u3l1q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Sister",
-        options: ["બહેન", "ભાઈ", "માતા", "કાકી"],
-        correct_index: 0,
-      },
-      {
-        id: "u3l1q6",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Family", gujarati: "પરિવાર" },
-          { english: "My", gujarati: "મારો/મારી/મારું" },
-          { english: "Is", gujarati: "છે" },
-          { english: "Love", gujarati: "પ્રેમ" },
-        ],
-      },
-      {
-        id: "u3l1q7",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Family",
-        options: ["મિત્રો", "પરિવાર", "શાળા", "ઘર"],
-        correct_index: 1,
-      },
-      {
-        id: "u3l1q8",
-        type: "FILL_IN_THE_BLANK",
-        instruction_gujarati: "ખાલી જગ્યા પૂરો:",
-        sentence_with_blank: "My ___",
-        correct_answer: "family",
-        options: ["family", "house", "school", "friend"],
-      },
-      {
-        id: "u3l1q9",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મારો પરિવાર.",
-        correct_sentence: "My family",
-        shuffled_words: ["family", "My", "is"],
-      },
-      {
-        id: "u3l1q10",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારો પરિવાર.",
-        correct_answer: "My family.",
-        acceptable_answers: ["My family"],
-      },
-      {
-        id: "u3l1q11",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "આ મારી માતા છે.",
-        correct_sentence: "This is my mother",
-        shuffled_words: ["mother", "my", "is", "This"],
-      },
-      {
-        id: "u3l1q12",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "આ મારી માતા છે.",
-        correct_answer: "This is my mother.",
-        acceptable_answers: ["This is my mother"],
-      },
-      {
-        id: "u3l1q13",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "This is my mother.",
-        correct_answer: "This is my mother.",
-        acceptable_answers: ["This is my mother"],
-        phonetic_gujarati: "ધિસ ઇઝ માઈ મધર.",
-      },
-      {
-        id: "u3l1q14",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "This is my mother.",
-        phonetic_gujarati: "ધિસ ઇઝ માઈ મધર.",
-      },
-      {
-        id: "u3l1q15",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "તે મારો ભાઈ છે.",
-        correct_sentence: "He is my brother",
-        shuffled_words: ["brother", "my", "is", "He"],
-      },
-      {
-        id: "u3l1q16",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "તે મારો ભાઈ છે.",
-        correct_answer: "He is my brother.",
-        acceptable_answers: ["He is my brother"],
-      },
-      {
-        id: "u3l1q17",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "He is my brother.",
-        correct_answer: "He is my brother.",
-        acceptable_answers: ["He is my brother"],
-        phonetic_gujarati: "હી ઇઝ માઈ બ્રધર.",
-      },
-      {
-        id: "u3l1q18",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I love my family.",
-        phonetic_gujarati: "આઈ લવ માઈ ફેમિલી.",
-      },
-      {
-        id: "u3l1q19",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "કોઈ ફોટો જોઈને પૂછે છે.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "Who is he?",
-        expected_hint_gujarati: "તે મારો ભાઈ છે (He is my brother).",
-        acceptable_responses: ["He is my brother.", "My brother."],
-        keywords: ["he", "is", "my", "brother"],
-        difficulty: 1,
-      },
-      {
-        id: "u3l1q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "તમારા પરિવાર વિશે પ્રશ્ન.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "Do you love your family?",
-        expected_hint_gujarati: "હા, હું મારા પરિવારને પ્રેમ કરું છું (Yes, I love my family).",
-        acceptable_responses: ["Yes, I love my family.", "Yes, I do.", "I love my family."],
-        keywords: ["yes", "love", "my", "family"],
-        difficulty: 2,
-      },
+    "id": "u3l1",
+    "unit": 3,
+    "level": 1,
+    "title_gujarati": "મારો પરિવાર (My Family)",
+    "intro_gujarati": "પરિવારના સભ્યોના નામ અંગ્રેજીમાં.",
+    "topics_covered": [
+      "family",
+      "mother",
+      "father",
+      "brother",
+      "sister"
     ],
-  },
-  {
-    id: "u3l2",
-    unit: 3,
-    level: 2,
-    title_gujarati: "મારું ઘર (My House)",
-    intro_gujarati: "ઘરના અલગ-અલગ રૂમ વિશે વાત કરો.",
-    topics_covered: ["house", "room", "kitchen", "bathroom"],
-    questions: [
-      {
-        id: "u3l2q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "House", gujarati: "ઘર" },
-          { english: "Room", gujarati: "ઓરડો/રૂમ" },
-          { english: "Kitchen", gujarati: "રસોડું" },
-          { english: "Bathroom", gujarati: "બાથરૂમ" },
-        ],
-      },
-      {
-        id: "u3l2q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "House",
-        options: ["ઓફિસ", "દુકાન", "શાળા", "ઘર"],
-        correct_index: 3,
-      },
-      {
-        id: "u3l2q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Kitchen",
-        options: ["રસોડું", "બાથરૂમ", "બેડરૂમ", "બગીચો"],
-        correct_index: 0,
-      },
-      {
-        id: "u3l2q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Bedroom",
-        options: ["બેડરૂમ", "રસોડું", "બાથરૂમ", "હોલ"],
-        correct_index: 0,
-      },
-      {
-        id: "u3l2q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Bathroom",
-        options: ["રસોડું", "બાથરૂમ", "બગીચો", "ઓરડો"],
-        correct_index: 1,
-      },
-      {
-        id: "u3l2q6",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Big", gujarati: "મોટું" },
-          { english: "Small", gujarati: "નાનું" },
-          { english: "Clean", gujarati: "સ્વચ્છ" },
-          { english: "Dirty", gujarati: "ગંદુ" },
-        ],
-      },
-      {
-        id: "u3l2q7",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Big",
-        options: ["નાનું", "ખરાબ", "મોટું", "સારું"],
-        correct_index: 2,
-      },
-      {
-        id: "u3l2q8",
-        type: "FILL_IN_THE_BLANK",
-        instruction_gujarati: "ખાલી જગ્યા પૂરો:",
-        sentence_with_blank: "My house is ___.",
-        correct_answer: "big",
-        options: ["big", "small", "dirty", "run"],
-      },
-      {
-        id: "u3l2q9",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મારું ઘર મોટું છે.",
-        correct_sentence: "My house is big",
-        shuffled_words: ["house", "is", "big", "My", "small"],
-      },
-      {
-        id: "u3l2q10",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારું ઘર મોટું છે.",
-        correct_answer: "My house is big.",
-        acceptable_answers: ["My house is big", "My home is big"],
-      },
-      {
-        id: "u3l2q11",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "My house is big.",
-        correct_answer: "My house is big.",
-        acceptable_answers: ["My house is big"],
-        phonetic_gujarati: "માઈ હાઉસ ઇઝ બિગ.",
-      },
-      {
-        id: "u3l2q12",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "My house is big.",
-        phonetic_gujarati: "માઈ હાઉસ ઇઝ બિગ.",
-      },
-      {
-        id: "u3l2q13",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "રસોડું સ્વચ્છ છે.",
-        correct_sentence: "The kitchen is clean",
-        shuffled_words: ["kitchen", "clean", "The", "is"],
-      },
-      {
-        id: "u3l2q14",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "રસોડું સ્વચ્છ છે.",
-        correct_answer: "The kitchen is clean.",
-        acceptable_answers: ["The kitchen is clean", "Kitchen is clean"],
-      },
-      {
-        id: "u3l2q15",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "The kitchen is clean.",
-        correct_answer: "The kitchen is clean.",
-        acceptable_answers: ["The kitchen is clean"],
-        phonetic_gujarati: "ધ કિચન ઇઝ ક્લીન.",
-      },
-      {
-        id: "u3l2q16",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "બાથરૂમ ક્યાં છે?",
-        correct_sentence: "Where is the bathroom",
-        shuffled_words: ["Where", "bathroom", "the", "is"],
-      },
-      {
-        id: "u3l2q17",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "બાથરૂમ ક્યાં છે?",
-        correct_answer: "Where is the bathroom?",
-        acceptable_answers: ["Where is the bathroom"],
-      },
-      {
-        id: "u3l2q18",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "Where is the bathroom?",
-        phonetic_gujarati: "વ્હેર ઇઝ ધ બાથરૂમ?",
-      },
-      {
-        id: "u3l2q19",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "મહેમાન બાથરૂમ ક્યાં છે તે પૂછે છે.",
-        ai_role: "Guest",
-        user_role: "You",
-        ai_says: "Where is the bathroom?",
-        expected_hint_gujarati: "બાથરૂમ ત્યાં છે (The bathroom is there).",
-        acceptable_responses: ["The bathroom is there.", "It is there.", "There."],
-        keywords: ["bathroom", "is", "there"],
-        difficulty: 2,
-      },
-      {
-        id: "u3l2q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "તમારો મિત્ર તમારા ઘર વિશે પૂછે છે.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "Is your house big?",
-        expected_hint_gujarati: "હા, મારું ઘર મોટું છે (Yes, my house is big).",
-        acceptable_responses: ["Yes, my house is big.", "Yes, it is big.", "Yes, it is."],
-        keywords: ["yes", "house", "is", "big"],
-        difficulty: 2,
-      },
-    ],
-  },
-  {
-    id: "u3l3",
-    unit: 3,
-    level: 3,
-    title_gujarati: "પરિવાર વિશે વાત (Describing Family)",
-    intro_gujarati: "તમારા પરિવાર વિશેની વિગતો આપો.",
-    topics_covered: ["family members", "descriptions", "how many"],
-    questions: [
-      {
-        id: "u3l3q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Five", gujarati: "પાંચ" },
-          { english: "Members", gujarati: "સભ્યો" },
-          { english: "Doctor", gujarati: "ડૉક્ટર" },
-          { english: "Grandfather", gujarati: "દાદાજી" },
-        ],
-      },
-      {
-        id: "u3l3q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Five",
-        options: ["ચાર", "પાંચ", "છ", "સાત"],
-        correct_index: 1,
-      },
-      {
-        id: "u3l3q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Members",
-        options: ["લોકો", "સભ્યો", "મિત્રો", "દુશ્મનો"],
-        correct_index: 1,
-      },
-      {
-        id: "u3l3q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Doctor",
-        options: ["શિક્ષક", "વકીલ", "ડૉક્ટર", "ખેડૂત"],
-        correct_index: 2,
-      },
-      {
-        id: "u3l3q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Grandfather",
-        options: ["દાદી", "પિતા", "કાકા", "દાદાજી"],
-        correct_index: 3,
-      },
-      {
-        id: "u3l3q6",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "પાંચ સભ્યો.",
-        correct_sentence: "Five members",
-        shuffled_words: ["members", "Five", "are"],
-      },
-      {
-        id: "u3l3q7",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મારા પરિવારમાં પાંચ સભ્યો છે.",
-        correct_sentence: "There are five members in my family",
-        shuffled_words: ["There", "are", "five", "members", "in", "my", "family"],
-      },
-      {
-        id: "u3l3q8",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારા પરિવારમાં પાંચ સભ્યો છે.",
-        correct_answer: "There are five members in my family.",
-        acceptable_answers: ["There are five members in my family", "My family has five members"],
-      },
-      {
-        id: "u3l3q9",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "There are five members in my family.",
-        correct_answer: "There are five members in my family.",
-        acceptable_answers: ["There are five members in my family"],
-        phonetic_gujarati: "ધેર આર ફાઈવ મેમ્બર્સ ઇન માઈ ફેમિલી.",
-      },
-      {
-        id: "u3l3q10",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "There are five members in my family.",
-        phonetic_gujarati: "ધેર આર ફાઈવ મેમ્બર્સ ઇન માઈ ફેમિલી.",
-      },
-      {
-        id: "u3l3q11",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મારા પિતા એક ડૉક્ટર છે.",
-        correct_sentence: "My father is a doctor",
-        shuffled_words: ["My", "father", "is", "a", "doctor"],
-      },
-      {
-        id: "u3l3q12",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારા પિતા એક ડૉક્ટર છે.",
-        correct_answer: "My father is a doctor.",
-        acceptable_answers: ["My father is a doctor", "My dad is a doctor"],
-      },
-      {
-        id: "u3l3q13",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "My father is a doctor.",
-        correct_answer: "My father is a doctor.",
-        acceptable_answers: ["My father is a doctor"],
-        phonetic_gujarati: "માઈ ફાધર ઇઝ અ ડૉક્ટર.",
-      },
-      {
-        id: "u3l3q14",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મારા દાદાજી અમારી સાથે રહે છે.",
-        correct_sentence: "My grandfather lives with us",
-        shuffled_words: ["grandfather", "lives", "with", "us", "My"],
-      },
-      {
-        id: "u3l3q15",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારા દાદાજી અમારી સાથે રહે છે.",
-        correct_answer: "My grandfather lives with us.",
-        acceptable_answers: ["My grandfather lives with us", "My grandpa lives with us"],
-      },
-      {
-        id: "u3l3q16",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "My grandfather lives with us.",
-        phonetic_gujarati: "માઈ ગ્રાન્ડફાધર લિવ્સ વિથ અસ.",
-      },
-      {
-        id: "u3l3q17",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "મિત્ર તમારા ભાઈ-બહેન વિશે પૂછે છે.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "Do you have a brother?",
-        expected_hint_gujarati: "હા, મારે એક ભાઈ છે (Yes, I have one brother).",
-        acceptable_responses: ["Yes, I have one brother.", "Yes, I have a brother.", "Yes."],
-        keywords: ["yes", "have", "brother", "one"],
-        difficulty: 2,
-      },
-      {
-        id: "u3l3q18",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "તમારા પિતાના કામ વિશે પૂછપરછ.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "What does your father do?",
-        expected_hint_gujarati: "મારા પિતા એક ડૉક્ટર છે (My father is a doctor).",
-        acceptable_responses: ["My father is a doctor.", "He is a doctor."],
-        keywords: ["father", "is", "doctor", "he"],
-        difficulty: 3,
-      },
-      {
-        id: "u3l3q19",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હું મારા માતા-પિતાનો આદર કરું છું.",
-        correct_answer: "I respect my parents.",
-        acceptable_answers: ["I respect my parents"],
-      },
-      {
-        id: "u3l3q20",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I respect my parents.",
-        phonetic_gujarati: "આઈ રિસ્પેક્ટ માઈ પેરેન્ટ્સ.",
-      },
-    ],
-  },
-  {
-    id: "u3l4",
-    unit: 3,
-    level: 4,
-    title_gujarati: "ઘરનું વર્ણન (Describing House)",
-    intro_gujarati: "ઘર અને તેના રૂમ વિશે વિસ્તારથી વાત કરો.",
-    topics_covered: ["house", "rooms", "furniture", "describing"],
-    questions: [
-      {
-        id: "u3l4q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Flat", gujarati: "ફ્લેટ" },
-          { english: "Garden", gujarati: "બગીચો" },
-          { english: "Furniture", gujarati: "ફર્નિચર" },
-          { english: "Near", gujarati: "નજીક" },
-        ],
-      },
-      {
-        id: "u3l4q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Flat",
-        options: ["બંગલો", "ફ્લેટ", "તંબુ", "ઝૂંપડી"],
-        correct_index: 1,
-      },
-      {
-        id: "u3l4q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Garden",
-        options: ["રસોડું", "રસ્તો", "બગીચો", "દુકાન"],
-        correct_index: 2,
-      },
-      {
-        id: "u3l4q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Furniture",
-        options: ["ફર્નિચર", "કપડાં", "વાસણ", "વાહન"],
-        correct_index: 0,
-      },
-      {
-        id: "u3l4q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Near",
-        options: ["દૂર", "નજીક", "ઉપર", "નીચે"],
-        correct_index: 1,
-      },
-      {
-        id: "u3l4q6",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "અમે એક નવા ફ્લેટમાં રહીએ છીએ.",
-        correct_sentence: "We live in a new flat",
-        shuffled_words: ["We", "live", "in", "a", "new", "flat"],
-      },
-      {
-        id: "u3l4q7",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "અમે એક નવા ફ્લેટમાં રહીએ છીએ.",
-        correct_answer: "We live in a new flat.",
-        acceptable_answers: ["We live in a new flat", "We live in a new apartment"],
-      },
-      {
-        id: "u3l4q8",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "We live in a new flat.",
-        correct_answer: "We live in a new flat.",
-        acceptable_answers: ["We live in a new flat"],
-        phonetic_gujarati: "વી લિવ ઇન અ ન્યુ ફ્લેટ.",
-      },
-      {
-        id: "u3l4q9",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "We live in a new flat.",
-        phonetic_gujarati: "વી લિવ ઇન અ ન્યુ ફ્લેટ.",
-      },
-      {
-        id: "u3l4q10",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "અમારી પાસે એક નાનો બગીચો છે.",
-        correct_sentence: "We have a small garden",
-        shuffled_words: ["have", "a", "small", "garden", "We"],
-      },
-      {
-        id: "u3l4q11",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "અમારી પાસે એક નાનો બગીચો છે.",
-        correct_answer: "We have a small garden.",
-        acceptable_answers: ["We have a small garden"],
-      },
-      {
-        id: "u3l4q12",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "We have a small garden.",
-        correct_answer: "We have a small garden.",
-        acceptable_answers: ["We have a small garden"],
-        phonetic_gujarati: "વી હૅવ અ સ્મૉલ ગાર્ડન.",
-      },
-      {
-        id: "u3l4q13",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "We have a small garden.",
-        phonetic_gujarati: "વી હૅવ અ સ્મૉલ ગાર્ડન.",
-      },
-      {
-        id: "u3l4q14",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "હું મારા રૂમને સ્વચ્છ રાખું છું.",
-        correct_sentence: "I keep my room clean",
-        shuffled_words: ["room", "keep", "clean", "I", "my"],
-      },
-      {
-        id: "u3l4q15",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હું મારા રૂમને સ્વચ્છ રાખું છું.",
-        correct_answer: "I keep my room clean.",
-        acceptable_answers: ["I keep my room clean", "I keep my room clean always"],
-      },
-      {
-        id: "u3l4q16",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I keep my room clean.",
-        phonetic_gujarati: "આઈ કીપ માઈ રૂમ ક્લીન.",
-      },
-      {
-        id: "u3l4q17",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "મિત્ર તમારા ઘર વિશે પૂછે છે.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "Do you have a garden?",
-        expected_hint_gujarati: "હા, અમારી પાસે એક નાનો બગીચો છે (Yes, we have a small garden).",
-        acceptable_responses: ["Yes, we have a small garden.", "Yes, we have a garden.", "Yes."],
-        keywords: ["yes", "have", "small", "garden"],
-        difficulty: 3,
-      },
-      {
-        id: "u3l4q18",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "મહેમાનને આવકારવા.",
-        ai_role: "Guest",
-        user_role: "You",
-        ai_says: "Your house is very beautiful!",
-        expected_hint_gujarati: "આભાર, કૃપા કરીને બેસો (Thank you, please sit).",
-        acceptable_responses: ["Thank you, please sit.", "Thank you, sit down.", "Thanks."],
-        keywords: ["thank", "you", "please", "sit"],
-        difficulty: 3,
-      },
-      {
-        id: "u3l4q19",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારા ઘરની નજીક એક હોસ્પિટલ છે.",
-        correct_answer: "There is a hospital near my house.",
-        acceptable_answers: ["There is a hospital near my house", "A hospital is near my house"],
-      },
-      {
-        id: "u3l4q20",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "There is a hospital near my house.",
-        correct_answer: "There is a hospital near my house.",
-        acceptable_answers: ["There is a hospital near my house"],
-        phonetic_gujarati: "ધેર ઇઝ અ હૉસ્પિટલ નિયર માઈ હાઉસ.",
-      },
-    ],
-  },
-  {
-    id: "u3l5",
-    unit: 3,
-    level: 5,
-    title_gujarati: "પરિવારમાં ચર્ચા (Family Events & Discussions)",
-    intro_gujarati: "તમારા પરિવાર સાથે જોડાયેલી વાસ્તવિક પરિસ્થિતિઓ.",
-    topics_covered: ["events", "planning", "relatives", "discussions"],
-    questions: [
-      {
-        id: "u3l5q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Wedding", gujarati: "લગ્ન" },
-          { english: "Relatives", gujarati: "સંબંધીઓ" },
-          { english: "Festival", gujarati: "તહેવાર" },
-          { english: "Next", gujarati: "આવતા/પછીના" },
-        ],
-      },
-      {
-        id: "u3l5q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Wedding",
-        options: ["જન્મદિવસ", "લગ્ન", "પાર્ટી", "તહેવાર"],
-        correct_index: 1,
-      },
-      {
-        id: "u3l5q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Relatives",
-        options: ["મિત્રો", "પાડોશીઓ", "સંબંધીઓ", "શિક્ષકો"],
-        correct_index: 2,
-      },
-      {
-        id: "u3l5q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Festival",
-        options: ["તહેવાર", "લગ્ન", "રજા", "કામ"],
-        correct_index: 0,
-      },
-      {
-        id: "u3l5q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Next",
-        options: ["પહેલાના", "અત્યારના", "આવતા/પછીના", "હંમેશા"],
-        correct_index: 2,
-      },
-      {
-        id: "u3l5q6",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "આવતા મહિને મારા કાકાના લગ્ન છે.",
-        correct_sentence: "My uncle's wedding is next month",
-        shuffled_words: ["My", "uncle's", "wedding", "is", "next", "month"],
-      },
-      {
-        id: "u3l5q7",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "આવતા મહિને મારા કાકાના લગ્ન છે.",
-        correct_answer: "My uncle's wedding is next month.",
-        acceptable_answers: ["My uncle's wedding is next month"],
-      },
-      {
-        id: "u3l5q8",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "My uncle's wedding is next month.",
-        correct_answer: "My uncle's wedding is next month.",
-        acceptable_answers: ["My uncle's wedding is next month"],
-        phonetic_gujarati: "માઈ અંકલ્સ વેડિંગ ઇઝ નેક્સ્ટ મંથ.",
-      },
-      {
-        id: "u3l5q9",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "My uncle's wedding is next month.",
-        phonetic_gujarati: "માઈ અંકલ્સ વેડિંગ ઇઝ નેક્સ્ટ મંથ.",
-      },
-      {
-        id: "u3l5q10",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "સંબંધીઓ આવી રહ્યા છે.",
-        correct_sentence: "Relatives are coming",
-        shuffled_words: ["Relatives", "are", "coming"],
-      },
-      {
-        id: "u3l5q11",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "સંબંધીઓ આવી રહ્યા છે.",
-        correct_answer: "Relatives are coming.",
-        acceptable_answers: ["Relatives are coming", "The relatives are coming"],
-      },
-      {
-        id: "u3l5q12",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "All our relatives are coming.",
-        phonetic_gujarati: "ઑલ અવર રિલેટિવ્સ આર કમિંગ.",
-      },
-      {
-        id: "u3l5q13",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "અમે નવા કપડાં ખરીદીએ છીએ.",
-        correct_sentence: "We buy new clothes",
-        shuffled_words: ["We", "buy", "new", "clothes"],
-      },
-      {
-        id: "u3l5q14",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "અમે દિવાળીએ નવા કપડાં ખરીદીએ છીએ.",
-        correct_answer: "We buy new clothes on Diwali.",
-        acceptable_answers: ["We buy new clothes on Diwali", "We buy new clothes during Diwali"],
-      },
-      {
-        id: "u3l5q15",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "We buy new clothes on Diwali.",
-        correct_answer: "We buy new clothes on Diwali.",
-        acceptable_answers: ["We buy new clothes on Diwali"],
-        phonetic_gujarati: "વી બાઈ ન્યુ ક્લોધ્સ ઑન દિવાલી.",
-      },
-      {
-        id: "u3l5q16",
-        type: "MULTI_TURN_CONVERSATION",
-        instruction_gujarati: "વાર્તાલાપ પૂરો કરો:",
-        explanation_gujarati: "તમારા પિતા સાથે વાતચીત.",
-        difficulty: 4,
-        scenario_gujarati: "તમે તમારા પિતા સાથે ખરીદી કરવા વિશે વાત કરી રહ્યા છો.",
-        ai_role: "Father",
-        user_role: "You",
-        required_turns: 2,
-        turns: [
-          { speaker: "ai", line: "We need to go to the market today to buy clothes for the wedding." },
+    "questions": [
+      {
+        "id": "u3l1q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
           {
-            speaker: "user",
-            line: "What time should we leave?",
-            acceptable_keywords: ["what", "time", "leave", "go"],
-            acceptable_responses: ["What time should we leave?", "When are we going?"],
-            phonetic_gujarati: "વૉટ ટાઈમ શુડ વી લીવ?",
+            "english": "Mother",
+            "gujarati": "માતા"
           },
-          { speaker: "ai", line: "Let's leave around four o'clock." },
           {
-            speaker: "user",
-            line: "Okay, I will be ready.",
-            acceptable_keywords: ["okay", "will", "ready", "fine"],
-            acceptable_responses: ["Okay, I will be ready.", "Okay, I am ready."],
-            phonetic_gujarati: "ઓકે, આઈ વિલ બી રેડી.",
+            "english": "Father",
+            "gujarati": "પિતા"
           },
+          {
+            "english": "Brother",
+            "gujarati": "ભાઈ"
+          },
+          {
+            "english": "Sister",
+            "gujarati": "બહેન"
+          }
         ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Mother' એટલે 'માતા', 'Father' એટલે 'પિતા', 'Brother' એટલે 'ભાઈ', 'Sister' એટલે 'બહેન'."
       },
       {
-        id: "u3l5q17",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "મહેમાનો આવે ત્યારે.",
-        ai_role: "Relative",
-        user_role: "You",
-        ai_says: "How are your parents?",
-        expected_hint_gujarati: "તેઓ મજામાં છે, આભાર (They are fine, thank you).",
-        acceptable_responses: ["They are fine, thank you.", "They are good, thanks.", "They are fine."],
-        keywords: ["they", "are", "fine", "thank", "good"],
-        difficulty: 3,
+        "id": "u3l1q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Mother",
+        "options": [
+          "માતા",
+          "પિતા",
+          "ભાઈ",
+          "બહેન"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Mother' નો સાચો ગુજરાતી અર્થ 'માતા' થાય છે."
       },
       {
-        id: "u3l5q18",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "તમારા ભવિષ્ય વિશે વાત.",
-        ai_role: "Relative",
-        user_role: "You",
-        ai_says: "Are you changing your job?",
-        expected_hint_gujarati: "હું તેના વિશે વિચારું છું (I am thinking about it).",
-        acceptable_responses: ["I am thinking about it.", "Yes, I am thinking."],
-        keywords: ["thinking", "about", "it"],
-        difficulty: 4,
+        "id": "u3l1q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Father",
+        "options": [
+          "માતા",
+          "ભાઈ",
+          "પિતા",
+          "કાકા"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Father' નો સાચો ગુજરાતી અર્થ 'પિતા' થાય છે."
       },
       {
-        id: "u3l5q19",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારો પરિવાર હંમેશા મને ટેકો આપે છે.",
-        correct_answer: "My family always supports me.",
-        acceptable_answers: ["My family always supports me"],
+        "id": "u3l1q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Brother",
+        "options": [
+          "માતા",
+          "પિતા",
+          "બહેન",
+          "ભાઈ"
+        ],
+        "correct_index": 3,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Brother' નો સાચો ગુજરાતી અર્થ 'ભાઈ' થાય છે."
       },
       {
-        id: "u3l5q20",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "પરિવાર વિના જીવન અધૂરું છે.",
-        correct_answer: "Life is incomplete without family.",
-        acceptable_answers: ["Life is incomplete without family"],
+        "id": "u3l1q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Sister",
+        "options": [
+          "બહેન",
+          "ભાઈ",
+          "માતા",
+          "કાકી"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Sister' નો સાચો ગુજરાતી અર્થ 'બહેન' થાય છે."
       },
-    ],
+      {
+        "id": "u3l1q6",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Family",
+            "gujarati": "પરિવાર"
+          },
+          {
+            "english": "My",
+            "gujarati": "મારો/મારી/મારું"
+          },
+          {
+            "english": "Is",
+            "gujarati": "છે"
+          },
+          {
+            "english": "Love",
+            "gujarati": "પ્રેમ"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Family' એટલે 'પરિવાર', 'My' એટલે 'મારો/મારી/મારું', 'Is' એટલે 'છે', 'Love' એટલે 'પ્રેમ'."
+      },
+      {
+        "id": "u3l1q7",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Family",
+        "options": [
+          "મિત્રો",
+          "પરિવાર",
+          "શાળા",
+          "ઘર"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Family' નો સાચો ગુજરાતી અર્થ 'પરિવાર' થાય છે."
+      },
+      {
+        "id": "u3l1q8",
+        "type": "FILL_IN_THE_BLANK",
+        "instruction_gujarati": "ખાલી જગ્યા પૂરો:",
+        "sentence_with_blank": "My ___",
+        "correct_answer": "family",
+        "options": [
+          "family",
+          "house",
+          "school",
+          "friend"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: આપેલ ખાલી જગ્યામાં સાચો શબ્દ 'family' આવશે."
+      },
+      {
+        "id": "u3l1q9",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મારો પરિવાર.",
+        "correct_sentence": "My family",
+        "shuffled_words": [
+          "family",
+          "My",
+          "is"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'My family' બનશે, જેનો અર્થ 'મારો પરિવાર.' થાય છે."
+      },
+      {
+        "id": "u3l1q10",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારો પરિવાર.",
+        "correct_answer": "My family.",
+        "acceptable_answers": [
+          "My family"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મારો પરિવાર.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'My family.' થાય છે."
+      },
+      {
+        "id": "u3l1q11",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "આ મારી માતા છે.",
+        "correct_sentence": "This is my mother",
+        "shuffled_words": [
+          "mother",
+          "my",
+          "is",
+          "This"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'This is my mother' બનશે, જેનો અર્થ 'આ મારી માતા છે.' થાય છે."
+      },
+      {
+        "id": "u3l1q12",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "આ મારી માતા છે.",
+        "correct_answer": "This is my mother.",
+        "acceptable_answers": [
+          "This is my mother"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'આ મારી માતા છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'This is my mother.' થાય છે."
+      },
+      {
+        "id": "u3l1q13",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "This is my mother.",
+        "correct_answer": "This is my mother.",
+        "acceptable_answers": [
+          "This is my mother"
+        ],
+        "phonetic_gujarati": "ધિસ ઇઝ માઈ મધર.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'This is my mother.'."
+      },
+      {
+        "id": "u3l1q14",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "This is my mother.",
+        "phonetic_gujarati": "ધિસ ઇઝ માઈ મધર.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'This is my mother.' છે અને તેનો ઉચ્ચાર 'ધિસ ઇઝ માઈ મધર.' થાય છે."
+      },
+      {
+        "id": "u3l1q15",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "તે મારો ભાઈ છે.",
+        "correct_sentence": "He is my brother",
+        "shuffled_words": [
+          "brother",
+          "my",
+          "is",
+          "He"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'He is my brother' બનશે, જેનો અર્થ 'તે મારો ભાઈ છે.' થાય છે."
+      },
+      {
+        "id": "u3l1q16",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "તે મારો ભાઈ છે.",
+        "correct_answer": "He is my brother.",
+        "acceptable_answers": [
+          "He is my brother"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'તે મારો ભાઈ છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'He is my brother.' થાય છે."
+      },
+      {
+        "id": "u3l1q17",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "He is my brother.",
+        "correct_answer": "He is my brother.",
+        "acceptable_answers": [
+          "He is my brother"
+        ],
+        "phonetic_gujarati": "હી ઇઝ માઈ બ્રધર.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'He is my brother.'."
+      },
+      {
+        "id": "u3l1q18",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I love my family.",
+        "phonetic_gujarati": "આઈ લવ માઈ ફેમિલી.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'I love my family.' છે અને તેનો ઉચ્ચાર 'આઈ લવ માઈ ફેમિલી.' થાય છે."
+      },
+      {
+        "id": "u3l1q19",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "કોઈ ફોટો જોઈને પૂછે છે.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "Who is he?",
+        "expected_hint_gujarati": "તે મારો ભાઈ છે (He is my brother).",
+        "acceptable_responses": [
+          "He is my brother.",
+          "My brother."
+        ],
+        "keywords": [
+          "he",
+          "is",
+          "my",
+          "brother"
+        ],
+        "difficulty": 1,
+        "explanation_gujarati": "AI શું કહે છે: 'Who is he?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'તે મારો ભાઈ છે (He is my brother).' હોઈ શકે છે."
+      },
+      {
+        "id": "u3l1q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "તમારા પરિવાર વિશે પ્રશ્ન.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "Do you love your family?",
+        "expected_hint_gujarati": "હા, હું મારા પરિવારને પ્રેમ કરું છું (Yes, I love my family).",
+        "acceptable_responses": [
+          "Yes, I love my family.",
+          "Yes, I do.",
+          "I love my family."
+        ],
+        "keywords": [
+          "yes",
+          "love",
+          "my",
+          "family"
+        ],
+        "difficulty": 2,
+        "explanation_gujarati": "AI શું કહે છે: 'Do you love your family?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'હા, હું મારા પરિવારને પ્રેમ કરું છું (Yes, I love my family).' હોઈ શકે છે."
+      }
+    ]
   },
+  {
+    "id": "u3l2",
+    "unit": 3,
+    "level": 2,
+    "title_gujarati": "મારું ઘર (My House)",
+    "intro_gujarati": "ઘરના અલગ-અલગ રૂમ વિશે વાત કરો.",
+    "topics_covered": [
+      "house",
+      "room",
+      "kitchen",
+      "bathroom"
+    ],
+    "questions": [
+      {
+        "id": "u3l2q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "House",
+            "gujarati": "ઘર"
+          },
+          {
+            "english": "Room",
+            "gujarati": "ઓરડો/રૂમ"
+          },
+          {
+            "english": "Kitchen",
+            "gujarati": "રસોડું"
+          },
+          {
+            "english": "Bathroom",
+            "gujarati": "બાથરૂમ"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'House' એટલે 'ઘર', 'Room' એટલે 'ઓરડો/રૂમ', 'Kitchen' એટલે 'રસોડું', 'Bathroom' એટલે 'બાથરૂમ'."
+      },
+      {
+        "id": "u3l2q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "House",
+        "options": [
+          "ઓફિસ",
+          "દુકાન",
+          "શાળા",
+          "ઘર"
+        ],
+        "correct_index": 3,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'House' નો સાચો ગુજરાતી અર્થ 'ઘર' થાય છે."
+      },
+      {
+        "id": "u3l2q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Kitchen",
+        "options": [
+          "રસોડું",
+          "બાથરૂમ",
+          "બેડરૂમ",
+          "બગીચો"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Kitchen' નો સાચો ગુજરાતી અર્થ 'રસોડું' થાય છે."
+      },
+      {
+        "id": "u3l2q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Bedroom",
+        "options": [
+          "બેડરૂમ",
+          "રસોડું",
+          "બાથરૂમ",
+          "હોલ"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Bedroom' નો સાચો ગુજરાતી અર્થ 'બેડરૂમ' થાય છે."
+      },
+      {
+        "id": "u3l2q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Bathroom",
+        "options": [
+          "રસોડું",
+          "બાથરૂમ",
+          "બગીચો",
+          "ઓરડો"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Bathroom' નો સાચો ગુજરાતી અર્થ 'બાથરૂમ' થાય છે."
+      },
+      {
+        "id": "u3l2q6",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Big",
+            "gujarati": "મોટું"
+          },
+          {
+            "english": "Small",
+            "gujarati": "નાનું"
+          },
+          {
+            "english": "Clean",
+            "gujarati": "સ્વચ્છ"
+          },
+          {
+            "english": "Dirty",
+            "gujarati": "ગંદુ"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Big' એટલે 'મોટું', 'Small' એટલે 'નાનું', 'Clean' એટલે 'સ્વચ્છ', 'Dirty' એટલે 'ગંદુ'."
+      },
+      {
+        "id": "u3l2q7",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Big",
+        "options": [
+          "નાનું",
+          "ખરાબ",
+          "મોટું",
+          "સારું"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Big' નો સાચો ગુજરાતી અર્થ 'મોટું' થાય છે."
+      },
+      {
+        "id": "u3l2q8",
+        "type": "FILL_IN_THE_BLANK",
+        "instruction_gujarati": "ખાલી જગ્યા પૂરો:",
+        "sentence_with_blank": "My house is ___.",
+        "correct_answer": "big",
+        "options": [
+          "big",
+          "small",
+          "dirty",
+          "run"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: આપેલ ખાલી જગ્યામાં સાચો શબ્દ 'big' આવશે."
+      },
+      {
+        "id": "u3l2q9",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મારું ઘર મોટું છે.",
+        "correct_sentence": "My house is big",
+        "shuffled_words": [
+          "house",
+          "is",
+          "big",
+          "My",
+          "small"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'My house is big' બનશે, જેનો અર્થ 'મારું ઘર મોટું છે.' થાય છે."
+      },
+      {
+        "id": "u3l2q10",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારું ઘર મોટું છે.",
+        "correct_answer": "My house is big.",
+        "acceptable_answers": [
+          "My house is big",
+          "My home is big"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મારું ઘર મોટું છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'My house is big.' થાય છે."
+      },
+      {
+        "id": "u3l2q11",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "My house is big.",
+        "correct_answer": "My house is big.",
+        "acceptable_answers": [
+          "My house is big"
+        ],
+        "phonetic_gujarati": "માઈ હાઉસ ઇઝ બિગ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'My house is big.'."
+      },
+      {
+        "id": "u3l2q12",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "My house is big.",
+        "phonetic_gujarati": "માઈ હાઉસ ઇઝ બિગ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'My house is big.' છે અને તેનો ઉચ્ચાર 'માઈ હાઉસ ઇઝ બિગ.' થાય છે."
+      },
+      {
+        "id": "u3l2q13",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "રસોડું સ્વચ્છ છે.",
+        "correct_sentence": "The kitchen is clean",
+        "shuffled_words": [
+          "kitchen",
+          "clean",
+          "The",
+          "is"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'The kitchen is clean' બનશે, જેનો અર્થ 'રસોડું સ્વચ્છ છે.' થાય છે."
+      },
+      {
+        "id": "u3l2q14",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "રસોડું સ્વચ્છ છે.",
+        "correct_answer": "The kitchen is clean.",
+        "acceptable_answers": [
+          "The kitchen is clean",
+          "Kitchen is clean"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'રસોડું સ્વચ્છ છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'The kitchen is clean.' થાય છે."
+      },
+      {
+        "id": "u3l2q15",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "The kitchen is clean.",
+        "correct_answer": "The kitchen is clean.",
+        "acceptable_answers": [
+          "The kitchen is clean"
+        ],
+        "phonetic_gujarati": "ધ કિચન ઇઝ ક્લીન.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'The kitchen is clean.'."
+      },
+      {
+        "id": "u3l2q16",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "બાથરૂમ ક્યાં છે?",
+        "correct_sentence": "Where is the bathroom",
+        "shuffled_words": [
+          "Where",
+          "bathroom",
+          "the",
+          "is"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'Where is the bathroom' બનશે, જેનો અર્થ 'બાથરૂમ ક્યાં છે?' થાય છે."
+      },
+      {
+        "id": "u3l2q17",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "બાથરૂમ ક્યાં છે?",
+        "correct_answer": "Where is the bathroom?",
+        "acceptable_answers": [
+          "Where is the bathroom"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'બાથરૂમ ક્યાં છે?' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Where is the bathroom?' થાય છે."
+      },
+      {
+        "id": "u3l2q18",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "Where is the bathroom?",
+        "phonetic_gujarati": "વ્હેર ઇઝ ધ બાથરૂમ?",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'Where is the bathroom?' છે અને તેનો ઉચ્ચાર 'વ્હેર ઇઝ ધ બાથરૂમ?' થાય છે."
+      },
+      {
+        "id": "u3l2q19",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "મહેમાન બાથરૂમ ક્યાં છે તે પૂછે છે.",
+        "ai_role": "Guest",
+        "user_role": "You",
+        "ai_says": "Where is the bathroom?",
+        "expected_hint_gujarati": "બાથરૂમ ત્યાં છે (The bathroom is there).",
+        "acceptable_responses": [
+          "The bathroom is there.",
+          "It is there.",
+          "There."
+        ],
+        "keywords": [
+          "bathroom",
+          "is",
+          "there"
+        ],
+        "difficulty": 2,
+        "explanation_gujarati": "AI શું કહે છે: 'Where is the bathroom?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'બાથરૂમ ત્યાં છે (The bathroom is there).' હોઈ શકે છે."
+      },
+      {
+        "id": "u3l2q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "તમારો મિત્ર તમારા ઘર વિશે પૂછે છે.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "Is your house big?",
+        "expected_hint_gujarati": "હા, મારું ઘર મોટું છે (Yes, my house is big).",
+        "acceptable_responses": [
+          "Yes, my house is big.",
+          "Yes, it is big.",
+          "Yes, it is."
+        ],
+        "keywords": [
+          "yes",
+          "house",
+          "is",
+          "big"
+        ],
+        "difficulty": 2,
+        "explanation_gujarati": "AI શું કહે છે: 'Is your house big?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'હા, મારું ઘર મોટું છે (Yes, my house is big).' હોઈ શકે છે."
+      }
+    ]
+  },
+  {
+    "id": "u3l3",
+    "unit": 3,
+    "level": 3,
+    "title_gujarati": "પરિવાર વિશે વાત (Describing Family)",
+    "intro_gujarati": "તમારા પરિવાર વિશેની વિગતો આપો.",
+    "topics_covered": [
+      "family members",
+      "descriptions",
+      "how many"
+    ],
+    "questions": [
+      {
+        "id": "u3l3q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Five",
+            "gujarati": "પાંચ"
+          },
+          {
+            "english": "Members",
+            "gujarati": "સભ્યો"
+          },
+          {
+            "english": "Doctor",
+            "gujarati": "ડૉક્ટર"
+          },
+          {
+            "english": "Grandfather",
+            "gujarati": "દાદાજી"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Five' એટલે 'પાંચ', 'Members' એટલે 'સભ્યો', 'Doctor' એટલે 'ડૉક્ટર', 'Grandfather' એટલે 'દાદાજી'."
+      },
+      {
+        "id": "u3l3q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Five",
+        "options": [
+          "ચાર",
+          "પાંચ",
+          "છ",
+          "સાત"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Five' નો સાચો ગુજરાતી અર્થ 'પાંચ' થાય છે."
+      },
+      {
+        "id": "u3l3q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Members",
+        "options": [
+          "લોકો",
+          "સભ્યો",
+          "મિત્રો",
+          "દુશ્મનો"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Members' નો સાચો ગુજરાતી અર્થ 'સભ્યો' થાય છે."
+      },
+      {
+        "id": "u3l3q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Doctor",
+        "options": [
+          "શિક્ષક",
+          "વકીલ",
+          "ડૉક્ટર",
+          "ખેડૂત"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Doctor' નો સાચો ગુજરાતી અર્થ 'ડૉક્ટર' થાય છે."
+      },
+      {
+        "id": "u3l3q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Grandfather",
+        "options": [
+          "દાદી",
+          "પિતા",
+          "કાકા",
+          "દાદાજી"
+        ],
+        "correct_index": 3,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Grandfather' નો સાચો ગુજરાતી અર્થ 'દાદાજી' થાય છે."
+      },
+      {
+        "id": "u3l3q6",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "પાંચ સભ્યો.",
+        "correct_sentence": "Five members",
+        "shuffled_words": [
+          "members",
+          "Five",
+          "are"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'Five members' બનશે, જેનો અર્થ 'પાંચ સભ્યો.' થાય છે."
+      },
+      {
+        "id": "u3l3q7",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મારા પરિવારમાં પાંચ સભ્યો છે.",
+        "correct_sentence": "There are five members in my family",
+        "shuffled_words": [
+          "There",
+          "are",
+          "five",
+          "members",
+          "in",
+          "my",
+          "family"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'There are five members in my family' બનશે, જેનો અર્થ 'મારા પરિવારમાં પાંચ સભ્યો છે.' થાય છે."
+      },
+      {
+        "id": "u3l3q8",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારા પરિવારમાં પાંચ સભ્યો છે.",
+        "correct_answer": "There are five members in my family.",
+        "acceptable_answers": [
+          "There are five members in my family",
+          "My family has five members"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મારા પરિવારમાં પાંચ સભ્યો છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'There are five members in my family.' થાય છે."
+      },
+      {
+        "id": "u3l3q9",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "There are five members in my family.",
+        "correct_answer": "There are five members in my family.",
+        "acceptable_answers": [
+          "There are five members in my family"
+        ],
+        "phonetic_gujarati": "ધેર આર ફાઈવ મેમ્બર્સ ઇન માઈ ફેમિલી.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'There are five members in my family.'."
+      },
+      {
+        "id": "u3l3q10",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "There are five members in my family.",
+        "phonetic_gujarati": "ધેર આર ફાઈવ મેમ્બર્સ ઇન માઈ ફેમિલી.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'There are five members in my family.' છે અને તેનો ઉચ્ચાર 'ધેર આર ફાઈવ મેમ્બર્સ ઇન માઈ ફેમિલી.' થાય છે."
+      },
+      {
+        "id": "u3l3q11",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મારા પિતા એક ડૉક્ટર છે.",
+        "correct_sentence": "My father is a doctor",
+        "shuffled_words": [
+          "My",
+          "father",
+          "is",
+          "a",
+          "doctor"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'My father is a doctor' બનશે, જેનો અર્થ 'મારા પિતા એક ડૉક્ટર છે.' થાય છે."
+      },
+      {
+        "id": "u3l3q12",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારા પિતા એક ડૉક્ટર છે.",
+        "correct_answer": "My father is a doctor.",
+        "acceptable_answers": [
+          "My father is a doctor",
+          "My dad is a doctor"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મારા પિતા એક ડૉક્ટર છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'My father is a doctor.' થાય છે."
+      },
+      {
+        "id": "u3l3q13",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "My father is a doctor.",
+        "correct_answer": "My father is a doctor.",
+        "acceptable_answers": [
+          "My father is a doctor"
+        ],
+        "phonetic_gujarati": "માઈ ફાધર ઇઝ અ ડૉક્ટર.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'My father is a doctor.'."
+      },
+      {
+        "id": "u3l3q14",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મારા દાદાજી અમારી સાથે રહે છે.",
+        "correct_sentence": "My grandfather lives with us",
+        "shuffled_words": [
+          "grandfather",
+          "lives",
+          "with",
+          "us",
+          "My"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'My grandfather lives with us' બનશે, જેનો અર્થ 'મારા દાદાજી અમારી સાથે રહે છે.' થાય છે."
+      },
+      {
+        "id": "u3l3q15",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારા દાદાજી અમારી સાથે રહે છે.",
+        "correct_answer": "My grandfather lives with us.",
+        "acceptable_answers": [
+          "My grandfather lives with us",
+          "My grandpa lives with us"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મારા દાદાજી અમારી સાથે રહે છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'My grandfather lives with us.' થાય છે."
+      },
+      {
+        "id": "u3l3q16",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "My grandfather lives with us.",
+        "phonetic_gujarati": "માઈ ગ્રાન્ડફાધર લિવ્સ વિથ અસ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'My grandfather lives with us.' છે અને તેનો ઉચ્ચાર 'માઈ ગ્રાન્ડફાધર લિવ્સ વિથ અસ.' થાય છે."
+      },
+      {
+        "id": "u3l3q17",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "મિત્ર તમારા ભાઈ-બહેન વિશે પૂછે છે.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "Do you have a brother?",
+        "expected_hint_gujarati": "હા, મારે એક ભાઈ છે (Yes, I have one brother).",
+        "acceptable_responses": [
+          "Yes, I have one brother.",
+          "Yes, I have a brother.",
+          "Yes."
+        ],
+        "keywords": [
+          "yes",
+          "have",
+          "brother",
+          "one"
+        ],
+        "difficulty": 2,
+        "explanation_gujarati": "AI શું કહે છે: 'Do you have a brother?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'હા, મારે એક ભાઈ છે (Yes, I have one brother).' હોઈ શકે છે."
+      },
+      {
+        "id": "u3l3q18",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "તમારા પિતાના કામ વિશે પૂછપરછ.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "What does your father do?",
+        "expected_hint_gujarati": "મારા પિતા એક ડૉક્ટર છે (My father is a doctor).",
+        "acceptable_responses": [
+          "My father is a doctor.",
+          "He is a doctor."
+        ],
+        "keywords": [
+          "father",
+          "is",
+          "doctor",
+          "he"
+        ],
+        "difficulty": 3,
+        "explanation_gujarati": "AI શું કહે છે: 'What does your father do?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'મારા પિતા એક ડૉક્ટર છે (My father is a doctor).' હોઈ શકે છે."
+      },
+      {
+        "id": "u3l3q19",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હું મારા માતા-પિતાનો આદર કરું છું.",
+        "correct_answer": "I respect my parents.",
+        "acceptable_answers": [
+          "I respect my parents"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'હું મારા માતા-પિતાનો આદર કરું છું.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'I respect my parents.' થાય છે."
+      },
+      {
+        "id": "u3l3q20",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I respect my parents.",
+        "phonetic_gujarati": "આઈ રિસ્પેક્ટ માઈ પેરેન્ટ્સ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'I respect my parents.' છે અને તેનો ઉચ્ચાર 'આઈ રિસ્પેક્ટ માઈ પેરેન્ટ્સ.' થાય છે."
+      }
+    ]
+  },
+  {
+    "id": "u3l4",
+    "unit": 3,
+    "level": 4,
+    "title_gujarati": "ઘરનું વર્ણન (Describing House)",
+    "intro_gujarati": "ઘર અને તેના રૂમ વિશે વિસ્તારથી વાત કરો.",
+    "topics_covered": [
+      "house",
+      "rooms",
+      "furniture",
+      "describing"
+    ],
+    "questions": [
+      {
+        "id": "u3l4q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Flat",
+            "gujarati": "ફ્લેટ"
+          },
+          {
+            "english": "Garden",
+            "gujarati": "બગીચો"
+          },
+          {
+            "english": "Furniture",
+            "gujarati": "ફર્નિચર"
+          },
+          {
+            "english": "Near",
+            "gujarati": "નજીક"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Flat' એટલે 'ફ્લેટ', 'Garden' એટલે 'બગીચો', 'Furniture' એટલે 'ફર્નિચર', 'Near' એટલે 'નજીક'."
+      },
+      {
+        "id": "u3l4q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Flat",
+        "options": [
+          "બંગલો",
+          "ફ્લેટ",
+          "તંબુ",
+          "ઝૂંપડી"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Flat' નો સાચો ગુજરાતી અર્થ 'ફ્લેટ' થાય છે."
+      },
+      {
+        "id": "u3l4q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Garden",
+        "options": [
+          "રસોડું",
+          "રસ્તો",
+          "બગીચો",
+          "દુકાન"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Garden' નો સાચો ગુજરાતી અર્થ 'બગીચો' થાય છે."
+      },
+      {
+        "id": "u3l4q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Furniture",
+        "options": [
+          "ફર્નિચર",
+          "કપડાં",
+          "વાસણ",
+          "વાહન"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Furniture' નો સાચો ગુજરાતી અર્થ 'ફર્નિચર' થાય છે."
+      },
+      {
+        "id": "u3l4q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Near",
+        "options": [
+          "દૂર",
+          "નજીક",
+          "ઉપર",
+          "નીચે"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Near' નો સાચો ગુજરાતી અર્થ 'નજીક' થાય છે."
+      },
+      {
+        "id": "u3l4q6",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "અમે એક નવા ફ્લેટમાં રહીએ છીએ.",
+        "correct_sentence": "We live in a new flat",
+        "shuffled_words": [
+          "We",
+          "live",
+          "in",
+          "a",
+          "new",
+          "flat"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'We live in a new flat' બનશે, જેનો અર્થ 'અમે એક નવા ફ્લેટમાં રહીએ છીએ.' થાય છે."
+      },
+      {
+        "id": "u3l4q7",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "અમે એક નવા ફ્લેટમાં રહીએ છીએ.",
+        "correct_answer": "We live in a new flat.",
+        "acceptable_answers": [
+          "We live in a new flat",
+          "We live in a new apartment"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'અમે એક નવા ફ્લેટમાં રહીએ છીએ.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'We live in a new flat.' થાય છે."
+      },
+      {
+        "id": "u3l4q8",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "We live in a new flat.",
+        "correct_answer": "We live in a new flat.",
+        "acceptable_answers": [
+          "We live in a new flat"
+        ],
+        "phonetic_gujarati": "વી લિવ ઇન અ ન્યુ ફ્લેટ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'We live in a new flat.'."
+      },
+      {
+        "id": "u3l4q9",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "We live in a new flat.",
+        "phonetic_gujarati": "વી લિવ ઇન અ ન્યુ ફ્લેટ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'We live in a new flat.' છે અને તેનો ઉચ્ચાર 'વી લિવ ઇન અ ન્યુ ફ્લેટ.' થાય છે."
+      },
+      {
+        "id": "u3l4q10",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "અમારી પાસે એક નાનો બગીચો છે.",
+        "correct_sentence": "We have a small garden",
+        "shuffled_words": [
+          "have",
+          "a",
+          "small",
+          "garden",
+          "We"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'We have a small garden' બનશે, જેનો અર્થ 'અમારી પાસે એક નાનો બગીચો છે.' થાય છે."
+      },
+      {
+        "id": "u3l4q11",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "અમારી પાસે એક નાનો બગીચો છે.",
+        "correct_answer": "We have a small garden.",
+        "acceptable_answers": [
+          "We have a small garden"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'અમારી પાસે એક નાનો બગીચો છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'We have a small garden.' થાય છે."
+      },
+      {
+        "id": "u3l4q12",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "We have a small garden.",
+        "correct_answer": "We have a small garden.",
+        "acceptable_answers": [
+          "We have a small garden"
+        ],
+        "phonetic_gujarati": "વી હૅવ અ સ્મૉલ ગાર્ડન.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'We have a small garden.'."
+      },
+      {
+        "id": "u3l4q13",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "We have a small garden.",
+        "phonetic_gujarati": "વી હૅવ અ સ્મૉલ ગાર્ડન.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'We have a small garden.' છે અને તેનો ઉચ્ચાર 'વી હૅવ અ સ્મૉલ ગાર્ડન.' થાય છે."
+      },
+      {
+        "id": "u3l4q14",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "હું મારા રૂમને સ્વચ્છ રાખું છું.",
+        "correct_sentence": "I keep my room clean",
+        "shuffled_words": [
+          "room",
+          "keep",
+          "clean",
+          "I",
+          "my"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'I keep my room clean' બનશે, જેનો અર્થ 'હું મારા રૂમને સ્વચ્છ રાખું છું.' થાય છે."
+      },
+      {
+        "id": "u3l4q15",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હું મારા રૂમને સ્વચ્છ રાખું છું.",
+        "correct_answer": "I keep my room clean.",
+        "acceptable_answers": [
+          "I keep my room clean",
+          "I keep my room clean always"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'હું મારા રૂમને સ્વચ્છ રાખું છું.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'I keep my room clean.' થાય છે."
+      },
+      {
+        "id": "u3l4q16",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I keep my room clean.",
+        "phonetic_gujarati": "આઈ કીપ માઈ રૂમ ક્લીન.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'I keep my room clean.' છે અને તેનો ઉચ્ચાર 'આઈ કીપ માઈ રૂમ ક્લીન.' થાય છે."
+      },
+      {
+        "id": "u3l4q17",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "મિત્ર તમારા ઘર વિશે પૂછે છે.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "Do you have a garden?",
+        "expected_hint_gujarati": "હા, અમારી પાસે એક નાનો બગીચો છે (Yes, we have a small garden).",
+        "acceptable_responses": [
+          "Yes, we have a small garden.",
+          "Yes, we have a garden.",
+          "Yes."
+        ],
+        "keywords": [
+          "yes",
+          "have",
+          "small",
+          "garden"
+        ],
+        "difficulty": 3,
+        "explanation_gujarati": "AI શું કહે છે: 'Do you have a garden?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'હા, અમારી પાસે એક નાનો બગીચો છે (Yes, we have a small garden).' હોઈ શકે છે."
+      },
+      {
+        "id": "u3l4q18",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "મહેમાનને આવકારવા.",
+        "ai_role": "Guest",
+        "user_role": "You",
+        "ai_says": "Your house is very beautiful!",
+        "expected_hint_gujarati": "આભાર, કૃપા કરીને બેસો (Thank you, please sit).",
+        "acceptable_responses": [
+          "Thank you, please sit.",
+          "Thank you, sit down.",
+          "Thanks."
+        ],
+        "keywords": [
+          "thank",
+          "you",
+          "please",
+          "sit"
+        ],
+        "difficulty": 3,
+        "explanation_gujarati": "AI શું કહે છે: 'Your house is very beautiful!'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'આભાર, કૃપા કરીને બેસો (Thank you, please sit).' હોઈ શકે છે."
+      },
+      {
+        "id": "u3l4q19",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારા ઘરની નજીક એક હોસ્પિટલ છે.",
+        "correct_answer": "There is a hospital near my house.",
+        "acceptable_answers": [
+          "There is a hospital near my house",
+          "A hospital is near my house"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મારા ઘરની નજીક એક હોસ્પિટલ છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'There is a hospital near my house.' થાય છે."
+      },
+      {
+        "id": "u3l4q20",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "There is a hospital near my house.",
+        "correct_answer": "There is a hospital near my house.",
+        "acceptable_answers": [
+          "There is a hospital near my house"
+        ],
+        "phonetic_gujarati": "ધેર ઇઝ અ હૉસ્પિટલ નિયર માઈ હાઉસ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'There is a hospital near my house.'."
+      }
+    ]
+  },
+  {
+    "id": "u3l5",
+    "unit": 3,
+    "level": 5,
+    "title_gujarati": "પરિવારમાં ચર્ચા (Family Events & Discussions)",
+    "intro_gujarati": "તમારા પરિવાર સાથે જોડાયેલી વાસ્તવિક પરિસ્થિતિઓ.",
+    "topics_covered": [
+      "events",
+      "planning",
+      "relatives",
+      "discussions"
+    ],
+    "questions": [
+      {
+        "id": "u3l5q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Wedding",
+            "gujarati": "લગ્ન"
+          },
+          {
+            "english": "Relatives",
+            "gujarati": "સંબંધીઓ"
+          },
+          {
+            "english": "Festival",
+            "gujarati": "તહેવાર"
+          },
+          {
+            "english": "Next",
+            "gujarati": "આવતા/પછીના"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: અહીં આપેલા અંગ્રેજી શબ્દોના સાચા અર્થ આ મુજબ છે: 'Wedding' એટલે 'લગ્ન', 'Relatives' એટલે 'સંબંધીઓ', 'Festival' એટલે 'તહેવાર', 'Next' એટલે 'આવતા/પછીના'."
+      },
+      {
+        "id": "u3l5q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Wedding",
+        "options": [
+          "જન્મદિવસ",
+          "લગ્ન",
+          "પાર્ટી",
+          "તહેવાર"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Wedding' નો સાચો ગુજરાતી અર્થ 'લગ્ન' થાય છે."
+      },
+      {
+        "id": "u3l5q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Relatives",
+        "options": [
+          "મિત્રો",
+          "પાડોશીઓ",
+          "સંબંધીઓ",
+          "શિક્ષકો"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Relatives' નો સાચો ગુજરાતી અર્થ 'સંબંધીઓ' થાય છે."
+      },
+      {
+        "id": "u3l5q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Festival",
+        "options": [
+          "તહેવાર",
+          "લગ્ન",
+          "રજા",
+          "કામ"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Festival' નો સાચો ગુજરાતી અર્થ 'તહેવાર' થાય છે."
+      },
+      {
+        "id": "u3l5q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Next",
+        "options": [
+          "પહેલાના",
+          "અત્યારના",
+          "આવતા/પછીના",
+          "હંમેશા"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: અંગ્રેજી શબ્દ અથવા વાક્ય 'Next' નો સાચો ગુજરાતી અર્થ 'આવતા/પછીના' થાય છે."
+      },
+      {
+        "id": "u3l5q6",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "આવતા મહિને મારા કાકાના લગ્ન છે.",
+        "correct_sentence": "My uncle's wedding is next month",
+        "shuffled_words": [
+          "My",
+          "uncle's",
+          "wedding",
+          "is",
+          "next",
+          "month"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'My uncle's wedding is next month' બનશે, જેનો અર્થ 'આવતા મહિને મારા કાકાના લગ્ન છે.' થાય છે."
+      },
+      {
+        "id": "u3l5q7",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "આવતા મહિને મારા કાકાના લગ્ન છે.",
+        "correct_answer": "My uncle's wedding is next month.",
+        "acceptable_answers": [
+          "My uncle's wedding is next month"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'આવતા મહિને મારા કાકાના લગ્ન છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'My uncle's wedding is next month.' થાય છે."
+      },
+      {
+        "id": "u3l5q8",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "My uncle's wedding is next month.",
+        "correct_answer": "My uncle's wedding is next month.",
+        "acceptable_answers": [
+          "My uncle's wedding is next month"
+        ],
+        "phonetic_gujarati": "માઈ અંકલ્સ વેડિંગ ઇઝ નેક્સ્ટ મંથ.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'My uncle's wedding is next month.'."
+      },
+      {
+        "id": "u3l5q9",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "My uncle's wedding is next month.",
+        "phonetic_gujarati": "માઈ અંકલ્સ વેડિંગ ઇઝ નેક્સ્ટ મંથ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'My uncle's wedding is next month.' છે અને તેનો ઉચ્ચાર 'માઈ અંકલ્સ વેડિંગ ઇઝ નેક્સ્ટ મંથ.' થાય છે."
+      },
+      {
+        "id": "u3l5q10",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "સંબંધીઓ આવી રહ્યા છે.",
+        "correct_sentence": "Relatives are coming",
+        "shuffled_words": [
+          "Relatives",
+          "are",
+          "coming"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'Relatives are coming' બનશે, જેનો અર્થ 'સંબંધીઓ આવી રહ્યા છે.' થાય છે."
+      },
+      {
+        "id": "u3l5q11",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "સંબંધીઓ આવી રહ્યા છે.",
+        "correct_answer": "Relatives are coming.",
+        "acceptable_answers": [
+          "Relatives are coming",
+          "The relatives are coming"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'સંબંધીઓ આવી રહ્યા છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Relatives are coming.' થાય છે."
+      },
+      {
+        "id": "u3l5q12",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "All our relatives are coming.",
+        "phonetic_gujarati": "ઑલ અવર રિલેટિવ્સ આર કમિંગ.",
+        "explanation_gujarati": "માર્ગદર્શન: માઈક્રોફોન ચાલુ રાખીને સ્પષ્ટ ઉચ્ચાર સાથે બોલો. વાક્ય 'All our relatives are coming.' છે અને તેનો ઉચ્ચાર 'ઑલ અવર રિલેટિવ્સ આર કમિંગ.' થાય છે."
+      },
+      {
+        "id": "u3l5q13",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "અમે નવા કપડાં ખરીદીએ છીએ.",
+        "correct_sentence": "We buy new clothes",
+        "shuffled_words": [
+          "We",
+          "buy",
+          "new",
+          "clothes"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: શબ્દોને યોગ્ય ક્રમમાં ગોઠવતા સાચું અંગ્રેજી વાક્ય 'We buy new clothes' બનશે, જેનો અર્થ 'અમે નવા કપડાં ખરીદીએ છીએ.' થાય છે."
+      },
+      {
+        "id": "u3l5q14",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "અમે દિવાળીએ નવા કપડાં ખરીદીએ છીએ.",
+        "correct_answer": "We buy new clothes on Diwali.",
+        "acceptable_answers": [
+          "We buy new clothes on Diwali",
+          "We buy new clothes during Diwali"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'અમે દિવાળીએ નવા કપડાં ખરીદીએ છીએ.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'We buy new clothes on Diwali.' થાય છે."
+      },
+      {
+        "id": "u3l5q15",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "We buy new clothes on Diwali.",
+        "correct_answer": "We buy new clothes on Diwali.",
+        "acceptable_answers": [
+          "We buy new clothes on Diwali"
+        ],
+        "phonetic_gujarati": "વી બાઈ ન્યુ ક્લોધ્સ ઑન દિવાલી.",
+        "explanation_gujarati": "માર્ગદર્શન: તમારે ઑડિયો સાંભળીને સાચો સ્પેલિંગ લખવાનો છે. સાચું વાક્ય છે: 'We buy new clothes on Diwali.'."
+      },
+      {
+        "id": "u3l5q16",
+        "type": "MULTI_TURN_CONVERSATION",
+        "instruction_gujarati": "વાર્તાલાપ પૂરો કરો:",
+        "explanation_gujarati": "તમારા પિતા સાથે વાતચીત.",
+        "difficulty": 4,
+        "scenario_gujarati": "તમે તમારા પિતા સાથે ખરીદી કરવા વિશે વાત કરી રહ્યા છો.",
+        "ai_role": "Father",
+        "user_role": "You",
+        "required_turns": 2,
+        "turns": [
+          {
+            "speaker": "ai",
+            "line": "We need to go to the market today to buy clothes for the wedding."
+          },
+          {
+            "speaker": "user",
+            "line": "What time should we leave?",
+            "acceptable_keywords": [
+              "what",
+              "time",
+              "leave",
+              "go"
+            ],
+            "acceptable_responses": [
+              "What time should we leave?",
+              "When are we going?"
+            ],
+            "phonetic_gujarati": "વૉટ ટાઈમ શુડ વી લીવ?"
+          },
+          {
+            "speaker": "ai",
+            "line": "Let's leave around four o'clock."
+          },
+          {
+            "speaker": "user",
+            "line": "Okay, I will be ready.",
+            "acceptable_keywords": [
+              "okay",
+              "will",
+              "ready",
+              "fine"
+            ],
+            "acceptable_responses": [
+              "Okay, I will be ready.",
+              "Okay, I am ready."
+            ],
+            "phonetic_gujarati": "ઓકે, આઈ વિલ બી રેડી."
+          }
+        ]
+      },
+      {
+        "id": "u3l5q17",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "મહેમાનો આવે ત્યારે.",
+        "ai_role": "Relative",
+        "user_role": "You",
+        "ai_says": "How are your parents?",
+        "expected_hint_gujarati": "તેઓ મજામાં છે, આભાર (They are fine, thank you).",
+        "acceptable_responses": [
+          "They are fine, thank you.",
+          "They are good, thanks.",
+          "They are fine."
+        ],
+        "keywords": [
+          "they",
+          "are",
+          "fine",
+          "thank",
+          "good"
+        ],
+        "difficulty": 3,
+        "explanation_gujarati": "AI શું કહે છે: 'How are your parents?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'તેઓ મજામાં છે, આભાર (They are fine, thank you).' હોઈ શકે છે."
+      },
+      {
+        "id": "u3l5q18",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "તમારા ભવિષ્ય વિશે વાત.",
+        "ai_role": "Relative",
+        "user_role": "You",
+        "ai_says": "Are you changing your job?",
+        "expected_hint_gujarati": "હું તેના વિશે વિચારું છું (I am thinking about it).",
+        "acceptable_responses": [
+          "I am thinking about it.",
+          "Yes, I am thinking."
+        ],
+        "keywords": [
+          "thinking",
+          "about",
+          "it"
+        ],
+        "difficulty": 4,
+        "explanation_gujarati": "AI શું કહે છે: 'Are you changing your job?'\nમાર્ગદર્શન: આપેલ પરિસ્થિતિ મુજબ તમારો યોગ્ય જવાબ 'હું તેના વિશે વિચારું છું (I am thinking about it).' હોઈ શકે છે."
+      },
+      {
+        "id": "u3l5q19",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારો પરિવાર હંમેશા મને ટેકો આપે છે.",
+        "correct_answer": "My family always supports me.",
+        "acceptable_answers": [
+          "My family always supports me"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'મારો પરિવાર હંમેશા મને ટેકો આપે છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'My family always supports me.' થાય છે."
+      },
+      {
+        "id": "u3l5q20",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "પરિવાર વિના જીવન અધૂરું છે.",
+        "correct_answer": "Life is incomplete without family.",
+        "acceptable_answers": [
+          "Life is incomplete without family"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ગુજરાતી વાક્ય 'પરિવાર વિના જીવન અધૂરું છે.' નું અંગ્રેજીમાં સાચું ભાષાંતર 'Life is incomplete without family.' થાય છે."
+      }
+    ]
+  }
 ];

@@ -2,946 +2,1580 @@ import type { Lesson } from "../../types";
 
 export const unit2: Lesson[] = [
   {
-    id: "u2l1",
-    unit: 2,
-    level: 1,
-    title_gujarati: "રોજિંદી ક્રિયાઓ (Daily Routines)",
-    intro_gujarati: "સવારથી સાંજ સુધીની ક્રિયાઓ વિશે વાત કરો.",
-    topics_covered: ["wake up", "sleep", "routine"],
-    questions: [
-      {
-        id: "u2l1q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Wake up", gujarati: "જાગવું" },
-          { english: "Sleep", gujarati: "સૂવું" },
-          { english: "Eat", gujarati: "ખાવું" },
-          { english: "Play", gujarati: "રમવું" },
-        ],
-      },
-      {
-        id: "u2l1q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Wake up",
-        options: ["જાગવું", "સૂવું", "ખાવું", "દોડવું"],
-        correct_index: 0,
-      },
-      {
-        id: "u2l1q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Sleep",
-        options: ["ખાવું", "જાગવું", "સૂવું", "ચાલવું"],
-        correct_index: 2,
-      },
-      {
-        id: "u2l1q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Eat",
-        options: ["પીવું", "ખાવું", "સૂવું", "રમવું"],
-        correct_index: 1,
-      },
-      {
-        id: "u2l1q5",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Play",
-        options: ["કામ કરવું", "વાંચવું", "રમવું", "જાગવું"],
-        correct_index: 2,
-      },
-      {
-        id: "u2l1q6",
-        type: "FILL_IN_THE_BLANK",
-        instruction_gujarati: "ખાલી જગ્યા પૂરો:",
-        sentence_with_blank: "___ up",
-        correct_answer: "Wake",
-        options: ["Wake", "Sleep", "Eat", "Play"],
-      },
-      {
-        id: "u2l1q7",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "હું જાગું છું.",
-        correct_sentence: "I wake up",
-        shuffled_words: ["wake", "I", "up", "sleep"],
-      },
-      {
-        id: "u2l1q8",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હું જાગું છું.",
-        correct_answer: "I wake up.",
-        acceptable_answers: ["I wake up"],
-      },
-      {
-        id: "u2l1q9",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "I wake up.",
-        correct_answer: "I wake up.",
-        acceptable_answers: ["I wake up"],
-        phonetic_gujarati: "આઈ વેક અપ.",
-      },
-      {
-        id: "u2l1q10",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I wake up.",
-        phonetic_gujarati: "આઈ વેક અપ.",
-      },
-      {
-        id: "u2l1q11",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Work", gujarati: "કામ કરવું" },
-          { english: "Day", gujarati: "દિવસ" },
-          { english: "In", gujarati: "માં" },
-          { english: "At", gujarati: "સમયે/એ" },
-        ],
-      },
-      {
-        id: "u2l1q12",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Work",
-        options: ["આરામ", "કામ કરવું", "રમત", "ઊંઘ"],
-        correct_index: 1,
-      },
-      {
-        id: "u2l1q13",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Day",
-        options: ["રાત", "સાંજ", "દિવસ", "સવાર"],
-        correct_index: 2,
-      },
-      {
-        id: "u2l1q14",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "હું રાત્રે સૂઈ જાઉં છું.",
-        correct_sentence: "I sleep at night",
-        shuffled_words: ["sleep", "at", "I", "night", "day"],
-      },
-      {
-        id: "u2l1q15",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હું રાત્રે સૂઈ જાઉં છું.",
-        correct_answer: "I sleep at night.",
-        acceptable_answers: ["I sleep at night"],
-      },
-      {
-        id: "u2l1q16",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "I sleep at night.",
-        correct_answer: "I sleep at night.",
-        acceptable_answers: ["I sleep at night"],
-        phonetic_gujarati: "આઈ સ્લીપ ઍટ નાઈટ.",
-      },
-      {
-        id: "u2l1q17",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I work every day.",
-        phonetic_gujarati: "આઈ વર્ક એવરી ડે.",
-      },
-      {
-        id: "u2l1q18",
-        type: "FILL_IN_THE_BLANK",
-        instruction_gujarati: "ખાલી જગ્યા પૂરો:",
-        sentence_with_blank: "I play every ___.",
-        correct_answer: "day",
-        options: ["day", "night", "work", "play"],
-      },
-      {
-        id: "u2l1q19",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હું રોજ કામ કરું છું.",
-        correct_answer: "I work every day.",
-        acceptable_answers: ["I work every day", "I work everyday"],
-      },
-      {
-        id: "u2l1q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "તમારો મિત્ર રોજની ક્રિયાઓ વિશે પૂછે છે.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "What do you do every day?",
-        expected_hint_gujarati: "હું કામ કરું છું અને રમું છું (I work and play).",
-        acceptable_responses: ["I work and play.", "I work and I play."],
-        keywords: ["work", "play", "and"],
-        difficulty: 1,
-      },
+    "id": "u2l1",
+    "unit": 2,
+    "level": 1,
+    "title_gujarati": "રોજિંદી ક્રિયાઓ (Daily Routines)",
+    "intro_gujarati": "સવારથી સાંજ સુધીની ક્રિયાઓ વિશે વાત કરો.",
+    "topics_covered": [
+      "wake up",
+      "sleep",
+      "routine"
     ],
-  },
-  {
-    id: "u2l2",
-    unit: 2,
-    level: 2,
-    title_gujarati: "સમય જણાવવો (Telling Time)",
-    intro_gujarati: "ઘડિયાળમાં સમય જોતાં અને જણાવતા શીખો.",
-    topics_covered: ["time", "o'clock", "when"],
-    questions: [
-      {
-        id: "u2l2q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Time", gujarati: "સમય" },
-          { english: "O'clock", gujarati: "વાગ્યા" },
-          { english: "Now", gujarati: "અત્યારે" },
-          { english: "What", gujarati: "શું" },
-        ],
-      },
-      {
-        id: "u2l2q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Time",
-        options: ["તારીખ", "સમય", "વર્ષ", "મહિનો"],
-        correct_index: 1,
-      },
-      {
-        id: "u2l2q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Now",
-        options: ["કાલે", "આજે", "અત્યારે", "પછી"],
-        correct_index: 2,
-      },
-      {
-        id: "u2l2q4",
-        type: "FILL_IN_THE_BLANK",
-        instruction_gujarati: "ખાલી જગ્યા પૂરો:",
-        sentence_with_blank: "What ___ is it?",
-        correct_answer: "time",
-        options: ["time", "day", "year", "now"],
-      },
-      {
-        id: "u2l2q5",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "અત્યારે શું સમય થયો છે?",
-        correct_sentence: "What time is it now",
-        shuffled_words: ["time", "is", "it", "What", "now"],
-      },
-      {
-        id: "u2l2q6",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "અત્યારે શું સમય થયો છે?",
-        correct_answer: "What time is it now?",
-        acceptable_answers: ["What time is it now", "What time is it"],
-      },
-      {
-        id: "u2l2q7",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "What time is it?",
-        correct_answer: "What time is it?",
-        acceptable_answers: ["What time is it"],
-        phonetic_gujarati: "વૉટ ટાઈમ ઇઝ ઇટ?",
-      },
-      {
-        id: "u2l2q8",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "What time is it?",
-        phonetic_gujarati: "વૉટ ટાઈમ ઇઝ ઇટ?",
-      },
-      {
-        id: "u2l2q9",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Nine", gujarati: "નવ" },
-          { english: "Ten", gujarati: "દસ" },
-          { english: "At", gujarati: "એ (સમય દર્શાવવા)" },
-          { english: "In", gujarati: "માં" },
-        ],
-      },
-      {
-        id: "u2l2q10",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "O'clock",
-        options: ["કલાક", "મિનિટ", "વાગ્યા", "સેકન્ડ"],
-        correct_index: 2,
-      },
-      {
-        id: "u2l2q11",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "નવ વાગ્યા છે.",
-        correct_sentence: "It is nine o'clock",
-        shuffled_words: ["nine", "is", "It", "o'clock"],
-      },
-      {
-        id: "u2l2q12",
-        type: "FILL_IN_THE_BLANK",
-        instruction_gujarati: "ખાલી જગ્યા પૂરો:",
-        sentence_with_blank: "It is ten ___.",
-        correct_answer: "o'clock",
-        options: ["o'clock", "time", "hours", "now"],
-      },
-      {
-        id: "u2l2q13",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "દસ વાગ્યા છે.",
-        correct_answer: "It is ten o'clock.",
-        acceptable_answers: ["It is ten o'clock", "It is 10 o'clock"],
-      },
-      {
-        id: "u2l2q14",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "It is ten o'clock.",
-        correct_answer: "It is ten o'clock.",
-        acceptable_answers: ["It is ten o'clock", "It is 10 o'clock"],
-        phonetic_gujarati: "ઇટ ઇઝ ટેન અક્લૉક.",
-      },
-      {
-        id: "u2l2q15",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "It is ten o'clock.",
-        phonetic_gujarati: "ઇટ ઇઝ ટેન અક્લૉક.",
-      },
-      {
-        id: "u2l2q16",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "તમે કેટલા વાગ્યે સૂઈ જાઓ છો?",
-        correct_sentence: "What time do you sleep",
-        shuffled_words: ["time", "sleep", "What", "do", "you"],
-      },
-      {
-        id: "u2l2q17",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "તમે કેટલા વાગ્યે સૂઈ જાઓ છો?",
-        correct_answer: "What time do you sleep?",
-        acceptable_answers: ["What time do you sleep", "At what time do you sleep"],
-      },
-      {
-        id: "u2l2q18",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "What time do you sleep?",
-        correct_answer: "What time do you sleep?",
-        acceptable_answers: ["What time do you sleep"],
-        phonetic_gujarati: "વૉટ ટાઈમ ડુ યુ સ્લીપ?",
-      },
-      {
-        id: "u2l2q19",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "જવાબ ટાઈપ કરો:",
-        scenario_gujarati: "કોઈ સમય પૂછે છે.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "What time is it?",
-        expected_hint_gujarati: "દસ વાગ્યા છે (It is ten o'clock).",
-        acceptable_responses: ["It is ten o'clock.", "It is 10 o'clock.", "Ten o'clock."],
-        keywords: ["ten", "o'clock"],
-        difficulty: 1,
-      },
-      {
-        id: "u2l2q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "તમારા સૂવાના સમય વિશે વાત.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "What time do you wake up?",
-        expected_hint_gujarati: "હું નવ વાગ્યે જાગું છું (I wake up at nine o'clock).",
-        acceptable_responses: ["I wake up at nine o'clock.", "I wake up at 9 o'clock.", "At nine o'clock."],
-        keywords: ["wake", "up", "nine", "o'clock", "9"],
-        difficulty: 2,
-      },
-    ],
-  },
-  {
-    id: "u2l3",
-    unit: 2,
-    level: 3,
-    title_gujarati: "તમારો દિવસ વર્ણવો (Describing Your Day)",
-    intro_gujarati: "સવારથી સાંજની દિનચર્યા વિશે વિગતે વાત કરો.",
-    topics_covered: ["daily schedule", "morning", "afternoon", "evening"],
-    questions: [
-      {
-        id: "u2l3q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Morning", gujarati: "સવાર" },
-          { english: "Afternoon", gujarati: "બપોર" },
-          { english: "Evening", gujarati: "સાંજ" },
-          { english: "Night", gujarati: "રાત" },
-        ],
-      },
-      {
-        id: "u2l3q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Afternoon",
-        options: ["સવાર", "સાંજ", "બપોર", "રાત"],
-        correct_index: 2,
-      },
-      {
-        id: "u2l3q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Evening",
-        options: ["સવાર", "બપોર", "રાત", "સાંજ"],
-        correct_index: 3,
-      },
-      {
-        id: "u2l3q4",
-        type: "FILL_IN_THE_BLANK",
-        instruction_gujarati: "ખાલી જગ્યા પૂરો:",
-        sentence_with_blank: "In the ___.",
-        correct_answer: "morning",
-        options: ["morning", "at", "on", "in"],
-      },
-      {
-        id: "u2l3q5",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "હું સવારે જાગું છું.",
-        correct_sentence: "I wake up in the morning",
-        shuffled_words: ["wake", "I", "in", "the", "morning", "up"],
-      },
-      {
-        id: "u2l3q6",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હું સવારે જાગું છું.",
-        correct_answer: "I wake up in the morning.",
-        acceptable_answers: ["I wake up in the morning"],
-      },
-      {
-        id: "u2l3q7",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "I wake up in the morning.",
-        correct_answer: "I wake up in the morning.",
-        acceptable_answers: ["I wake up in the morning"],
-        phonetic_gujarati: "આઈ વેક અપ ઇન ધ મોર્નિંગ.",
-      },
-      {
-        id: "u2l3q8",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I wake up in the morning.",
-        phonetic_gujarati: "આઈ વેક અપ ઇન ધ મોર્નિંગ.",
-      },
-      {
-        id: "u2l3q9",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Home", gujarati: "ઘર" },
-          { english: "Return", gujarati: "પાછા આવવું" },
-          { english: "Usually", gujarati: "સામાન્ય રીતે" },
-          { english: "Go", gujarati: "જવું" },
-        ],
-      },
-      {
-        id: "u2l3q10",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Home",
-        options: ["દુકાન", "ઑફિસ", "શાળા", "ઘર"],
-        correct_index: 3,
-      },
-      {
-        id: "u2l3q11",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "હું નવ વાગ્યે કામે જાઉં છું.",
-        correct_sentence: "I go to work at nine o'clock",
-        shuffled_words: ["go", "to", "work", "at", "nine", "o'clock", "I"],
-      },
-      {
-        id: "u2l3q12",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હું નવ વાગ્યે કામે જાઉં છું.",
-        correct_answer: "I go to work at nine o'clock.",
-        acceptable_answers: ["I go to work at nine o'clock", "I go to work at 9 o'clock"],
-      },
-      {
-        id: "u2l3q13",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "I go to work at nine o'clock.",
-        correct_answer: "I go to work at nine o'clock.",
-        acceptable_answers: ["I go to work at nine o'clock", "I go to work at 9 o'clock"],
-        phonetic_gujarati: "આઈ ગો ટુ વર્ક ઍટ નાઈન અક્લૉક.",
-      },
-      {
-        id: "u2l3q14",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "હું સાંજે ઘરે પાછો આવું છું.",
-        correct_sentence: "I return home in the evening",
-        shuffled_words: ["return", "home", "I", "in", "the", "evening"],
-      },
-      {
-        id: "u2l3q15",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હું સાંજે ઘરે પાછો આવું છું.",
-        correct_answer: "I return home in the evening.",
-        acceptable_answers: ["I return home in the evening", "I come back home in the evening"],
-      },
-      {
-        id: "u2l3q16",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I return home in the evening.",
-        phonetic_gujarati: "આઈ રિટર્ન હોમ ઇન ધ ઇવનિંગ.",
-      },
-      {
-        id: "u2l3q17",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Usually",
-        options: ["ક્યારેય નહીં", "હંમેશા", "સામાન્ય રીતે", "ક્યારેક"],
-        correct_index: 2,
-      },
-      {
-        id: "u2l3q18",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારો દિવસ ખૂબ વ્યસ્ત છે.",
-        correct_answer: "My day is very busy.",
-        acceptable_answers: ["My day is very busy", "I have a busy day"],
-      },
-      {
-        id: "u2l3q19",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "જવાબ ટાઈપ કરો:",
-        scenario_gujarati: "તમારો મિત્ર તમારી સાંજ વિશે પૂછે છે.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "What do you do in the evening?",
-        expected_hint_gujarati: "હું ટીવી જોઉં છું અને આરામ કરું છું (I watch TV and relax).",
-        acceptable_responses: ["I watch TV and relax.", "I watch TV and rest.", "I relax and watch TV."],
-        keywords: ["watch", "TV", "relax", "rest"],
-        difficulty: 2,
-      },
-      {
-        id: "u2l3q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "રવિવારના કામ વિશે વાત.",
-        ai_role: "Colleague",
-        user_role: "You",
-        ai_says: "Do you work on Sunday?",
-        expected_hint_gujarati: "ના, રવિવારે મારી રજા હોય છે (No, Sunday is my holiday).",
-        acceptable_responses: ["No, Sunday is my holiday.", "No, Sunday is my day off.", "No, I don't work on Sunday."],
-        keywords: ["no", "Sunday", "holiday", "off"],
-        difficulty: 3,
-      },
-    ],
-  },
-  {
-    id: "u2l4",
-    unit: 2,
-    level: 4,
-    title_gujarati: "ભોજનનો સમય (Meals & Routines)",
-    intro_gujarati: "નાસ્તો, લંચ અને ડિનર વિશે વાત કરો.",
-    topics_covered: ["breakfast", "lunch", "dinner", "eating"],
-    questions: [
-      {
-        id: "u2l4q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Breakfast", gujarati: "સવારનો નાસ્તો" },
-          { english: "Lunch", gujarati: "બપોરનું ભોજન" },
-          { english: "Dinner", gujarati: "રાતનું ભોજન" },
-          { english: "Eat", gujarati: "ખાવું" },
-        ],
-      },
-      {
-        id: "u2l4q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Breakfast",
-        options: ["બપોરનું ભોજન", "રાતનું ભોજન", "સવારનો નાસ્તો", "નાસ્તો"],
-        correct_index: 2,
-      },
-      {
-        id: "u2l4q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Lunch",
-        options: ["સવારનો નાસ્તો", "બપોરનું ભોજન", "રાતનું ભોજન", "પીણું"],
-        correct_index: 1,
-      },
-      {
-        id: "u2l4q4",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Dinner",
-        options: ["રાતનું ભોજન", "બપોરનું ભોજન", "નાસ્તો", "ચા"],
-        correct_index: 0,
-      },
-      {
-        id: "u2l4q5",
-        type: "FILL_IN_THE_BLANK",
-        instruction_gujarati: "ખાલી જગ્યા પૂરો:",
-        sentence_with_blank: "What do you eat for ___?",
-        correct_answer: "breakfast",
-        options: ["breakfast", "morning", "water", "drink"],
-      },
-      {
-        id: "u2l4q6",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "તમે નાસ્તામાં શું ખાઓ છો?",
-        correct_sentence: "What do you eat for breakfast",
-        shuffled_words: ["eat", "for", "breakfast", "What", "do", "you"],
-      },
-      {
-        id: "u2l4q7",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "તમે નાસ્તામાં શું ખાઓ છો?",
-        correct_answer: "What do you eat for breakfast?",
-        acceptable_answers: ["What do you eat for breakfast", "What do you have for breakfast"],
-      },
-      {
-        id: "u2l4q8",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "What do you eat for breakfast?",
-        correct_answer: "What do you eat for breakfast?",
-        acceptable_answers: ["What do you eat for breakfast"],
-        phonetic_gujarati: "વૉટ ડુ યુ ઈટ ફોર બ્રેકફાસ્ટ?",
-      },
-      {
-        id: "u2l4q9",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "What do you eat for breakfast?",
-        phonetic_gujarati: "વૉટ ડુ યુ ઈટ ફોર બ્રેકફાસ્ટ?",
-      },
-      {
-        id: "u2l4q10",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Drink", gujarati: "પીવું" },
-          { english: "Coffee", gujarati: "કૉફી" },
-          { english: "Water", gujarati: "પાણી" },
-          { english: "Tea", gujarati: "ચા" },
-        ],
-      },
-      {
-        id: "u2l4q11",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Drink",
-        options: ["ખાવું", "પીવું", "ચાલવું", "દોડવું"],
-        correct_index: 1,
-      },
-      {
-        id: "u2l4q12",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "હું સવારે કૉફી પીઉં છું.",
-        correct_sentence: "I drink coffee in the morning",
-        shuffled_words: ["drink", "coffee", "I", "in", "the", "morning"],
-      },
-      {
-        id: "u2l4q13",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "હું સવારે કૉફી પીઉં છું.",
-        correct_answer: "I drink coffee in the morning.",
-        acceptable_answers: ["I drink coffee in the morning"],
-      },
-      {
-        id: "u2l4q14",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "I drink coffee in the morning.",
-        correct_answer: "I drink coffee in the morning.",
-        acceptable_answers: ["I drink coffee in the morning"],
-        phonetic_gujarati: "આઈ ડ્રિંક કૉફી ઇન ધ મોર્નિંગ.",
-      },
-      {
-        id: "u2l4q15",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I drink coffee in the morning.",
-        phonetic_gujarati: "આઈ ડ્રિંક કૉફી ઇન ધ મોર્નિંગ.",
-      },
-      {
-        id: "u2l4q16",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "ચાલો બપોરનું ભોજન કરીએ.",
-        correct_sentence: "Let's eat lunch",
-        shuffled_words: ["eat", "Let's", "lunch", "dinner"],
-      },
-      {
-        id: "u2l4q17",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "ચાલો બપોરનું ભોજન કરીએ.",
-        correct_answer: "Let's eat lunch.",
-        acceptable_answers: ["Let's eat lunch", "Let us eat lunch"],
-      },
-      {
-        id: "u2l4q18",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "તમારા સહકર્મીને ભૂખ લાગી છે.",
-        ai_role: "Coworker",
-        user_role: "You",
-        ai_says: "Are you hungry? It is time for lunch.",
-        expected_hint_gujarati: "હા, મને ખૂબ ભૂખ લાગી છે. ચાલો જમીએ (Yes, I am very hungry. Let's eat).",
-        acceptable_responses: ["Yes, I am very hungry. Let's eat.", "Yes, let's eat.", "I am hungry too, let's eat."],
-        keywords: ["yes", "hungry", "let's", "eat"],
-        difficulty: 3,
-      },
-      {
-        id: "u2l4q19",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "રાતનું ભોજન સ્વાદિષ્ટ હતું.",
-        correct_answer: "The dinner was delicious.",
-        acceptable_answers: ["The dinner was delicious", "The dinner was tasty"],
-      },
-      {
-        id: "u2l4q20",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "જમ્યા પછી.",
-        ai_role: "Spouse",
-        user_role: "You",
-        ai_says: "The dinner was delicious, right?",
-        expected_hint_gujarati: "હા, તે ખૂબ જ સ્વાદિષ્ટ હતું (Yes, it was very tasty).",
-        acceptable_responses: ["Yes, it was very tasty.", "Yes, it was delicious.", "Yes, very good."],
-        keywords: ["yes", "tasty", "delicious", "good"],
-        difficulty: 3,
-      },
-    ],
-  },
-  {
-    id: "u2l5",
-    unit: 2,
-    level: 5,
-    title_gujarati: "જટિલ દિનચર્યા (Complex Daily Routine)",
-    intro_gujarati: "તમારા રોજના કામો વિશે વિસ્તારથી વાતચીત કરો.",
-    topics_covered: ["busy schedule", "chores", "planning"],
-    questions: [
-      {
-        id: "u2l5q1",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "Busy", gujarati: "વ્યસ્ત" },
-          { english: "Clean", gujarati: "સાફ કરવું" },
-          { english: "House", gujarati: "ઘર" },
-          { english: "Work", gujarati: "કામ" },
-        ],
-      },
-      {
-        id: "u2l5q2",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Clean",
-        options: ["બગાડવું", "ગંદુ કરવું", "સાફ કરવું", "તોડવું"],
-        correct_index: 2,
-      },
-      {
-        id: "u2l5q3",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "House",
-        options: ["શાળા", "ઘર", "ઑફિસ", "દુકાન"],
-        correct_index: 1,
-      },
-      {
-        id: "u2l5q4",
-        type: "FILL_IN_THE_BLANK",
-        instruction_gujarati: "ખાલી જગ્યા પૂરો:",
-        sentence_with_blank: "I need to ___ the house.",
-        correct_answer: "clean",
-        options: ["clean", "make", "eat", "play"],
-      },
-      {
-        id: "u2l5q5",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મારે ઘર સાફ કરવું છે.",
-        correct_sentence: "I need to clean the house",
-        shuffled_words: ["clean", "the", "house", "to", "need", "I"],
-      },
-      {
-        id: "u2l5q6",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારે ઘર સાફ કરવું છે.",
-        correct_answer: "I need to clean the house.",
-        acceptable_answers: ["I need to clean the house", "I have to clean the house"],
-      },
-      {
-        id: "u2l5q7",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "I need to clean the house.",
-        correct_answer: "I need to clean the house.",
-        acceptable_answers: ["I need to clean the house"],
-        phonetic_gujarati: "આઈ નીડ ટુ ક્લીન ધ હાઉસ.",
-      },
-      {
-        id: "u2l5q8",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "I need to clean the house.",
-        phonetic_gujarati: "આઈ નીડ ટુ ક્લીન ધ હાઉસ.",
-      },
-      {
-        id: "u2l5q9",
-        type: "MATCH_PAIRS",
-        instruction_gujarati: "જોડકાં જોડો:",
-        pairs: [
-          { english: "First", gujarati: "પહેલા" },
-          { english: "Then", gujarati: "પછી" },
-          { english: "Wash", gujarati: "ધોવું" },
-          { english: "Buy", gujarati: "ખરીદવું" },
-        ],
-      },
-      {
-        id: "u2l5q10",
-        type: "MCQ_ENG_TO_GUJ",
-        instruction_gujarati: "સાચો અર્થ પસંદ કરો:",
-        english_sentence: "Buy",
-        options: ["વેચવું", "ખરીદવું", "લેવું", "આપવું"],
-        correct_index: 1,
-      },
-      {
-        id: "u2l5q11",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "પછી, હું શાકભાજી ખરીદું છું.",
-        correct_sentence: "Then, I buy vegetables",
-        shuffled_words: ["buy", "I", "vegetables", "Then,"],
-      },
-      {
-        id: "u2l5q12",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "પછી, હું શાકભાજી ખરીદું છું.",
-        correct_answer: "Then, I buy vegetables.",
-        acceptable_answers: ["Then I buy vegetables", "Then I will buy vegetables"],
-      },
-      {
-        id: "u2l5q13",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "Then, I buy vegetables.",
-        correct_answer: "Then, I buy vegetables.",
-        acceptable_answers: ["Then I buy vegetables"],
-        phonetic_gujarati: "ધેન, આઈ બાઈ વેજિટેબલ્સ.",
-      },
-      {
-        id: "u2l5q14",
-        type: "SPEAK_AND_MATCH",
-        instruction_gujarati: "અંગ્રેજીમાં બોલો:",
-        target_sentence: "Then, I buy vegetables.",
-        phonetic_gujarati: "ધેન, આઈ બાઈ વેજિટેબલ્સ.",
-      },
-      {
-        id: "u2l5q15",
-        type: "WORD_ORDER",
-        instruction_gujarati: "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
-        gujarati_meaning: "મારે આજે ઘણા બધા કામ છે.",
-        correct_sentence: "I have a lot of work today",
-        shuffled_words: ["work", "a", "lot", "of", "today", "I", "have"],
-      },
-      {
-        id: "u2l5q16",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "મારે આજે ઘણા બધા કામ છે.",
-        correct_answer: "I have a lot of work today.",
-        acceptable_answers: ["I have a lot of work today", "I have lots of work today"],
-      },
-      {
-        id: "u2l5q17",
-        type: "LISTEN_AND_TYPE",
-        instruction_gujarati: "સાંભળો અને લખો:",
-        audio_text: "I have a lot of work today.",
-        correct_answer: "I have a lot of work today.",
-        acceptable_answers: ["I have a lot of work today"],
-        phonetic_gujarati: "આઈ હૅવ અ લૉટ ઑફ વર્ક ટુડે.",
-      },
-      {
-        id: "u2l5q18",
-        type: "CONVERSATION_SIM",
-        instruction_gujarati: "યોગ્ય જવાબ આપો:",
-        scenario_gujarati: "મિત્ર તમને મળવા માંગે છે.",
-        ai_role: "Friend",
-        user_role: "You",
-        ai_says: "Can we meet in the afternoon?",
-        expected_hint_gujarati: "મને માફ કરજે, આજે હું ખૂબ વ્યસ્ત છું (I am sorry, I am very busy today).",
-        acceptable_responses: ["I am sorry, I am very busy today.", "Sorry, I am busy today.", "I am very busy today."],
-        keywords: ["sorry", "busy", "today", "very"],
-        difficulty: 3,
-      },
-      {
-        id: "u2l5q19",
-        type: "MULTI_TURN_CONVERSATION",
-        instruction_gujarati: "વાર્તાલાપ પૂરો કરો:",
-        explanation_gujarati: "રવિવારના આયોજન વિશે ચર્ચા.",
-        difficulty: 4,
-        scenario_gujarati: "તમે તમારા ભાઈ સાથે રવિવારની યોજના બનાવી રહ્યા છો.",
-        ai_role: "Brother",
-        user_role: "You",
-        required_turns: 2,
-        turns: [
-          { speaker: "ai", line: "Are you free this Sunday? We should go out." },
+    "questions": [
+      {
+        "id": "u2l1q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
           {
-            speaker: "user",
-            line: "Yes, I am free on Sunday. Where should we go?",
-            acceptable_keywords: ["yes", "free", "Sunday", "where", "go"],
-            acceptable_responses: ["Yes, I am free on Sunday. Where should we go?", "Yes I am free. Where do you want to go?"],
-            phonetic_gujarati: "યસ, આઈ ઍમ ફ્રી ઑન સન્ડે. વ્હેર શુડ વી ગો?",
+            "english": "Wake up",
+            "gujarati": "જાગવું"
           },
-          { speaker: "ai", line: "Let's go watch a movie in the morning." },
           {
-            speaker: "user",
-            line: "That sounds great. I will book the tickets.",
-            acceptable_keywords: ["sounds", "great", "good", "book", "tickets"],
-            acceptable_responses: ["That sounds great. I will book the tickets.", "Good idea, I will book tickets."],
-            phonetic_gujarati: "ધૅટ સાઉન્ડ્સ ગ્રેટ. આઈ વિલ બુક ધ ટિકિટ્સ.",
+            "english": "Sleep",
+            "gujarati": "સૂવું"
           },
+          {
+            "english": "Eat",
+            "gujarati": "ખાવું"
+          },
+          {
+            "english": "Play",
+            "gujarati": "રમવું"
+          }
         ],
+        "explanation_gujarati": "માર્ગદર્શન: 'Wake up' એટલે 'જાગવું', 'Sleep' એટલે 'સૂવું', 'Eat' એટલે 'ખાવું' અને 'Play' એટલે 'રમવું'."
       },
       {
-        id: "u2l5q20",
-        type: "TRANSLATE_GUJ_TO_ENG",
-        instruction_gujarati: "અંગ્રેજીમાં ટાઈપ કરો:",
-        gujarati_sentence: "સારી ઊંઘ સ્વાસ્થ્ય માટે ખૂબ જ જરૂરી છે.",
-        correct_answer: "Good sleep is very necessary for health.",
-        acceptable_answers: ["Good sleep is very necessary for health", "Good sleep is important for health"],
+        "id": "u2l1q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Wake up",
+        "options": [
+          "જાગવું",
+          "સૂવું",
+          "ખાવું",
+          "દોડવું"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: 'Wake up' નો અર્થ 'જાગવું' થાય છે. દા.ત. 'I wake up early' (હું વહેલો જાગું છું)."
       },
-    ],
+      {
+        "id": "u2l1q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Sleep",
+        "options": [
+          "ખાવું",
+          "જાગવું",
+          "સૂવું",
+          "ચાલવું"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: 'Sleep' નો અર્થ 'સૂવું' થાય છે. દા.ત. 'Go to sleep' (સૂઈ જાઓ)."
+      },
+      {
+        "id": "u2l1q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Eat",
+        "options": [
+          "પીવું",
+          "ખાવું",
+          "સૂવું",
+          "રમવું"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: 'Eat' એટલે 'ખાવું'. દા.ત. 'Eat your food' (તમારું ખાવાનું ખાઓ)."
+      },
+      {
+        "id": "u2l1q5",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Play",
+        "options": [
+          "કામ કરવું",
+          "વાંચવું",
+          "રમવું",
+          "જાગવું"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: 'Play' એટલે 'રમવું'. દા.ત. 'Let's play' (ચાલો રમીએ)."
+      },
+      {
+        "id": "u2l1q6",
+        "type": "FILL_IN_THE_BLANK",
+        "instruction_gujarati": "ખાલી જગ્યા પૂરો:",
+        "sentence_with_blank": "___ up",
+        "correct_answer": "Wake",
+        "options": [
+          "Wake",
+          "Sleep",
+          "Eat",
+          "Play"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'જાગવું' ને અંગ્રેજીમાં 'Wake up' કહેવાય છે."
+      },
+      {
+        "id": "u2l1q7",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "હું જાગું છું.",
+        "correct_sentence": "I wake up",
+        "shuffled_words": [
+          "wake",
+          "I",
+          "up",
+          "sleep"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું' માટે 'I' અને 'જાગું છું' માટે 'wake up'. સાચું વાક્ય: 'I wake up'."
+      },
+      {
+        "id": "u2l1q8",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હું જાગું છું.",
+        "correct_answer": "I wake up.",
+        "acceptable_answers": [
+          "I wake up"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું જાગું છું' નું અંગ્રેજી 'I wake up' થાય છે."
+      },
+      {
+        "id": "u2l1q9",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "I wake up.",
+        "correct_answer": "I wake up.",
+        "acceptable_answers": [
+          "I wake up"
+        ],
+        "phonetic_gujarati": "આઈ વેક અપ.",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'I wake up.' લખો."
+      },
+      {
+        "id": "u2l1q10",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I wake up.",
+        "phonetic_gujarati": "આઈ વેક અપ.",
+        "explanation_gujarati": "માર્ગદર્શન: સ્પષ્ટ ઉચ્ચારમાં 'આઈ વેક અપ' બોલો."
+      },
+      {
+        "id": "u2l1q11",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Work",
+            "gujarati": "કામ કરવું"
+          },
+          {
+            "english": "Day",
+            "gujarati": "દિવસ"
+          },
+          {
+            "english": "In",
+            "gujarati": "માં"
+          },
+          {
+            "english": "At",
+            "gujarati": "સમયે/એ"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'Work' એટલે 'કામ કરવું', 'Day' એટલે 'દિવસ', 'In' એટલે 'માં' અને 'At' એટલે 'સમયે/એ'."
+      },
+      {
+        "id": "u2l1q12",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Work",
+        "options": [
+          "આરામ",
+          "કામ કરવું",
+          "રમત",
+          "ઊંઘ"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: 'Work' નો અર્થ 'કામ કરવું' થાય છે. દા.ત. 'I work hard' (હું સખત કામ કરું છું)."
+      },
+      {
+        "id": "u2l1q13",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Day",
+        "options": [
+          "રાત",
+          "સાંજ",
+          "દિવસ",
+          "સવાર"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: 'Day' એટલે 'દિવસ'. દા.ત. 'Have a good day' (તમારો દિવસ સારો રહે)."
+      },
+      {
+        "id": "u2l1q14",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "હું રાત્રે સૂઈ જાઉં છું.",
+        "correct_sentence": "I sleep at night",
+        "shuffled_words": [
+          "sleep",
+          "at",
+          "I",
+          "night",
+          "day"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું' માટે 'I', 'સૂઈ જાઉં છું' માટે 'sleep', અને 'રાત્રે' માટે 'at night'. સાચું વાક્ય: 'I sleep at night'."
+      },
+      {
+        "id": "u2l1q15",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હું રાત્રે સૂઈ જાઉં છું.",
+        "correct_answer": "I sleep at night.",
+        "acceptable_answers": [
+          "I sleep at night"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું રાત્રે સૂઈ જાઉં છું' નું અંગ્રેજી 'I sleep at night' થાય છે."
+      },
+      {
+        "id": "u2l1q16",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "I sleep at night.",
+        "correct_answer": "I sleep at night.",
+        "acceptable_answers": [
+          "I sleep at night"
+        ],
+        "phonetic_gujarati": "આઈ સ્લીપ ઍટ નાઈટ.",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'I sleep at night.' લખો."
+      },
+      {
+        "id": "u2l1q17",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I work every day.",
+        "phonetic_gujarati": "આઈ વર્ક એવરી ડે.",
+        "explanation_gujarati": "માર્ગદર્શન: સ્પષ્ટ ઉચ્ચારમાં 'આઈ વર્ક એવરી ડે' બોલો."
+      },
+      {
+        "id": "u2l1q18",
+        "type": "FILL_IN_THE_BLANK",
+        "instruction_gujarati": "ખાલી જગ્યા પૂરો:",
+        "sentence_with_blank": "I play every ___.",
+        "correct_answer": "day",
+        "options": [
+          "day",
+          "night",
+          "work",
+          "play"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'દરરોજ' માટે 'every day' વપરાય છે."
+      },
+      {
+        "id": "u2l1q19",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હું રોજ કામ કરું છું.",
+        "correct_answer": "I work every day.",
+        "acceptable_answers": [
+          "I work every day",
+          "I work everyday"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું રોજ કામ કરું છું' એટલે 'I work every day'."
+      },
+      {
+        "id": "u2l1q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "તમારો મિત્ર રોજની ક્રિયાઓ વિશે પૂછે છે.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "What do you do every day?",
+        "expected_hint_gujarati": "હું કામ કરું છું અને રમું છું (I work and play).",
+        "acceptable_responses": [
+          "I work and play.",
+          "I work and I play."
+        ],
+        "keywords": [
+          "work",
+          "play",
+          "and"
+        ],
+        "difficulty": 1,
+        "explanation_gujarati": "ભાષાંતર: AI પૂછે છે - 'What do you do every day?' (તમે રોજ શું કરો છો?)\nમાર્ગદર્શન: તમે રોજિંદી ક્રિયા વિશે કહી શકો છો, જેમ કે 'I work every day' (હું રોજ કામ કરું છું)."
+      }
+    ]
   },
+  {
+    "id": "u2l2",
+    "unit": 2,
+    "level": 2,
+    "title_gujarati": "સમય જણાવવો (Telling Time)",
+    "intro_gujarati": "ઘડિયાળમાં સમય જોતાં અને જણાવતા શીખો.",
+    "topics_covered": [
+      "time",
+      "o'clock",
+      "when"
+    ],
+    "questions": [
+      {
+        "id": "u2l2q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Time",
+            "gujarati": "સમય"
+          },
+          {
+            "english": "O'clock",
+            "gujarati": "વાગ્યા"
+          },
+          {
+            "english": "Now",
+            "gujarati": "અત્યારે"
+          },
+          {
+            "english": "What",
+            "gujarati": "શું"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'Time' એટલે 'સમય', 'O'clock' એટલે 'વાગ્યા', 'Now' એટલે 'અત્યારે' અને 'What' એટલે 'શું'."
+      },
+      {
+        "id": "u2l2q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Time",
+        "options": [
+          "તારીખ",
+          "સમય",
+          "વર્ષ",
+          "મહિનો"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: 'Time' નો અર્થ 'સમય' થાય છે."
+      },
+      {
+        "id": "u2l2q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Now",
+        "options": [
+          "કાલે",
+          "આજે",
+          "અત્યારે",
+          "પછી"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: 'Now' નો અર્થ 'અત્યારે' અથવા 'હવે' થાય છે. દા.ત. 'Go now' (હવે જાઓ)."
+      },
+      {
+        "id": "u2l2q4",
+        "type": "FILL_IN_THE_BLANK",
+        "instruction_gujarati": "ખાલી જગ્યા પૂરો:",
+        "sentence_with_blank": "What ___ is it?",
+        "correct_answer": "time",
+        "options": [
+          "time",
+          "day",
+          "year",
+          "now"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: સમય પૂછવા માટે 'What time' વપરાય છે."
+      },
+      {
+        "id": "u2l2q5",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "અત્યારે શું સમય થયો છે?",
+        "correct_sentence": "What time is it now",
+        "shuffled_words": [
+          "time",
+          "is",
+          "it",
+          "What",
+          "now"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'શું સમય' માટે 'What time', 'થયો છે' માટે 'is it', 'અત્યારે' માટે 'now'. સાચું વાક્ય: 'What time is it now?'."
+      },
+      {
+        "id": "u2l2q6",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "અત્યારે શું સમય થયો છે?",
+        "correct_answer": "What time is it now?",
+        "acceptable_answers": [
+          "What time is it now",
+          "What time is it"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'અત્યારે શું સમય થયો છે?' નું અંગ્રેજી 'What time is it now?' થાય છે."
+      },
+      {
+        "id": "u2l2q7",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "What time is it?",
+        "correct_answer": "What time is it?",
+        "acceptable_answers": [
+          "What time is it"
+        ],
+        "phonetic_gujarati": "વૉટ ટાઈમ ઇઝ ઇટ?",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'What time is it?' લખો."
+      },
+      {
+        "id": "u2l2q8",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "What time is it?",
+        "phonetic_gujarati": "વૉટ ટાઈમ ઇઝ ઇટ?",
+        "explanation_gujarati": "માર્ગદર્શન: સ્પષ્ટ ઉચ્ચારમાં 'વૉટ ટાઈમ ઇઝ ઇટ?' બોલો."
+      },
+      {
+        "id": "u2l2q9",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Nine",
+            "gujarati": "નવ"
+          },
+          {
+            "english": "Ten",
+            "gujarati": "દસ"
+          },
+          {
+            "english": "At",
+            "gujarati": "એ (સમય દર્શાવવા)"
+          },
+          {
+            "english": "In",
+            "gujarati": "માં"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'Nine' એટલે 'નવ', 'Ten' એટલે 'દસ', 'At' એટલે 'એ (સમય દર્શાવવા)', અને 'In' એટલે 'માં'."
+      },
+      {
+        "id": "u2l2q10",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "O'clock",
+        "options": [
+          "કલાક",
+          "મિનિટ",
+          "વાગ્યા",
+          "સેકન્ડ"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: 'O'clock' નો અર્થ 'વાગ્યા' થાય છે. (ઉદાહરણ: 10 વાગ્યા = 10 o'clock)."
+      },
+      {
+        "id": "u2l2q11",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "નવ વાગ્યા છે.",
+        "correct_sentence": "It is nine o'clock",
+        "shuffled_words": [
+          "nine",
+          "is",
+          "It",
+          "o'clock"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'It is' થી વાક્ય શરૂ કરો, પછી 'ten' અને છેલ્લે 'o'clock'. સાચું વાક્ય: 'It is ten o'clock'."
+      },
+      {
+        "id": "u2l2q12",
+        "type": "FILL_IN_THE_BLANK",
+        "instruction_gujarati": "ખાલી જગ્યા પૂરો:",
+        "sentence_with_blank": "It is ten ___.",
+        "correct_answer": "o'clock",
+        "options": [
+          "o'clock",
+          "time",
+          "hours",
+          "now"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 10 વાગ્યા કહેવા માટે 'ten o'clock' વપરાય છે."
+      },
+      {
+        "id": "u2l2q13",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "દસ વાગ્યા છે.",
+        "correct_answer": "It is ten o'clock.",
+        "acceptable_answers": [
+          "It is ten o'clock",
+          "It is 10 o'clock"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'દસ વાગ્યા છે' નું અંગ્રેજી 'It is ten o'clock' થાય છે."
+      },
+      {
+        "id": "u2l2q14",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "It is ten o'clock.",
+        "correct_answer": "It is ten o'clock.",
+        "acceptable_answers": [
+          "It is ten o'clock",
+          "It is 10 o'clock"
+        ],
+        "phonetic_gujarati": "ઇટ ઇઝ ટેન અક્લૉક.",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'It is ten o'clock.' લખો."
+      },
+      {
+        "id": "u2l2q15",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "It is ten o'clock.",
+        "phonetic_gujarati": "ઇટ ઇઝ ટેન અક્લૉક.",
+        "explanation_gujarati": "માર્ગદર્શન: સ્પષ્ટ ઉચ્ચારમાં 'ઇટ ઇઝ ટેન ઓ ક્લોક' બોલો."
+      },
+      {
+        "id": "u2l2q16",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "તમે કેટલા વાગ્યે સૂઈ જાઓ છો?",
+        "correct_sentence": "What time do you sleep",
+        "shuffled_words": [
+          "time",
+          "sleep",
+          "What",
+          "do",
+          "you"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'કેટલા વાગ્યે' માટે 'What time', પછી 'do you sleep'. સાચું વાક્ય: 'What time do you sleep?'."
+      },
+      {
+        "id": "u2l2q17",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "તમે કેટલા વાગ્યે સૂઈ જાઓ છો?",
+        "correct_answer": "What time do you sleep?",
+        "acceptable_answers": [
+          "What time do you sleep",
+          "At what time do you sleep"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'તમે કેટલા વાગ્યે સૂઈ જાઓ છો?' નું અંગ્રેજી 'What time do you sleep?' થાય છે."
+      },
+      {
+        "id": "u2l2q18",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "What time do you sleep?",
+        "correct_answer": "What time do you sleep?",
+        "acceptable_answers": [
+          "What time do you sleep"
+        ],
+        "phonetic_gujarati": "વૉટ ટાઈમ ડુ યુ સ્લીપ?",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'What time do you sleep?' લખો."
+      },
+      {
+        "id": "u2l2q19",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "જવાબ ટાઈપ કરો:",
+        "scenario_gujarati": "કોઈ સમય પૂછે છે.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "What time is it?",
+        "expected_hint_gujarati": "દસ વાગ્યા છે (It is ten o'clock).",
+        "acceptable_responses": [
+          "It is ten o'clock.",
+          "It is 10 o'clock.",
+          "Ten o'clock."
+        ],
+        "keywords": [
+          "ten",
+          "o'clock"
+        ],
+        "difficulty": 1,
+        "explanation_gujarati": "ભાષાંતર: AI પૂછે છે - 'What time is it?' (કેટલા વાગ્યા છે?)\nમાર્ગદર્શન: તમે કહી શકો 'It is ten o'clock' (દસ વાગ્યા છે)."
+      },
+      {
+        "id": "u2l2q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "તમારા સૂવાના સમય વિશે વાત.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "What time do you wake up?",
+        "expected_hint_gujarati": "હું નવ વાગ્યે જાગું છું (I wake up at nine o'clock).",
+        "acceptable_responses": [
+          "I wake up at nine o'clock.",
+          "I wake up at 9 o'clock.",
+          "At nine o'clock."
+        ],
+        "keywords": [
+          "wake",
+          "up",
+          "nine",
+          "o'clock",
+          "9"
+        ],
+        "difficulty": 2,
+        "explanation_gujarati": "ભાષાંતર: AI પૂછે છે - 'What time do you wake up?' (તમે કેટલા વાગ્યે જાગો છો?)\nમાર્ગદર્શન: જવાબમાં કહી શકો 'I wake up at seven o'clock' (હું સાત વાગ્યે જાગું છું)."
+      }
+    ]
+  },
+  {
+    "id": "u2l3",
+    "unit": 2,
+    "level": 3,
+    "title_gujarati": "તમારો દિવસ વર્ણવો (Describing Your Day)",
+    "intro_gujarati": "સવારથી સાંજની દિનચર્યા વિશે વિગતે વાત કરો.",
+    "topics_covered": [
+      "daily schedule",
+      "morning",
+      "afternoon",
+      "evening"
+    ],
+    "questions": [
+      {
+        "id": "u2l3q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Morning",
+            "gujarati": "સવાર"
+          },
+          {
+            "english": "Afternoon",
+            "gujarati": "બપોર"
+          },
+          {
+            "english": "Evening",
+            "gujarati": "સાંજ"
+          },
+          {
+            "english": "Night",
+            "gujarati": "રાત"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'Morning' એટલે 'સવાર', 'Afternoon' એટલે 'બપોર', 'Evening' એટલે 'સાંજ' અને 'Night' એટલે 'રાત'."
+      },
+      {
+        "id": "u2l3q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Afternoon",
+        "options": [
+          "સવાર",
+          "સાંજ",
+          "બપોર",
+          "રાત"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: 'Afternoon' નો અર્થ 'બપોર' થાય છે."
+      },
+      {
+        "id": "u2l3q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Evening",
+        "options": [
+          "સવાર",
+          "બપોર",
+          "રાત",
+          "સાંજ"
+        ],
+        "correct_index": 3,
+        "explanation_gujarati": "માર્ગદર્શન: 'Evening' નો અર્થ 'સાંજ' થાય છે."
+      },
+      {
+        "id": "u2l3q4",
+        "type": "FILL_IN_THE_BLANK",
+        "instruction_gujarati": "ખાલી જગ્યા પૂરો:",
+        "sentence_with_blank": "In the ___.",
+        "correct_answer": "morning",
+        "options": [
+          "morning",
+          "at",
+          "on",
+          "in"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: સવારે જાગવા માટે 'in the morning' વપરાય છે."
+      },
+      {
+        "id": "u2l3q5",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "હું સવારે જાગું છું.",
+        "correct_sentence": "I wake up in the morning",
+        "shuffled_words": [
+          "wake",
+          "I",
+          "in",
+          "the",
+          "morning",
+          "up"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું જાગું છું' (I wake up), 'સવારે' (in the morning). સાચું વાક્ય: 'I wake up in the morning'."
+      },
+      {
+        "id": "u2l3q6",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હું સવારે જાગું છું.",
+        "correct_answer": "I wake up in the morning.",
+        "acceptable_answers": [
+          "I wake up in the morning"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું સવારે જાગું છું' નું અંગ્રેજી 'I wake up in the morning' થાય છે."
+      },
+      {
+        "id": "u2l3q7",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "I wake up in the morning.",
+        "correct_answer": "I wake up in the morning.",
+        "acceptable_answers": [
+          "I wake up in the morning"
+        ],
+        "phonetic_gujarati": "આઈ વેક અપ ઇન ધ મોર્નિંગ.",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'I wake up in the morning.' લખો."
+      },
+      {
+        "id": "u2l3q8",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I wake up in the morning.",
+        "phonetic_gujarati": "આઈ વેક અપ ઇન ધ મોર્નિંગ.",
+        "explanation_gujarati": "માર્ગદર્શન: સ્પષ્ટ ઉચ્ચારમાં 'આઈ વેક અપ ઇન ધ મોર્નિંગ' બોલો."
+      },
+      {
+        "id": "u2l3q9",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Home",
+            "gujarati": "ઘર"
+          },
+          {
+            "english": "Return",
+            "gujarati": "પાછા આવવું"
+          },
+          {
+            "english": "Usually",
+            "gujarati": "સામાન્ય રીતે"
+          },
+          {
+            "english": "Go",
+            "gujarati": "જવું"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'Home' એટલે 'ઘર', 'Return' એટલે 'પાછા આવવું', 'Usually' એટલે 'સામાન્ય રીતે' અને 'Go' એટલે 'જવું'."
+      },
+      {
+        "id": "u2l3q10",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Home",
+        "options": [
+          "દુકાન",
+          "ઑફિસ",
+          "શાળા",
+          "ઘર"
+        ],
+        "correct_index": 3,
+        "explanation_gujarati": "માર્ગદર્શન: 'Home' નો અર્થ 'ઘર' થાય છે."
+      },
+      {
+        "id": "u2l3q11",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "હું નવ વાગ્યે કામે જાઉં છું.",
+        "correct_sentence": "I go to work at nine o'clock",
+        "shuffled_words": [
+          "go",
+          "to",
+          "work",
+          "at",
+          "nine",
+          "o'clock",
+          "I"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું કામે જાઉં છું' (I go to work), 'નવ વાગ્યે' (at nine o'clock). સાચું વાક્ય: 'I go to work at nine o'clock'."
+      },
+      {
+        "id": "u2l3q12",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હું નવ વાગ્યે કામે જાઉં છું.",
+        "correct_answer": "I go to work at nine o'clock.",
+        "acceptable_answers": [
+          "I go to work at nine o'clock",
+          "I go to work at 9 o'clock"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું નવ વાગ્યે કામે જાઉં છું' નું અંગ્રેજી 'I go to work at nine o'clock' થાય છે."
+      },
+      {
+        "id": "u2l3q13",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "I go to work at nine o'clock.",
+        "correct_answer": "I go to work at nine o'clock.",
+        "acceptable_answers": [
+          "I go to work at nine o'clock",
+          "I go to work at 9 o'clock"
+        ],
+        "phonetic_gujarati": "આઈ ગો ટુ વર્ક ઍટ નાઈન અક્લૉક.",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'I go to work at nine o'clock.' લખો."
+      },
+      {
+        "id": "u2l3q14",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "હું સાંજે ઘરે પાછો આવું છું.",
+        "correct_sentence": "I return home in the evening",
+        "shuffled_words": [
+          "return",
+          "home",
+          "I",
+          "in",
+          "the",
+          "evening"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું પાછો આવું છું' (I return), 'ઘરે' (home), 'સાંજે' (in the evening). સાચું વાક્ય: 'I return home in the evening'."
+      },
+      {
+        "id": "u2l3q15",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હું સાંજે ઘરે પાછો આવું છું.",
+        "correct_answer": "I return home in the evening.",
+        "acceptable_answers": [
+          "I return home in the evening",
+          "I come back home in the evening"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું સાંજે ઘરે પાછો આવું છું' નું અંગ્રેજી 'I return home in the evening' થાય છે."
+      },
+      {
+        "id": "u2l3q16",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I return home in the evening.",
+        "phonetic_gujarati": "આઈ રિટર્ન હોમ ઇન ધ ઇવનિંગ.",
+        "explanation_gujarati": "માર્ગદર્શન: સ્પષ્ટ ઉચ્ચારમાં 'આઈ રિટર્ન હોમ ઇન ધ ઈવનિંગ' બોલો."
+      },
+      {
+        "id": "u2l3q17",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Usually",
+        "options": [
+          "ક્યારેય નહીં",
+          "હંમેશા",
+          "સામાન્ય રીતે",
+          "ક્યારેક"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: 'Usually' નો અર્થ 'સામાન્ય રીતે' થાય છે."
+      },
+      {
+        "id": "u2l3q18",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારો દિવસ ખૂબ વ્યસ્ત છે.",
+        "correct_answer": "My day is very busy.",
+        "acceptable_answers": [
+          "My day is very busy",
+          "I have a busy day"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'મારો દિવસ' (My day), 'ખૂબ વ્યસ્ત છે' (is very busy). સાચું વાક્ય: 'My day is very busy'."
+      },
+      {
+        "id": "u2l3q19",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "જવાબ ટાઈપ કરો:",
+        "scenario_gujarati": "તમારો મિત્ર તમારી સાંજ વિશે પૂછે છે.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "What do you do in the evening?",
+        "expected_hint_gujarati": "હું ટીવી જોઉં છું અને આરામ કરું છું (I watch TV and relax).",
+        "acceptable_responses": [
+          "I watch TV and relax.",
+          "I watch TV and rest.",
+          "I relax and watch TV."
+        ],
+        "keywords": [
+          "watch",
+          "TV",
+          "relax",
+          "rest"
+        ],
+        "difficulty": 2,
+        "explanation_gujarati": "ભાષાંતર: AI પૂછે છે - 'What do you do in the evening?' (તમે સાંજે શું કરો છો?)\nમાર્ગદર્શન: જવાબમાં કહી શકો 'I play in the evening' અથવા 'I relax'."
+      },
+      {
+        "id": "u2l3q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "રવિવારના કામ વિશે વાત.",
+        "ai_role": "Colleague",
+        "user_role": "You",
+        "ai_says": "Do you work on Sunday?",
+        "expected_hint_gujarati": "ના, રવિવારે મારી રજા હોય છે (No, Sunday is my holiday).",
+        "acceptable_responses": [
+          "No, Sunday is my holiday.",
+          "No, Sunday is my day off.",
+          "No, I don't work on Sunday."
+        ],
+        "keywords": [
+          "no",
+          "Sunday",
+          "holiday",
+          "off"
+        ],
+        "difficulty": 3,
+        "explanation_gujarati": "ભાષાંતર: AI પૂછે છે - 'Do you work on Sunday?' (શું તમે રવિવારે કામ કરો છો?)\nમાર્ગદર્શન: જવાબમાં 'Yes, I do' અથવા 'No, I don't' કહી શકાય."
+      }
+    ]
+  },
+  {
+    "id": "u2l4",
+    "unit": 2,
+    "level": 4,
+    "title_gujarati": "ભોજનનો સમય (Meals & Routines)",
+    "intro_gujarati": "નાસ્તો, લંચ અને ડિનર વિશે વાત કરો.",
+    "topics_covered": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "eating"
+    ],
+    "questions": [
+      {
+        "id": "u2l4q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Breakfast",
+            "gujarati": "સવારનો નાસ્તો"
+          },
+          {
+            "english": "Lunch",
+            "gujarati": "બપોરનું ભોજન"
+          },
+          {
+            "english": "Dinner",
+            "gujarati": "રાતનું ભોજન"
+          },
+          {
+            "english": "Eat",
+            "gujarati": "ખાવું"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'Breakfast' એટલે 'સવારનો નાસ્તો', 'Lunch' એટલે 'બપોરનું ભોજન', 'Dinner' એટલે 'રાતનું ભોજન' અને 'Eat' એટલે 'ખાવું'."
+      },
+      {
+        "id": "u2l4q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Breakfast",
+        "options": [
+          "બપોરનું ભોજન",
+          "રાતનું ભોજન",
+          "સવારનો નાસ્તો",
+          "નાસ્તો"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: 'Breakfast' નો અર્થ 'સવારનો નાસ્તો' થાય છે."
+      },
+      {
+        "id": "u2l4q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Lunch",
+        "options": [
+          "સવારનો નાસ્તો",
+          "બપોરનું ભોજન",
+          "રાતનું ભોજન",
+          "પીણું"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: 'Lunch' નો અર્થ 'બપોરનું ભોજન' થાય છે."
+      },
+      {
+        "id": "u2l4q4",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Dinner",
+        "options": [
+          "રાતનું ભોજન",
+          "બપોરનું ભોજન",
+          "નાસ્તો",
+          "ચા"
+        ],
+        "correct_index": 0,
+        "explanation_gujarati": "માર્ગદર્શન: 'Dinner' નો અર્થ 'રાતનું ભોજન' થાય છે."
+      },
+      {
+        "id": "u2l4q5",
+        "type": "FILL_IN_THE_BLANK",
+        "instruction_gujarati": "ખાલી જગ્યા પૂરો:",
+        "sentence_with_blank": "What do you eat for ___?",
+        "correct_answer": "breakfast",
+        "options": [
+          "breakfast",
+          "morning",
+          "water",
+          "drink"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: નાસ્તા માટે 'breakfast' શબ્દ વપરાય છે."
+      },
+      {
+        "id": "u2l4q6",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "તમે નાસ્તામાં શું ખાઓ છો?",
+        "correct_sentence": "What do you eat for breakfast",
+        "shuffled_words": [
+          "eat",
+          "for",
+          "breakfast",
+          "What",
+          "do",
+          "you"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'તમે શું ખાઓ છો' (What do you eat), 'નાસ્તામાં' (for breakfast). સાચું વાક્ય: 'What do you eat for breakfast?'."
+      },
+      {
+        "id": "u2l4q7",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "તમે નાસ્તામાં શું ખાઓ છો?",
+        "correct_answer": "What do you eat for breakfast?",
+        "acceptable_answers": [
+          "What do you eat for breakfast",
+          "What do you have for breakfast"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'તમે નાસ્તામાં શું ખાઓ છો?' નું અંગ્રેજી 'What do you eat for breakfast?' થાય છે."
+      },
+      {
+        "id": "u2l4q8",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "What do you eat for breakfast?",
+        "correct_answer": "What do you eat for breakfast?",
+        "acceptable_answers": [
+          "What do you eat for breakfast"
+        ],
+        "phonetic_gujarati": "વૉટ ડુ યુ ઈટ ફોર બ્રેકફાસ્ટ?",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'What do you eat for breakfast?' લખો."
+      },
+      {
+        "id": "u2l4q9",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "What do you eat for breakfast?",
+        "phonetic_gujarati": "વૉટ ડુ યુ ઈટ ફોર બ્રેકફાસ્ટ?",
+        "explanation_gujarati": "માર્ગદર્શન: સ્પષ્ટ ઉચ્ચારમાં 'વૉટ ડુ યુ ઈટ ફોર બ્રેકફાસ્ટ?' બોલો."
+      },
+      {
+        "id": "u2l4q10",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Drink",
+            "gujarati": "પીવું"
+          },
+          {
+            "english": "Coffee",
+            "gujarati": "કૉફી"
+          },
+          {
+            "english": "Water",
+            "gujarati": "પાણી"
+          },
+          {
+            "english": "Tea",
+            "gujarati": "ચા"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'Drink' એટલે 'પીવું', 'Coffee' એટલે 'કૉફી', 'Water' એટલે 'પાણી' અને 'Tea' એટલે 'ચા'."
+      },
+      {
+        "id": "u2l4q11",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Drink",
+        "options": [
+          "ખાવું",
+          "પીવું",
+          "ચાલવું",
+          "દોડવું"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: 'Drink' નો અર્થ 'પીવું' થાય છે."
+      },
+      {
+        "id": "u2l4q12",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "હું સવારે કૉફી પીઉં છું.",
+        "correct_sentence": "I drink coffee in the morning",
+        "shuffled_words": [
+          "drink",
+          "coffee",
+          "I",
+          "in",
+          "the",
+          "morning"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું કૉફી પીઉં છું' (I drink coffee), 'સવારે' (in the morning). સાચું વાક્ય: 'I drink coffee in the morning'."
+      },
+      {
+        "id": "u2l4q13",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "હું સવારે કૉફી પીઉં છું.",
+        "correct_answer": "I drink coffee in the morning.",
+        "acceptable_answers": [
+          "I drink coffee in the morning"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'હું સવારે કૉફી પીઉં છું' નું અંગ્રેજી 'I drink coffee in the morning' થાય છે."
+      },
+      {
+        "id": "u2l4q14",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "I drink coffee in the morning.",
+        "correct_answer": "I drink coffee in the morning.",
+        "acceptable_answers": [
+          "I drink coffee in the morning"
+        ],
+        "phonetic_gujarati": "આઈ ડ્રિંક કૉફી ઇન ધ મોર્નિંગ.",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'I drink coffee in the morning.' લખો."
+      },
+      {
+        "id": "u2l4q15",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I drink coffee in the morning.",
+        "phonetic_gujarati": "આઈ ડ્રિંક કૉફી ઇન ધ મોર્નિંગ.",
+        "explanation_gujarati": "માર્ગદર્શન: સ્પષ્ટ ઉચ્ચારમાં 'આઈ ડ્રિંક કૉફી ઇન ધ મોર્નિંગ' બોલો."
+      },
+      {
+        "id": "u2l4q16",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "ચાલો બપોરનું ભોજન કરીએ.",
+        "correct_sentence": "Let's eat lunch",
+        "shuffled_words": [
+          "eat",
+          "Let's",
+          "lunch",
+          "dinner"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'ચાલો ખાઈએ' (Let's eat), 'બપોરનું ભોજન' (lunch). સાચું વાક્ય: 'Let's eat lunch'."
+      },
+      {
+        "id": "u2l4q17",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "ચાલો બપોરનું ભોજન કરીએ.",
+        "correct_answer": "Let's eat lunch.",
+        "acceptable_answers": [
+          "Let's eat lunch",
+          "Let us eat lunch"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'ચાલો બપોરનું ભોજન કરીએ' નું અંગ્રેજી 'Let's eat lunch' થાય છે."
+      },
+      {
+        "id": "u2l4q18",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "તમારા સહકર્મીને ભૂખ લાગી છે.",
+        "ai_role": "Coworker",
+        "user_role": "You",
+        "ai_says": "Are you hungry? It is time for lunch.",
+        "expected_hint_gujarati": "હા, મને ખૂબ ભૂખ લાગી છે. ચાલો જમીએ (Yes, I am very hungry. Let's eat).",
+        "acceptable_responses": [
+          "Yes, I am very hungry. Let's eat.",
+          "Yes, let's eat.",
+          "I am hungry too, let's eat."
+        ],
+        "keywords": [
+          "yes",
+          "hungry",
+          "let's",
+          "eat"
+        ],
+        "difficulty": 3,
+        "explanation_gujarati": "ભાષાંતર: AI પૂછે છે - 'Are you hungry? It is time for lunch.' (શું તમને ભૂખ લાગી છે? બપોરના ભોજનનો સમય થઈ ગયો છે.)\nમાર્ગદર્શન: હા કહેવા માટે 'Yes, I am hungry' કહી શકાય."
+      },
+      {
+        "id": "u2l4q19",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "રાતનું ભોજન સ્વાદિષ્ટ હતું.",
+        "correct_answer": "The dinner was delicious.",
+        "acceptable_answers": [
+          "The dinner was delicious",
+          "The dinner was tasty"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'રાતનું ભોજન' (The dinner), 'સ્વાદિષ્ટ હતું' (was delicious). સાચું વાક્ય: 'The dinner was delicious'."
+      },
+      {
+        "id": "u2l4q20",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "જમ્યા પછી.",
+        "ai_role": "Spouse",
+        "user_role": "You",
+        "ai_says": "The dinner was delicious, right?",
+        "expected_hint_gujarati": "હા, તે ખૂબ જ સ્વાદિષ્ટ હતું (Yes, it was very tasty).",
+        "acceptable_responses": [
+          "Yes, it was very tasty.",
+          "Yes, it was delicious.",
+          "Yes, very good."
+        ],
+        "keywords": [
+          "yes",
+          "tasty",
+          "delicious",
+          "good"
+        ],
+        "difficulty": 3,
+        "explanation_gujarati": "ભાષાંતર: AI કહે છે - 'The dinner was delicious, right?' (રાતનું ભોજન સ્વાદિષ્ટ હતું, ખરું ને?)\nમાર્ગદર્શન: હા કહેવા માટે 'Yes, it was delicious' કહી શકાય."
+      }
+    ]
+  },
+  {
+    "id": "u2l5",
+    "unit": 2,
+    "level": 5,
+    "title_gujarati": "જટિલ દિનચર્યા (Complex Daily Routine)",
+    "intro_gujarati": "તમારા રોજના કામો વિશે વિસ્તારથી વાતચીત કરો.",
+    "topics_covered": [
+      "busy schedule",
+      "chores",
+      "planning"
+    ],
+    "questions": [
+      {
+        "id": "u2l5q1",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "Busy",
+            "gujarati": "વ્યસ્ત"
+          },
+          {
+            "english": "Clean",
+            "gujarati": "સાફ કરવું"
+          },
+          {
+            "english": "House",
+            "gujarati": "ઘર"
+          },
+          {
+            "english": "Work",
+            "gujarati": "કામ"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'Busy' એટલે 'વ્યસ્ત', 'Clean' એટલે 'સાફ કરવું', 'House' એટલે 'ઘર' અને 'Work' એટલે 'કામ'."
+      },
+      {
+        "id": "u2l5q2",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Clean",
+        "options": [
+          "બગાડવું",
+          "ગંદુ કરવું",
+          "સાફ કરવું",
+          "તોડવું"
+        ],
+        "correct_index": 2,
+        "explanation_gujarati": "માર્ગદર્શન: 'Clean' નો અર્થ 'સાફ કરવું' થાય છે."
+      },
+      {
+        "id": "u2l5q3",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "House",
+        "options": [
+          "શાળા",
+          "ઘર",
+          "ઑફિસ",
+          "દુકાન"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: 'House' નો અર્થ 'ઘર' થાય છે."
+      },
+      {
+        "id": "u2l5q4",
+        "type": "FILL_IN_THE_BLANK",
+        "instruction_gujarati": "ખાલી જગ્યા પૂરો:",
+        "sentence_with_blank": "I need to ___ the house.",
+        "correct_answer": "clean",
+        "options": [
+          "clean",
+          "make",
+          "eat",
+          "play"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: ઘર સાફ કરવા માટે 'clean' વપરાય છે."
+      },
+      {
+        "id": "u2l5q5",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મારે ઘર સાફ કરવું છે.",
+        "correct_sentence": "I need to clean the house",
+        "shuffled_words": [
+          "clean",
+          "the",
+          "house",
+          "to",
+          "need",
+          "I"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'મારે જરૂર છે' (I need to), 'ઘર સાફ કરવાની' (clean the house). સાચું વાક્ય: 'I need to clean the house'."
+      },
+      {
+        "id": "u2l5q6",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારે ઘર સાફ કરવું છે.",
+        "correct_answer": "I need to clean the house.",
+        "acceptable_answers": [
+          "I need to clean the house",
+          "I have to clean the house"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'મારે ઘર સાફ કરવું છે' નું અંગ્રેજી 'I need to clean the house' થાય છે."
+      },
+      {
+        "id": "u2l5q7",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "I need to clean the house.",
+        "correct_answer": "I need to clean the house.",
+        "acceptable_answers": [
+          "I need to clean the house"
+        ],
+        "phonetic_gujarati": "આઈ નીડ ટુ ક્લીન ધ હાઉસ.",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'I need to clean the house.' લખો."
+      },
+      {
+        "id": "u2l5q8",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "I need to clean the house.",
+        "phonetic_gujarati": "આઈ નીડ ટુ ક્લીન ધ હાઉસ.",
+        "explanation_gujarati": "માર્ગદર્શન: સ્પષ્ટ ઉચ્ચારમાં 'આઈ નીડ ટુ ક્લીન ધ હાઉસ' બોલો."
+      },
+      {
+        "id": "u2l5q9",
+        "type": "MATCH_PAIRS",
+        "instruction_gujarati": "જોડકાં જોડો:",
+        "pairs": [
+          {
+            "english": "First",
+            "gujarati": "પહેલા"
+          },
+          {
+            "english": "Then",
+            "gujarati": "પછી"
+          },
+          {
+            "english": "Wash",
+            "gujarati": "ધોવું"
+          },
+          {
+            "english": "Buy",
+            "gujarati": "ખરીદવું"
+          }
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'First' એટલે 'પહેલા', 'Then' એટલે 'પછી', 'Wash' એટલે 'ધોવું' અને 'Buy' એટલે 'ખરીદવું'."
+      },
+      {
+        "id": "u2l5q10",
+        "type": "MCQ_ENG_TO_GUJ",
+        "instruction_gujarati": "સાચો અર્થ પસંદ કરો:",
+        "english_sentence": "Buy",
+        "options": [
+          "વેચવું",
+          "ખરીદવું",
+          "લેવું",
+          "આપવું"
+        ],
+        "correct_index": 1,
+        "explanation_gujarati": "માર્ગદર્શન: 'Buy' નો અર્થ 'ખરીદવું' થાય છે."
+      },
+      {
+        "id": "u2l5q11",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "પછી, હું શાકભાજી ખરીદું છું.",
+        "correct_sentence": "Then, I buy vegetables",
+        "shuffled_words": [
+          "buy",
+          "I",
+          "vegetables",
+          "Then,"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'પછી' (Then), 'હું ખરીદું છું' (I buy), 'શાકભાજી' (vegetables). સાચું વાક્ય: 'Then, I buy vegetables'."
+      },
+      {
+        "id": "u2l5q12",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "પછી, હું શાકભાજી ખરીદું છું.",
+        "correct_answer": "Then, I buy vegetables.",
+        "acceptable_answers": [
+          "Then I buy vegetables",
+          "Then I will buy vegetables"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'પછી, હું શાકભાજી ખરીદું છું' નું અંગ્રેજી 'Then, I buy vegetables' થાય છે."
+      },
+      {
+        "id": "u2l5q13",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "Then, I buy vegetables.",
+        "correct_answer": "Then, I buy vegetables.",
+        "acceptable_answers": [
+          "Then I buy vegetables"
+        ],
+        "phonetic_gujarati": "ધેન, આઈ બાઈ વેજિટેબલ્સ.",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'Then, I buy vegetables.' લખો."
+      },
+      {
+        "id": "u2l5q14",
+        "type": "SPEAK_AND_MATCH",
+        "instruction_gujarati": "અંગ્રેજીમાં બોલો:",
+        "target_sentence": "Then, I buy vegetables.",
+        "phonetic_gujarati": "ધેન, આઈ બાઈ વેજિટેબલ્સ.",
+        "explanation_gujarati": "માર્ગદર્શન: સ્પષ્ટ ઉચ્ચારમાં 'ધેન, આઈ બાય વેજિટેબલ્સ' બોલો."
+      },
+      {
+        "id": "u2l5q15",
+        "type": "WORD_ORDER",
+        "instruction_gujarati": "વાક્યને યોગ્ય ક્રમમાં ગોઠવો:",
+        "gujarati_meaning": "મારે આજે ઘણા બધા કામ છે.",
+        "correct_sentence": "I have a lot of work today",
+        "shuffled_words": [
+          "work",
+          "a",
+          "lot",
+          "of",
+          "today",
+          "I",
+          "have"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'મારે છે' (I have), 'ઘણા બધા કામ' (a lot of work), 'આજે' (today). સાચું વાક્ય: 'I have a lot of work today'."
+      },
+      {
+        "id": "u2l5q16",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "મારે આજે ઘણા બધા કામ છે.",
+        "correct_answer": "I have a lot of work today.",
+        "acceptable_answers": [
+          "I have a lot of work today",
+          "I have lots of work today"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'મારે આજે ઘણા બધા કામ છે' નું અંગ્રેજી 'I have a lot of work today' થાય છે."
+      },
+      {
+        "id": "u2l5q17",
+        "type": "LISTEN_AND_TYPE",
+        "instruction_gujarati": "સાંભળો અને લખો:",
+        "audio_text": "I have a lot of work today.",
+        "correct_answer": "I have a lot of work today.",
+        "acceptable_answers": [
+          "I have a lot of work today"
+        ],
+        "phonetic_gujarati": "આઈ હૅવ અ લૉટ ઑફ વર્ક ટુડે.",
+        "explanation_gujarati": "માર્ગદર્શન: સાંભળીને 'I have a lot of work today.' લખો."
+      },
+      {
+        "id": "u2l5q18",
+        "type": "CONVERSATION_SIM",
+        "instruction_gujarati": "યોગ્ય જવાબ આપો:",
+        "scenario_gujarati": "મિત્ર તમને મળવા માંગે છે.",
+        "ai_role": "Friend",
+        "user_role": "You",
+        "ai_says": "Can we meet in the afternoon?",
+        "expected_hint_gujarati": "મને માફ કરજે, આજે હું ખૂબ વ્યસ્ત છું (I am sorry, I am very busy today).",
+        "acceptable_responses": [
+          "I am sorry, I am very busy today.",
+          "Sorry, I am busy today.",
+          "I am very busy today."
+        ],
+        "keywords": [
+          "sorry",
+          "busy",
+          "today",
+          "very"
+        ],
+        "difficulty": 3,
+        "explanation_gujarati": "ભાષાંતર: AI પૂછે છે - 'Can we meet in the afternoon?' (શું આપણે બપોરે મળી શકીએ?)\nમાર્ગદર્શન: જવાબમાં 'Yes, we can meet' (હા, આપણે મળી શકીએ) કહી શકાય."
+      },
+      {
+        "id": "u2l5q19",
+        "type": "MULTI_TURN_CONVERSATION",
+        "instruction_gujarati": "વાર્તાલાપ પૂરો કરો:",
+        "explanation_gujarati": "માર્ગદર્શન: આ બહુ-પગલાંવાળી વાતચીત છે. AI જે પૂછે તેનો યોગ્ય અંગ્રેજીમાં જવાબ આપવાનો પ્રયાસ કરો.",
+        "difficulty": 4,
+        "scenario_gujarati": "તમે તમારા ભાઈ સાથે રવિવારની યોજના બનાવી રહ્યા છો.",
+        "ai_role": "Brother",
+        "user_role": "You",
+        "required_turns": 2,
+        "turns": [
+          {
+            "speaker": "ai",
+            "line": "Are you free this Sunday? We should go out."
+          },
+          {
+            "speaker": "user",
+            "line": "Yes, I am free on Sunday. Where should we go?",
+            "acceptable_keywords": [
+              "yes",
+              "free",
+              "Sunday",
+              "where",
+              "go"
+            ],
+            "acceptable_responses": [
+              "Yes, I am free on Sunday. Where should we go?",
+              "Yes I am free. Where do you want to go?"
+            ],
+            "phonetic_gujarati": "યસ, આઈ ઍમ ફ્રી ઑન સન્ડે. વ્હેર શુડ વી ગો?"
+          },
+          {
+            "speaker": "ai",
+            "line": "Let's go watch a movie in the morning."
+          },
+          {
+            "speaker": "user",
+            "line": "That sounds great. I will book the tickets.",
+            "acceptable_keywords": [
+              "sounds",
+              "great",
+              "good",
+              "book",
+              "tickets"
+            ],
+            "acceptable_responses": [
+              "That sounds great. I will book the tickets.",
+              "Good idea, I will book tickets."
+            ],
+            "phonetic_gujarati": "ધૅટ સાઉન્ડ્સ ગ્રેટ. આઈ વિલ બુક ધ ટિકિટ્સ."
+          }
+        ]
+      },
+      {
+        "id": "u2l5q20",
+        "type": "TRANSLATE_GUJ_TO_ENG",
+        "instruction_gujarati": "અંગ્રેજીમાં ટાઈપ કરો:",
+        "gujarati_sentence": "સારી ઊંઘ સ્વાસ્થ્ય માટે ખૂબ જ જરૂરી છે.",
+        "correct_answer": "Good sleep is very necessary for health.",
+        "acceptable_answers": [
+          "Good sleep is very necessary for health",
+          "Good sleep is important for health"
+        ],
+        "explanation_gujarati": "માર્ગદર્શન: 'સારી ઊંઘ' (Good sleep), 'ખૂબ જ જરૂરી છે' (is very necessary), 'સ્વાસ્થ્ય માટે' (for health). સાચું વાક્ય: 'Good sleep is very necessary for health'."
+      }
+    ]
+  }
 ];
