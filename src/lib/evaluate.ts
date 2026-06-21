@@ -102,6 +102,8 @@ export function evaluateAnswer(
     const hit = q.keywords.filter((k) => userLower.includes(normalize(k))).length;
     const need = Math.max(1, Math.ceil(q.keywords.length / 2));
     isCorrect = hit >= need || accepted.some((a) => similarity(a, userLower) >= 0.6);
+  } else if (q.type === "MULTI_TURN_CONVERSATION") {
+    isCorrect = rawUserAnswer.trim() === "CONVO_OK";
   } else if (q.type === "MATCH_PAIRS") {
     // handled in the component; treat empty as wrong
     isCorrect = rawUserAnswer.trim() === "MATCH_OK";

@@ -7,7 +7,7 @@ import { Profile } from "./components/Profile";
 import { LessonPlayer } from "./components/LessonPlayer";
 
 export default function App() {
-  const { progress, completeLesson, loseHeart, addGems, reset } = useProgress();
+  const { progress, completeLesson, addGems, reset } = useProgress();
   const [tab, setTab] = useState<Tab>("home");
   const [activeLessonId, setActiveLessonId] = useState<string | null>(null);
 
@@ -19,8 +19,7 @@ export default function App() {
       <div className="app-shell">
         <LessonPlayer
           lesson={lesson}
-          hearts={progress.hearts}
-          onLoseHeart={loseHeart}
+
           onComplete={(xp, perfect) => {
             completeLesson(lesson.id, xp);
             if (perfect) addGems(5);

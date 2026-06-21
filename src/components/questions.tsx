@@ -215,7 +215,7 @@ export function WordOrderQ({ question, onAnswer, disabled }: QProps<WordOrder>) 
       <div style={{ height: 12 }} />
       <button
         className="btn btn-primary btn-block"
-        disabled={disabled || line.length !== bank.length}
+        disabled={disabled || line.length === 0}
         onClick={() => onAnswer(line.map((l) => l.word).join(" "))}
       >
         ચકાસો
@@ -619,9 +619,7 @@ export function TrueOrFalseQ({ question, onAnswer, disabled }: QProps<TrueOrFals
 /* ── 11. MULTI_TURN_CONVERSATION ─────────────────────────────── */
 export function MultiTurnConversationQ({ question, onAnswer, disabled, speech }: QProps<MultiTurnConversation>) {
   // Track which user-turn index we're on (0 = first user turn)
-  const [currentTurnIdx, setCurrentTurnIdx] = useState(
-    question.turns.findIndex((t) => t.speaker === "user")
-  );
+  const [currentTurnIdx, setCurrentTurnIdx] = useState(0);
   const [val, setVal] = useState("");
   const [transcript, setTranscript] = useState("");
   const [error, setError] = useState("");
@@ -710,9 +708,6 @@ export function MultiTurnConversationQ({ question, onAnswer, disabled, speech }:
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allDone, disabled]);
 
-  if (disabled && allDone) {
-    return null;
-  }
 
   return (
     <div>

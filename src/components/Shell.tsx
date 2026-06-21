@@ -17,9 +17,7 @@ export function TopBar({ progress }: { progress: Progress }) {
       <div className="topbar-stat stat-gem">
         💎 <span className="stat-num">{progress.gems}</span>
       </div>
-      <div className="topbar-stat stat-heart">
-        ❤️ <span className="stat-num">{progress.hearts}</span>
-      </div>
+
     </header>
   );
 }

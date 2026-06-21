@@ -29,10 +29,7 @@ export function Profile({ progress, onReset }: Props) {
           <div className="stat-card-val" style={{ color: "var(--duo-orange)" }}>🔥 {progress.streak}</div>
           <div className="stat-card-label">દિવસ સ્ટ્રીક</div>
         </div>
-        <div className="stat-card">
-          <div className="stat-card-val" style={{ color: "var(--duo-yellow-dark)" }}>⭐ {progress.totalXp}</div>
-          <div className="stat-card-label">કુલ XP</div>
-        </div>
+
         <div className="stat-card">
           <div className="stat-card-val" style={{ color: "var(--duo-blue-dark)" }}>💎 {progress.gems}</div>
           <div className="stat-card-label">રત્ન</div>

@@ -6,15 +6,13 @@ import { QuestionView } from "./questions";
 
 interface Props {
   lesson: Lesson;
-  hearts: number;
-  onLoseHeart: () => void;
   onComplete: (xp: number, perfect: boolean) => void;
   onQuit: () => void;
 }
 
 type Phase = "playing" | "feedback" | "done";
 
-export function LessonPlayer({ lesson, hearts, onLoseHeart, onComplete, onQuit }: Props) {
+export function LessonPlayer({ lesson, onComplete, onQuit }: Props) {
   const speech = useSpeech();
   const [idx, setIdx] = useState(0);
   const [phase, setPhase] = useState<Phase>("playing");
@@ -28,7 +26,6 @@ export function LessonPlayer({ lesson, hearts, onLoseHeart, onComplete, onQuit }
   );
   const [correctCount, setCorrectCount] = useState(0);
   const [totalXp, setTotalXp] = useState(0);
-  const [localHearts, setLocalHearts] = useState(hearts);
 
   const q = lesson.questions[idx];
   const total = lesson.questions.length;
@@ -51,12 +48,7 @@ export function LessonPlayer({ lesson, hearts, onLoseHeart, onComplete, onQuit }
     } else {
       setWrongStreak((s) => s + 1);
       setCorrectStreak(0);
-      // lose a heart locally
-      setLocalHearts((h) => {
-        const nh = Math.max(0, h - 1);
-        onLoseHeart();
-        return nh;
-      });
+      // hearts disabled
     }
     setDifficulty(r.newDifficulty);
   };
@@ -82,14 +74,11 @@ export function LessonPlayer({ lesson, hearts, onLoseHeart, onComplete, onQuit }
     setHintText(getHint(q));
   };
 
-  if (localHearts <= 0 && phase !== "done") {
-    return <OutOfHearts onQuit={onQuit} />;
-  }
+
 
   if (phase === "done") {
     const perfect = correctCount === total;
-    const bonus = perfect ? 25 : 0;
-    return <LessonDone xp={totalXp + bonus} correct={correctCount} total={total} perfect={perfect} onContinue={onQuit} />;
+    return <LessonDone correct={correctCount} total={total} perfect={perfect} onContinue={onQuit} />;
   }
 
   const progress = ((idx + (phase === "feedback" ? 1 : 0)) / total) * 100;
@@ -103,9 +92,7 @@ export function LessonPlayer({ lesson, hearts, onLoseHeart, onComplete, onQuit }
         <div className="lesson-progress">
           <div className="lesson-progress-fill" style={{ width: `${progress}%` }} />
         </div>
-        <span className="topbar-stat stat-heart">
-          ❤️ <span className="stat-num">{localHearts}</span>
-        </span>
+
       </div>
 
       <div className="lesson-body" key={idx}>
@@ -161,9 +148,6 @@ function FeedbackBar({ result, onContinue }: { result: EvaluationResult; onConti
           </p>
         )}
         <p className="feedback-explain">{result.grammar_tip_gujarati}</p>
-        <p className="feedback-answer" style={{ marginTop: 4 }}>
-          +{result.xpEarned} XP
-        </p>
       </div>
       <button className="btn btn-primary" onClick={onContinue} type="button">
         ચાલુ
@@ -173,13 +157,11 @@ function FeedbackBar({ result, onContinue }: { result: EvaluationResult; onConti
 }
 
 function LessonDone({
-  xp,
   correct,
   total,
   perfect,
   onContinue,
 }: {
-  xp: number;
   correct: number;
   total: number;
   perfect: boolean;
@@ -193,12 +175,7 @@ function LessonDone({
         {correct} / {total} સાચા જવાબ
       </p>
       <div className="complete-stats">
-        <div className="complete-stat">
-          <span className="complete-stat-val" style={{ color: "var(--duo-yellow-dark)" }}>
-            {xp}
-          </span>
-          <span className="complete-stat-label">કુલ XP</span>
-        </div>
+
         <div className="complete-stat">
           <span className="complete-stat-val" style={{ color: "var(--duo-green-dark)" }}>
             {correct}
@@ -219,19 +196,4 @@ function LessonDone({
   );
 }
 
-function OutOfHearts({ onQuit }: { onQuit: () => void }) {
-  return (
-    <div className="center-screen">
-      <div style={{ fontSize: 80, marginBottom: 12 }}>💔</div>
-      <h1 style={{ fontSize: 24, fontWeight: 900, color: "var(--duo-red-dark)", marginBottom: 8 }}>
-        હાર્ટ ખતમ!
-      </h1>
-      <p className="muted" style={{ marginBottom: 24, textAlign: "center", maxWidth: 320 }}>
-        થોડો સમય વીતી જશે ત્યારે હાર્ટ ફરી ભરાશે. અથવા રિવ્યૂ (practice) કરીને હાર્ટ મેળવો.
-      </p>
-      <button className="btn btn-primary btn-lg" onClick={onQuit}>
-        પાછા જાઓ
-      </button>
-    </div>
-  );
-}
+
