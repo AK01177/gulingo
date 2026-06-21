@@ -8,9 +8,9 @@ content (words, sentences, dialogues) is in **English**.
 
 ## ✨ Features
 
-- **8 units × lessons** — full curriculum from greetings → real conversations
-- **10 question types** — translate, MCQ, fill-blank, word-order, photo vocab,
-  listen & type, speak & match, match pairs, conversation sim, true/false
+- **10 units × lessons** — full curriculum from greetings → advanced fluency and mastery
+- **11 question types** — translate, MCQ, fill-blank, word-order, photo vocab,
+  listen & type, speak & match, match pairs, conversation sim, true/false, multi-turn conversation
 - **Free & offline** — no API key, no server, no internet needed to learn
 - **Audio (🔊)** — every English sentence speaks aloud via Web Speech TTS
 - **Speaking (🎤)** — speech recognition with graceful fallback
@@ -47,6 +47,8 @@ npm run preview  # preview the production build
 | 6 | પ્રવાસ (Travel) | Directions, transport, present continuous |
 | 7 | આરોગ્ય (Health) | Doctor, symptoms, modals |
 | 8 | વ્યવહારિક વાર્તાલાપ (Real Conversations) | Phone, polite speech, idioms |
+| 9 | વાર્તાલાપમાં નિપુણતા (Conversation Mastery) | Real-life dialogues, interviews, banking, travel |
+| 10 | અંગ્રેજીમાં માસ્ટરી (English Mastery) | Complex scenarios, crisis management, advanced fluency |
 
 ## 🗂️ Project structure
 
@@ -58,10 +60,10 @@ src/
 │   ├── useProgress.ts        # localStorage persistence, streaks, hearts
 │   └── useSpeech.ts          # TTS (speechSynthesis) + STT (recognition)
 ├── data/
-│   ├── units.ts              # 8-unit curriculum metadata
+│   ├── units.ts              # 10-unit curriculum metadata
 │   └── lessons/              # lesson content (extend here to add lessons)
 │       ├── index.ts
-│       └── unit1..8.ts
+│       └── unit1..10.ts
 ├── components/
 │   ├── Shell.tsx             # TopBar + BottomNav
 │   ├── Home.tsx              # learning path
