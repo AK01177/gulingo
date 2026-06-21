@@ -26,9 +26,9 @@ interface QuestionBase {
   /** Gujarati instruction shown above the question. */
   instruction_gujarati: string;
   /** Difficulty 1–5 — drives the adaptive engine. */
-  difficulty: Difficulty;
+  difficulty?: Difficulty;
   /** Gujarati explanation shown after answering. */
-  explanation_gujarati: string;
+  explanation_gujarati?: string;
 }
 
 /* ── Per-type question shapes ────────────────────────────────── */
@@ -38,7 +38,7 @@ export interface TranslateGujToEng extends QuestionBase {
   gujarati_sentence: string;
   correct_answer: string;
   acceptable_answers: string[];
-  hint_gujarati: string;
+  hint_gujarati?: string;
 }
 
 export interface McqEngToGuj extends QuestionBase {
@@ -53,8 +53,8 @@ export interface FillInTheBlank extends QuestionBase {
   sentence_with_blank: string;
   correct_answer: string;
   options: string[];
-  mode: "MCQ" | "TYPE";
-  grammar_note_gujarati: string;
+  mode?: "MCQ" | "TYPE";
+  grammar_note_gujarati?: string;
 }
 
 export interface WordOrder extends QuestionBase {

@@ -130,7 +130,7 @@ export function evaluateAnswer(
     isCorrect,
     correctAnswer: display,
     feedback_gujarati: encouragement,
-    grammar_tip_gujarati: q.explanation_gujarati,
+    grammar_tip_gujarati: q.explanation_gujarati || "",
     xpEarned,
     newDifficulty,
   };
@@ -165,9 +165,9 @@ export function nextDifficulty(
 export function getHint(q: Question): string {
   switch (q.type) {
     case "TRANSLATE_GUJ_TO_ENG":
-      return q.hint_gujarati;
+      return q.hint_gujarati || "";
     case "FILL_IN_THE_BLANK":
-      return q.grammar_note_gujarati;
+      return q.grammar_note_gujarati || "";
     case "MCQ_ENG_TO_GUJ":
       return `સાચો અર્થ: "${q.options[q.correct_index]}"`;
     case "PHOTO_VOCAB":
